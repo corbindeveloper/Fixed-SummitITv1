@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/managedIT.css">
+    <link rel="stylesheet" href="../css/hover.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <!-- Libraries -->
+    <script src="https://kit.fontawesome.com/4229a7500a.js" crossorigin="anonymous"></script>
+
+    <title>SIT v1 Managed VoIP Services</title> 
+</head>
+<body>
+    <header id="stickyHeader">
+        <div class="logo">
+            <a href="../index.html"><img src="../assets/SITS logo.png"></a>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul> 
+                <div class="dropdown">
+                <!-- <li><a href="#">About Us</a></li> -->
+                <li class="dropbtn">About Us <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="../About/whysummit.html">Why Summit?</a>
+                        <a href="../About/careers.html">Careers</a>
+                       
+                    </div>
+                </div>
+                <div class="dropdown">
+                <li class="dropbtn">Our Services <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="./managedIt.html">Managed IT Services</a>
+                        <a href="./co-managedIt.html">Co-Managed IT</a>
+                        <a href="./cybersecurity.html">Cybersecurity</a>
+                        <a href="./backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+                        <a href="./cloud.html">Cloud Services</a>
+                        <a href="./managedvoip.html">Managed VoIP Services</a>
+                    </div>
+                </div>
+                <li><a href="../forms/contactus.html" class="nav-btn nav-btn-alt">Contact Us</a></li>
+            </ul>
+        </nav>
+
+
+        <!--Mobile Only Navagation-->
+        <nav class="mobile-nav" >
+            <div class="mobile-nav-btn" onclick="mobileMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!--Mobile Dropdown-->
+    <div class="mobile-nav-list" id="mobile-nav-func"> 
+        <div class="mobile-nav-item" onclick="mobileAbout()">
+            <span>About Us <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="about-nav"> 
+            <a href="../About/whysummit.html">Why Summit?</a>
+            <a href="../About/careers.html">Careers</a>
+        </div>
+
+        <div class="mobile-nav-item" onclick="mobileService()"> 
+            <span>Our Services <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="service-nav">
+            <a href="./managedIt.html">Managed IT Services</a>
+            <a href="./co-managedIt.html">Co-Managed IT</a>
+            <a href="./cybersecurity.html">Cybersecurity</a>
+            <a href="./backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+            <a href="./cloud.html">Cloud Services</a>
+            <a href="./managedvoip.html">Managed VoIP Services</a>
+        </div>
+
+        <div class="mobile-nav-item">
+            <span><a href="../forms/contactus.html">Contact Us</a></span>
+        </div>
+        
+        <div class="mobile-social">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <main>
+        <!--Section 1: Managed VoIP Hero Section-->
+        <section class="managed-hero shadow-bottom" style="background-color: rgba(0,0,0,.98);">
+            <img class="hero-video" src="../assets/shutterstock_2149427159.jpg" style="width: 100%">
+            <div class="managed-hero-content">
+                <h1 class="managed-hero-header">Managed VoIP Services</h1>
+                <p class="managed-hero-text">Harness the power of digital innovation for your business</p>
+                
+             <div class="hero-btn-container">
+                <a href="#learn" class="hero-btn">Learn More</a>
+                <a href="#consultation" class="hero-btn hero-btn-alt">Schedule a Consultation</a>
+             </div>
+            </div>
+
+            
+        </section>
+
+        <!--Section 2: Managed VoIP Information Section-->
+        <section class="info-section uniform-section hex-background">
+            <h1 class="section-heading">Managed VoIP Support</h1>
+            <p class="section-subheading">Team up with Summit's business phone system solution to gain cost effective quality</p>
+ 
+            <div class="info-container split-container">
+                <div class="info-image"  style="background: url(../assets/stock-photo-large-group-of-business-colleagues-talking-through-video-conference-call-1852616704\ \(4\).jpg); background-size: cover; background-position: center;">
+                   
+                </div> 
+                <div class="info-content">
+                    <p class="section-text"> Make the switch to VoIP and explore a world of savings and functionality.  Not only will you see a significant reduction in costs, but you'll also gain unprecedented mobility and access to a suite of collaboration tools that will skyrocket your team's productivity.  Imagine seamless project coordination, crystal-clear call quality, and a system that's more reliable than ever before.</p>
+                    <br>
+                    <p class="section-text">Our VoIP phone system encapsulates flexibility, empowering efficient communication for businesses of all shapes and sizes.  Whether you operate a single, bustling office or manage a geographically dispersed team, our solution  ensures seamless connections that fuel your success.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Section 3: IT Color Wheel and a +/-  -->
+        <section class="it-wheel uniform-section grey-section shadow-top-bottom" id="learn">
+            <h1 class="section-heading">Managed VoIP FAQ</h1>
+
+            <div class="wheel-container split-container"> 
+                <div class="wheel-content">
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>What is VoIP and how does it work?</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i> 
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>VoIP replaces traditional phone lines with an internet-based system. Your calls travel as digital data packets over the internet, eliminating the need for physical phone lines. This allows for clearer call quality, more features, and significant cost savings.</p>
+                        </div>
+                    </div>
+
+                        <div class="drop-card">
+                            <div class="drop-card-title toggleButton">
+                                <h4>Does our VoIP come with a digital receptionist?</h4>
+                                <div class="plus-circle">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="drop-card-description">
+                                <p>Yes, our robust program allows for the system to greet callers, gather information using pre-recorded messages and provide seamless connection to the appropriate person or department</p>
+                            </div>
+                    </div>
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>What internet speed is needed for VoIP?</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>A stable internet connection and upload speed is recommended for good VoIP call quality.</p>
+                        </div>
+                    </div>
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>How secure are VoIP calls?</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>As your VoIP provider, we implement security measures to protect your calls and data.</p>
+                        </div>
+                    </div>
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>How easy is setting and using VoIP?</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>Setting up VoIP with us is seamless and smooth. We offer user-friendly interfaces and readily available customer support to assist you.</p>
+                        </div> 
+                    </div>
+
+                   
+                </div>
+
+                <div class="wheel-image" style="background: url(../assets/stock-photo-businessman-dialing-voip-phone-in-the-office-keyboard-and-monitor-detail-in-the-background-with-282002045\ \(1\).jpg); background-position: center; background-size: cover; height: 420px;">
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--Section 4:Advantages of VoIP-->  
+        <section class="managed-coverage uniform-section hex-background">
+ 
+            <h1 class="section-heading">Advantages of using our VoIP Services</h1>
+            <p class="section-subheading">Here's why our VoIP services are the best solution for your business communication needs:</p> 
+        
+            <div class="coverage-container">
+                <div class="coverage-subtainer">
+                    <div class="coverage-card">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        
+                        <h3>Exceptional Customer Support</h3>
+                        <p>We believe in providing exceptional customer support to ensure you get the most out of our VoIP services. Our team of knowledgeable and friendly professionals is readily available to assist you with installation, configuration, and ongoing technical support. We offer a variety of resources, including tutorials, FAQs, and live support options, to empower you to utilize all the features and benefits of our VoIP system.</p>
+                    </div>
+
+                    <div class="coverage-card">
+                        <i class="fa-solid fa-arrows-up-down-left-right"></i>
+                        <h3>Flexible Options</h3>
+                        <p>Unlike traditional phone systems with limited lines, VoIP scales effortlessly to meet your growing needs. Adding new lines is a breeze, and you're not restricted by physical hardware limitations. Furthermore, VoIP allows your team members to use their preferred devices,  from desktop computers and laptops to smartphones and tablets,  to make and receive calls. This flexibility fosters a more mobile work environment and empowers your team to stay connected regardless of location.</p>
+                    </div>
+
+                    <div class="coverage-card">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        <h3>Cost Savings</h3>
+                        <p>VoIP eliminates the need for traditional landlines and reduces long-distance call charges. With VoIP, all your calls travel over your existing internet connection, leading to significant cost savings, particularly for businesses that make frequent long-distance calls or have geographically dispersed teams. Additionally, VoIP offers packages that include features like voicemail, call forwarding, and conferencing at a fixed monthly rate, making budgeting easier.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="coverage-btn-container">
+                <a href="../forms/consultation.html" class="coverage-btn">Schedule Today</a> 
+            </div>
+        </section> 
+
+           <!--Section 5: It Managed - Call to Action Section-->
+           <section class="managed-cta grey-section uniform-section shadow-top-bottom">
+            <h2 class="section-heading">A Coverage of Managed IT Services to Ensure Business Success</h2>
+            
+            <div class="managed-bar-red"></div>
+            
+            <div class="managed-cta-container">
+
+                    <div class="managed-cta-content">
+                        <i class="fa-solid fa-lock"></i>
+                        <a href="./cybersecurity.html">
+                        <p class="section-small-heading hvr-underline-from-left">Cybersecurity</p>
+                        </a>
+                    </div>
+                
+                    <div class="managed-cta-content" >
+                        <i class="fa-solid fa-folder"></i>
+                        <a href="./backupdisasterrecovery.html">
+                        <p class="section-small-heading hvr-underline-from-left">Backup & Disaster Recovery</p>
+                        </a>
+                    </div>
+            
+                    <div class="managed-cta-content">
+
+                        <i class="fa-solid fa-cloud"></i>
+                        <a href="./cloud.html">
+                        <p class="section-small-heading hvr-underline-from-left">Cloud Services</p>
+                        </a>
+                    </div>
+               
+                    <div class="managed-cta-content"> 
+                       
+                        <i class="fa-solid fa-people-group"></i>
+                        <a href="./managedvoip.html">
+                        <p class="section-small-heading hvr-underline-from-left">Co-Managed IT</p> 
+                        </a>
+                    </div>
+            </div>
+
+        </section>
+
+        <!--Section 6: Sechdule a Consultation-->
+        <section class="contact-section uniform-section" id="consultation">
+            <div>
+                <h2 class="section-heading">Schedule a Consultation</h2>
+                <p class="section-subheading">Our staff of industry experts are standing by to assist with your needs. Please, complete and submit this form and we will respond to your inquiry shortly...</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <script type="text/javascript" src="https://formlets.com/static/js/iframeResizer.min.js"></script>
+                        <iframe class="formlets-iframe" src="https://formlets.com/forms/rSpkfg3JGrtlKug6/?iframe=true&nofocus=y" frameborder="0" width="100%"></iframe>
+                    <script type="text/javascript" src="https://formlets.com/static/js/iframe.js"></script>
+                </div>
+
+                <div class="contact-text">
+                    <h2 class="section-small-heading">Information</h2>
+                    <div class="contact-bar-grey">
+                        <div class="contact-bar-red"></div>
+                    </div>
+                    <p class="contact-bullet">At Summit IT Solutions, our commitment stretches across a robust portfolio of companies, each dedicated to excellence.</p>
+                    <p class="contact-bullet">Schedule a free consultation with Summit IT experts. We'll assess your needs, discuss security, backups, and more. Then, we'll recommend solutions for a secure and efficient IT environment. Gain control and potential.  Contact us today!</p>
+                </div>
+            </div>
+    </section>
+    </main>
+
+    <!--Footer--> 
+    <footer class="uniform-section red-section shadow-top-bottom footer-section">
+       
+        <div class="footer-content">
+            <div class="footer-list">
+                <p class="section-text font-bolder">About Us</p>
+                <ul>
+                    <li><a href="../About/whysummit.html">Why Summit?</a></li>
+                    <li><a href="../About/careers.html">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Our Services</p>
+                <ul>
+                    <li><a href="./managedIt.html">Managed IT Services</a></li>  
+                    <li><a href="./co-managedIt.html">Co-Managed IT</a></li>
+                    <li><a href="./cybersecurity.html">Cybersecurity</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Our Services</p>
+                <ul>
+                    <li><a href="./backupdisasterrecovery.html">Backup & Disaster Recovery</a></li>  
+                    <li><a href="./cloud.html">Cloud Services</a></li>  
+                    <li><a href="./managedvoip.html">Managed VoIP Services</a></li>  
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Resources</p>
+                <ul>
+                    <li><a href="#">Blog 1</a></li>
+                    <li><a href="#">Blog 2</a></li>
+                    <li><a href="#">Blog 3</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-line"></div>
+
+         <div class="footer-bottom">
+                <div class="footer-logo">
+                    <a href="../index.html">
+                    <img src="../assets/SITS logo.png" alt="Summit IT Logo">
+                    </a>
+                </div>
+                <div class="footer-social"> 
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+        </div>
+    </footer>
+    
+    <!--Credits-->
+    <div class="credits">
+        <p>2023 &copy; Summit IT Solutions, LLC | All Rights Reserved.</p> 
+    </div>
+
+    </body>
+    <!--JavaScript-->
+    <script src="../js/script.js"></script>
+    </html>
+
+

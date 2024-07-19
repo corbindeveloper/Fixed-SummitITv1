@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIT v1 Careers</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/about.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+
+    <!-- Libaries -->
+    <script src="https://kit.fontawesome.com/4229a7500a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="stickyHeader">
+        <div class="logo">
+            <a href="../index.html"><img src="../assets/SITS logo.png"></a> 
+        </div>
+
+        <nav class="main-nav">
+            <ul> 
+                <div class="dropdown">
+                <!-- <li><a href="#">About Us</a></li> -->
+                <li  class="dropbtn">About Us <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="./whysummit.html">Why Summit?</a>
+                        <a href="./careers.html">Careers</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                <li class="dropbtn">Our Services <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="../Services/managedIt.html">Managed IT Services</a>
+                        <a href="../Services/co-managedIt.html">Co-Managed IT</a>
+                        <a href="../Services/cybersecurity.html">Cybersecurity</a>
+                        <a href="../Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+                        <a href="../Services/cloud.html">Cloud Services</a>
+                        <a href="../Services/managedvoip.html">Managed VoIP Services</a>
+                    </div>
+                </div>
+                <li><a href="../forms/contactus.html" class="nav-btn nav-btn-alt">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!--Mobile Only Navagation-->
+        <nav class="mobile-nav" >
+            <div class="mobile-nav-btn" onclick="mobileMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--Mobile Dropdown-->
+    <div class="mobile-nav-list" id="mobile-nav-func"> 
+        <div class="mobile-nav-item" onclick="mobileAbout()">
+            <span>About Us <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="about-nav"> 
+            <a href="./whysummit.html">Why Summit?</a>
+            <a href="./careers.html">Careers</a>
+        </div>
+
+        <div class="mobile-nav-item" onclick="mobileService()"> 
+            <span>Our Services <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="service-nav">
+            <a href="../Services/managedIt.html">Managed IT Services</a>
+            <a href="../Services/co-managedIt.html">Co-Managed IT</a>
+            <a href="../Services/cybersecurity.html">Cybersecurity</a>
+            <a href="../Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+            <a href="../Services/cloud.html">Cloud Services</a>
+            <a href="../Services/managedvoip.html">Managed VoIP Services</a>
+        </div>
+
+        <div class="mobile-nav-item">
+            <span><a href="../forms/contactus.html">Contact Us</a></span>
+        </div>
+        
+        <div class="mobile-social">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <main>
+        <!--Section 1: About Hero-->
+        <section class="about-hero uniform-section shadow-bottom">
+            <img class="hero-video" src="../assets/pro-stock-handshake-darker.svg" style="width: 100%">
+             <div class="about-content">
+                    <h1 class="about-header">Trusted Excellence and Innovation</h1>
+                    <p class="about-text">
+                        At Summit IT Solutions, we blend innovation with tradition, shaping the future of business communications and IT solutions. Our journey is marked by relentless dedication, visionary leadership, and a commitment to transcending customer expectations.
+                    </p>
+
+                    <a href="#open" class="about-hero-btn">See Open Positions</a>
+            </div>
+        </section>
+
+        <!--Section 2: Our Values-->    
+        <section class="value-section uniform-section hex-background">
+            <div class="value-text">
+                <h2 class="section-heading">Our Values</h2>
+                <p class="section-subheading">What drives us daily.</p>
+            </div>
+            <div class="about-card-container">
+                <div class="about-card-subtainer">
+                        <div class="about-card">
+                            <i class="fa-solid fa-star"></i>
+                            <h3>Quality</h3>
+                            <p>At Summit IT Solutions, quality isn't just a goal, it's our standard. We strive to surpass expectations, emphasizing precision and meticulousness in every endeavor.</p>
+                        </div>
+
+                        <div class="about-card">
+                            <i class="fa-solid fa-people-group"></i>
+                            <h3>Dependability</h3>
+                            <p>We embody dependability, ensuring reliability in every service we provide. Our team's commitment to consistency and trustworthiness forms the backbone of our client relationships and our business.</p>
+                        </div>
+                </div>
+
+                <div class="about-card-subtainer">
+                    <div class="about-card">
+                        <i class="fa-solid fa-face-grin-stars"></i>
+                        <h3>Positive Attitude</h3>
+                        <p>A positive attitude is key to our success. We cultivate a culture where challenges are met with enthusiasm and resilience, fostering a collaborative and uplifting work environment.</p>
+                    </div>
+
+                    <div class="about-card">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <h3>Innovative Thinking</h3>
+                        <p>Innovation is at our core. We encourage our team to embrace creativity and forward-thinking, constantly seeking innovative solutions to lead our industry.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section 3: Perks and Benefits-->
+        <section class="benefits-section uniform-section grey-section shadow-top-bottom">
+            <div class="benefits-text">
+                <h2 class="section-heading">Perks and Benefits</h2>
+                <p class="section-subheading">We're here to support.</p> 
+            </div>
+
+            <div class="about-card-container">
+                <div class="about-card-subtainer">
+                        <div class="about-card comp-pay">
+                            <i class="fa-solid fa-sack-dollar"></i>
+                            <h3>Competitive Pay</h3>
+                            <p>At Summit IT Solutions, quality isn't just a goal, it's our standard. We strive to surpass expectations, emphasizing precision and meticulousness in every endeavor.</p>
+                        </div>
+
+                        <div class="about-card pto-card">
+                            <i class="fa-solid fa-face-smile-beam"></i>
+                            <h3>Paid Time Off</h3>
+                            <p>We embody dependability, ensuring reliability in every service we provide. Our team's commitment to consistency and trustworthiness forms the backbone of our client relationships and our business.</p>
+
+                        </div>
+                </div>
+
+                <div class="about-card-subtainer">
+                    <div class="about-card profit-sharing-card">
+                        <i class="fa-solid fa-handshake"></i>
+                        <h3>Profit Sharing</h3>
+                        <p>A positive attitude is key to our success. We cultivate a culture where challenges are met with enthusiasm and resilience, fostering a collaborative and uplifting work environment.</p>
+                    </div> 
+
+                    <div class="about-card health-card">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        <h3>Health Care</h3>
+                        <p>Innovation is at our core. We encourage our team to embrace creativity and forward-thinking, constantly seeking innovative solutions to lead our industry.</p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!--Section 4: About Information-->
+        <section class="about-info uniform-section">
+            <div class="info-header font-bolder">
+                <p>More About Summit IT Solutions</p>
+                <br>
+             </div>
+
+            <div class="info-card-container"> 
+                <div class="info-card-subtainer">
+                    <p class="info-text">
+                        At Summit It Solutions, our focus extends beyond standard IT service. We are dedicated to pioneering innovative digital solutions that empower businesses. We're committed
+                        to crafting advanced, tailored technology solutions for each client's unique needs.
+                        <br><br>
+                        Our team brings together deep technical expertise and a forward-thinking mindset. We believe in a proactive approach to technology, where adaptability and strategic innovation
+                        are key. Partnering with us equips businesses to navigate the digital world's complexities, tackling current needs and future challenges together. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--Open Positions Section-->
+        <section class="open-section uniform-section grey-section shadow-top-bottom" id="open">
+            <div class="open-text">
+                <h2 class="section-small-heading">Open Positions</h2>
+                <br>
+                <p class="section-text">There are no positions open at this time. Please check back later!</p>
+            </div>
+        </section>
+
+        <!--How To Apply?-->
+        <section class="hta-section uniform-section shadow">
+            <div class="hta-text">
+                <h2 class="section-small-heading">How to Apply?</h2>
+                <br>
+                <p class="section-text">Send your cover letter and resume to <strong>careers at summitaffiliates.com</strong> and we'll get back to you shortly!</p>
+            </div> 
+        </section>
+        </main>  
+
+    <!--Footer--> 
+    <footer class="uniform-section red-section shadow-top-bottom footer-section">
+       
+        <div class="footer-content">
+            <div class="footer-list">
+                <p class="section-text font-bolder">About Us</p>
+                <ul>
+                    <li><a href="./whysummit.html">Why Summit?</a></li>
+                    <li><a href="./careers.html">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Our Services</p>
+                <ul>
+                    <li><a href="../Services/managedIt.html">Managed IT Services</a></li>  
+                    <li><a href="../Services/co-managedIt.html">Co-Managed IT</a></li>
+                    <li><a href="../Services/cybersecurity.html">Cybersecurity</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Our Services</p>
+                <ul>
+                    <li><a href="../Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a></li>  
+                    <li><a href="../Services/cloud.html">Cloud Services</a></li>  
+                    <li><a href="../Services/managedvoip.html">Managed VoIP Services</a></li>   
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Resources</p>
+                <ul>
+                    <li><a href="#">Blog 1</a></li>
+                    <li><a href="#">Blog 2</a></li>
+                    <li><a href="#">Blog 3</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-line"></div>
+
+         <div class="footer-bottom">
+                <div class="footer-logo">
+                    <a href="../index.html">
+                    <img src="../assets/SITS logo.png" alt="Summit IT Logo">
+                    </a>
+                </div>
+                <div class="footer-social"> 
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+        </div>
+    </footer>
+    
+    <!--Credits-->
+    <div class="credits">
+        <p>2023 &copy; Summit IT Solutions, LLC | All Rights Reserved.</p>
+    </div>
+</body>
+ <!--JavaScript-->
+ <script src="../js/script.js"></script>
+</html>

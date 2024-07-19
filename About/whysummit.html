@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/whysummit.css">
+    <link rel="stylesheet" href="../css/hover.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <!-- Libaries -->
+    <script src="https://kit.fontawesome.com/4229a7500a.js" crossorigin="anonymous"></script>
+
+    <title>SIT v1 Why Summit?</title>
+
+    
+</head>
+<body>
+    <header id="stickyHeader">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../assets/SITS logo.png">
+            </a>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul> 
+                <div class="dropdown">
+                <!-- <li><a href="#">About Us</a></li> -->
+                <li  class="dropbtn">About Us <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="./whysummit.html">Why Summit?</a>
+                        <a href="./careers.html">Careers</a>
+                       
+                    </div>
+                </div>
+                <div class="dropdown">
+                <li class="dropbtn">Our Services <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="../Services/managedIt.html">Managed IT Services</a>
+                        <a href="../Services/co-managedIt.html">Co-Managed IT</a>
+                        <a href="../Services/cybersecurity.html">Cybersecurity</a>
+                        <a href="../Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+                        <a href="../Services/cloud.html">Cloud Services</a>
+                        <a href="../Services/managedvoip.html">Managed VoIP Services</a>
+                    </div>
+                </div>
+                <li><a href="#contactus" class="nav-btn">Contact Us</a></li>
+            </ul>
+        </nav>
+
+          <!--Mobile Only Navagation-->
+        <nav class="mobile-nav" >
+            <div class="mobile-nav-btn" onclick="mobileMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Mobile Dropdown-->
+    <div class="mobile-nav-list" id="mobile-nav-func">
+        <div class="mobile-nav-item" onclick="mobileAbout()">
+            <span>About Us <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="about-nav">
+            <a href="./whysummit.html">Why Summit?</a>
+            <a href="./careers.html">Careers</a>
+        </div>
+
+        <div class="mobile-nav-item" onclick="mobileService()">
+            <span>Our Services <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="service-nav">
+            <a href="../Services/managedIt.html">Managed IT Services</a>
+            <a href="../Services/co-managedIt.html">Co-Managed IT</a>
+            <a href="../Services/cybersecurity.html">Cybersecurity</a>
+            <a href="../Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+            <a href="../Services/cloud.html">Cloud Services</a>
+            <a href="../Services/managedvoip.html">Managed VoIP Services</a>
+        </div>
+
+        <div class="mobile-nav-item">
+            <span><a href="../forms/contactus.html">Contact Us</a></span>
+        </div>
+        
+        <div class="mobile-social">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <main>
+        <!--Section 1: Why Summit? Hero Section-->
+        
+        
+          <section class="whysummit-hero uniform-section shadow-button">
+            <video class="hero-video" width="100%" autoplay loop>
+                <source src="../assets/shutterstock_1097050309 (1).mp4" type="video/mp4">
+                
+            </video>
+            <div class="whysummit-content">
+              <h1 class="whysummit-header">Why Summit?</h1>
+              <p class="whysummit-text">
+                At Summit IT Solutions, we aren't just your help desk, we are your team,
+                with an immense passion for delivering top notch security
+              </p>
+              <a href="./careers.html" class="whysummit-hero-btn">Careers</a>
+            </div>
+          </section>
+          
+        <!--Section 2: Why Summit? It all starts with Security-->
+        <section class="uniform-section hex-background">
+            <h1 class="section-heading">It all starts with security</h1>
+            <p class="section-subheading">Whether you're a startup or a long time business, we've got a service that'll suit your business and elevate your protection.</p>
+            <div class="whysummit-card-container">
+                <div class="whysummit-card-subtainer">
+                    <div class="whysummit-card">
+                        <i class="fa-solid fa-lock"></i>
+                        <h3>Cybersecurity</h3>
+                        <p>At Summit IT, we don't just manage your IT, we safeguard it. Our certified experts stay on top of evolving threats, providing 24/7 monitoring and robust security solutions to keep your data safe. We proactively identify and address vulnerabilities before they become breaches, ensuring business continuity and peace of mind. Partner with Summit IT and focus on running your business, while we become your trusted cybersecurity shield.</p>
+                    </div>
+                    <div class="whysummit-card">
+                        <i class="fa-solid fa-people-group"></i>
+                        <h3>IT Expertise</h3>
+                        <p>Summit IT's dedicated expertise is here to provide prompt and professional assistance whenever you need it. Our team of friendly and knowledgeable technicians are available 24/7 to troubleshoot any issue, big or small. Whether you need help resetting a password, resolving software glitches, or navigating complex technical challenges, our team is your one-stop shop for getting back on track quickly and efficiently.</p>
+                    </div> 
+
+                </div>
+
+                <div class="whysummit-card-subtainer"> 
+                    <div class="whysummit-card"> 
+                        <i class="fa-solid fa-hammer"></i>
+                        <h3>Data Protection</h3>
+                        <p>At Summit IT, we don't just back up your data, we prepare for the unexpected. Disasters, both digital and physical, can cripple a business. Our team proactively identifies risks and crafts a customized plan to ensure swift data restoration and minimal downtime. We leverage secure, encrypted backups and conduct regular testing drills to guarantee a seamless recovery process. Partner with Summit IT and gain peace of mind, knowing your business can be back on track quickly.</p>
+                    </div>   
+                    
+                    <div class="whysummit-card"> 
+                        <i class="fa-solid fa-business-time"></i>
+                        <h3>Business Continuity</h3>
+                        <p>We understand the importance and complexities of running a business, that is why it is our mission to ensure a worry free IT for your business. Our team of experienced IT professionals will become an extension of your team, providing proactive maintenance, 24/7 monitoring, and robust data backup solutions. We'll handle everything from system updates and security patches to identifying and resolving potential issues before they disrupt your operations.</p>
+                    </div>   
+                </div>
+                   
+            </div>
+
+        </section>
+
+        <!--Section 3: One Team for all Services-->
+        <section class="grey-section uniform-section shadow-top-bottom">
+            <h2 class="section-heading">One Team for all IT Services</h2>
+            <p class="section-subheading">From IT management to Cybersecurity to VoIP management</p>
+            <div class="why-service-container">
+                <div class="why-service-subtainer">
+                    <div class="why-service-card">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h3>Advanced Security Solutions</h3>
+                        <br>
+                        <p>Employ cutting-edge protocols for robust business protection against modern threats.</p>
+                    </div>
+
+                    <div class="why-service-card">
+                        <i class="fa-solid fa-book"></i>
+                        <h3>Comprehensive Support and Management</h3>
+                        <br>
+                        <p>Unmatched support and management ensuring your systmes always perform at their best.</p>
+                    </div>
+
+                    <div class="why-service-card">
+                        <i class="fa-solid fa-gear"></i>
+                        <h3>Strategic IT Consulting and Advisory</h3>
+                        <br>
+                        <p>Gain a competitive edge aligning IT with business objectives.</p>
+                    </div>
+                </div>
+
+                <div class="why-service-subtainer">
+                    <div class="why-service-card">
+                        <i class="fa-solid fa-cloud"></i> 
+                        <h3>Scalable Cloud and Infrastructure Services</h3>
+                        <br>
+                        <p>Expand seamlessly with flexible infrastructure tailored to evolving needs.</p>
+                    </div>
+
+                    <div class="why-service-card">
+                        <i class="fa-solid fa-server"></i>
+                        <h3>Robust Business Continuity and Data Protection</h3>
+                        <br>
+                        <p>Ensure uninterrupted operations with our advanced data protection and continuity plans.</p>
+                    </div>
+
+                    <div class="why-service-card">
+                        <i class="fa-solid fa-lock"></i>
+                        <h3>Proactive Cybersecurity Prevention and Training</h3>
+                        <br>
+                        <p>Stay ahead of cyber threats with our proactive prevention and comprehensive training</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!--Contact Us-->
+        <section class="uniform-section" id="contactus">
+            <div>
+                <h2 class="section-heading">Contact Us</h2>
+                <p class="section-subheading">Our staff of industry experts are standing by to assist with your needs. Please, complete and submit this form and we will respond to your inquiry shortly...</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <script type="text/javascript" src="https://formlets.com/static/js/iframeResizer.min.js"></script>
+                        <iframe class="formlets-iframe" src="https://formlets.com/forms/rSpkfg3JGrtlKug6/?iframe=true&nofocus=y" frameborder="0" width="100%"></iframe>
+                    <script type="text/javascript" src="https://formlets.com/static/js/iframe.js"></script>
+                </div>
+
+                <div class="contact-text">
+                    <h2 class="section-small-heading">Information</h2>
+                    <div class="contact-bar-grey">
+                        <div class="contact-bar-red"></div>
+                    </div>
+                    <a href="tel:405-509-6564" class="contact-phone">(405) 509-6594</a>
+                    <p class="contact-bullet"><i class="fa-solid fa-clock"></i><span class="font-bolder"> Business Hours:</span> Monday - Friday 8:00 AM - 5:00 PM</p>
+                    <p class="contact-bullet"><i class="fa-solid fa-envelope"></i><span class="font-bolder"> Email:</span> customercare@summitsecureit.com</p>
+                    <p class="contact-bullet"><i class="fa-solid fa-location-dot"></i><span class="font-bolder"> Address:</span> 500 Enterprise Dr, Edmond, OK 73013</p>
+                </div>
+            </div>
+    </section>
+
+    <!--Section: Why Summit Call to Action Section -->
+    <section class="cta-section grey-section shadow-top-bottom">
+        <div class="cta-content">
+            <p class="section-heading">Ready to reach top-notch dependable security?</p>
+            <a href ="../Services/managedIt.html" class="cta-btn hvr-pulse-grow">Browse Our Services</a>  
+        </div>
+       
+        
+    </section>
+
+  
+
+    </main>
+
+     <!--Footer--> 
+     <footer class="uniform-section red-section shadow-top-bottom footer-section">
+       
+        <div class="footer-content">
+            <div class="footer-list">
+                <p class="section-text font-bolder">About Us</p>
+                <ul>
+                    <li><a href="./whysummit.html">Why Summit?</a></li>
+                    <li><a href="./careers.html">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Our Services</p>
+                <ul>
+                    <li><a href="../Services/managedIt.html">Managed IT Services</a></li>  
+                    <li><a href="../Services/co-managedIt.html">Co-Managed IT</a></li>
+                    <li><a href="../Services/cybersecurity.html">Cybersecurity</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Our Services</p>
+                <ul>
+                    <li><a href="../Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a></li>  
+                    <li><a href="../Services/cloud.html">Cloud Services</a></li>  
+                    <li><a href="../Services/managedvoip.html">Managed VoIP Services</a></li>  
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Resources</p>
+                <ul>
+                    <li><a href="#">Blog 1</a></li>
+                    <li><a href="#">Blog 2</a></li>
+                    <li><a href="#">Blog 3</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-line"></div>
+
+         <div class="footer-bottom">
+                <div class="footer-logo">
+                    <a href="../index.html">
+                    <img src="../assets/SITS logo.png" alt="Summit IT Logo">
+                    </a>
+                </div>
+                <div class="footer-social"> 
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+        </div>
+    </footer>
+    
+    <!--Credits-->
+    <div class="credits">
+        <p>2023 &copy; Summit IT Solutions, LLC | All Rights Reserved.</p> 
+    </div>
+
+    </body>
+    <!--JavaScript-->
+    <script src="../js/script.js"></script>
+    </html>

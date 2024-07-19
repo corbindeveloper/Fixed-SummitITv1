@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/solutions.css">
+
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <!-- Libraries -->
+    <script src="https://kit.fontawesome.com/4229a7500a.js" crossorigin="anonymous"></script>
+
+    <title>SIT v1 Solutions</title> 
+</head>
+<body>
+    <header id="stickyHeader">
+        <div class="logo">
+            <a href=""></a>
+        </div>
+
+        <nav class="main-nav">
+            <ul> 
+                <div class="dropdown">
+                <!-- <li><a href="#">About Us</a></li> -->
+                <li  class="dropbtn">About Us <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="#">Why Summit?</a>
+                        <a href="#">Careers</a>
+                       
+                    </div>
+                </div>
+                <div class="dropdown">
+                <li class="dropbtn">Our Services <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="#">Managed IT Services</a>
+                        <a href="#">Co-Managed IT</a>
+                        <a href="#">CyberSecurity</a>
+                        <a href="#">Backup & Disaster Recovery</a>
+                        <a href="#">Cloud Services</a>
+                        <a href="#">Managed VoIP Services</a>
+                    </div>
+                </div>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!--Mobile Only Navagation-->
+        <nav class="mobile-nav" >
+            <div class="mobile-nav-btn" onclick="mobileMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+            
+        
+        </nav>
+        
+    </header>
+
+    <!--Mobile Dropdown-->
+    <div class="mobile-nav-list" id="mobile-nav-func">
+        <div class="mobile-nav-item" onclick="mobileAbout()">
+            <span>About Us <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="about-nav">
+            <a href="#">Why Summit?</a>
+            <a href="#">Careers</a>
+        </div>
+
+        <div class="mobile-nav-item" onclick="mobileService()">
+            <span>Our Services <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="service-nav">
+            <a href="#">Managed IT Services</a>
+            <a href="#">Co-Managed IT</a>
+            <a href="#">CyberSecurity</a>
+            <a href="#">Backup & Disaster Recovery</a>
+            <a href="#">Cloud Services</a>
+            <a href="#">Managed VoIP Services</a>
+        </div>
+
+        <div class="mobile-nav-item">
+            <span>Contact Us</span>
+        </div>
+        
+        <div class="mobile-social">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+    
+        
+        
+    <main>
+        <!-- Section 1: Hero -->
+        <section class="solutions-hero shadow-bottom">
+            <div class="solutions-hero-content">
+                <h1 class="solutions-hero-header">Some text here about our Solutions</h1>
+                <p class="solutions-hero-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo quis error sint molestias aliquam asperiores enim est praesentium magnam consequatur, ullam ipsam. Debitis nesciunt voluptates beatae doloribus unde adipisci dolorum.</p>
+            </div> 
+            
+            <div class="solutions-hero-image">
+                <p>An Image would go here</p>
+            </div>
+        </section>
+
+        <!-- Section 2: Features-->
+        <section class="features uniform-section">
+            <h2 class="section-heading">Features</h2>
+            <p class="section-subheading">Something here about the Features we provide.</p>
+
+            <div class="feature-container">
+                <a href="" class="feature-card">
+                    <div class="type-card-content">
+                        <div class="feature-icon"><i></i></div>
+                        <h3 class="feature-type-header">Something</h3>
+                      
+                    </div>
+                </a>
+
+                <a href="" class="feature-card">
+                    <div class="type-card-content">
+                        <div class="feature-icon"><i></i></div>
+                        <h3 class="feature-type-header">Something</h3>
+                      
+                    </div>
+                </a>
+
+
+                
+                <a href="" class="feature-card">
+                    <div class="type-card-content">
+                        <div class="feature-icon"><i></i></div>
+                        <h3 class="feature-type-header">Something</h3>
+                    </div>
+                </a>
+
+                <a href="" class="feature-card">
+                    <div class="type-card-content">
+                        <div class="feature-icon"><i></i></div>
+                        <h3 class="feature-type-header">Something</h3>
+                    </div>
+                </a>
+            </div>
+
+            <!--Mobile only Div--> 
+            <div class="show-more">
+                <p class="show-btn font-bolder" onclick="showMore()">Show More <i><i class="fa-solid fa-circle-chevron-down"></i></i></p>
+            </div>
+ 
+            <div class="feature-container" id="feature-hide">
+                <a href="" class="feature-card">
+                    <div class="type-card-content">
+                        <div class="feature-icon"><i></i></div>
+                        <h3 class="feature-type-header">Something</h3>
+                      
+                    </div>
+                </a>
+
+                <a href="" class="feature-card">
+                    <div class="type-card-content">
+                        <div class="feature-icon"><i></i></div>
+                        <h3 class="feature-type-header">Something</h3>
+                      
+                    </div>
+                </a>
+
+                <a href="" class="feature-card">
+                    <div class="type-card-content">
+                        <div class="feature-icon"><i></i></div>
+                        <h3 class="feature-type-header">Something</h3>
+                      
+                    </div>
+                </a>
+
+                <a href="" class="feature-card">
+                    <div class="type-card-content">
+                        <div class="feature-icon"><i></i></div>
+                        <h3 class="feature-type-header">Something</h3>
+                      
+                    </div>
+                </a>
+               
+            </div>
+        </section>
+
+
+        <!-- Section 3: Right Side Text -->
+        <section class="grey-section uniform-section shadow-top-bottom">
+            <div class="split-container">
+                <div class="middle-image">
+
+                </div>
+
+                <div class="middle-content">
+                    <h2 class="section-small-heading">Heading</h2>
+                    <p class="section-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo quis error sint molestias aliquam asperiores enim est praesentium magnam consequatur, ullam ipsam. Debitis nesciunt voluptates beatae doloribus unde adipisci dolorum.</p>
+                    <br>
+                    <a href ="#" class="middle-btn">Button!</a>
+                </div>
+            </div>
+        </section> 
+
+        <!-- Section 4: Left Side Text -->
+        <section class="uniform-section">
+
+            <div class="split-container">
+                
+                <div class="middle-content">
+                    <h2 class="section-small-heading">Heading</h2>
+                    <p class="section-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo quis error sint molestias aliquam asperiores enim est praesentium magnam consequatur, ullam ipsam. Debitis nesciunt voluptates beatae doloribus unde adipisci dolorum.</p>
+                    <br>
+                    <a href ="#" class="middle-btn">Button!</a>
+                </div>
+                
+                <div class="middle-image">
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Section 5: Call to Action-->
+    <section class="cta-section grey-section uniform-section shadow-top-bottom">
+        <div class="cta-content">
+
+            <p class="section-small-heading">Schedule a Demo Today <i class="fa-solid fa-arrow-trend-up"></i> </p>
+            <p class="section-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo quis error sint molestias aliquam asperiores enim est praesentium magnam consequatur, ullam ipsam.</p>
+            <div class="cta-content-bottom">
+                
+                <a href ="#" class="cta-btn">Get Started</a>
+                
+            </div>
+        </div>
+       
+        <div class="cta-image">
+
+        </div>
+    </section>
+
+     <!--Footer-->
+     <footer class="uniform-section red-section shadow-top-bottom footer-section">
+       
+
+        <div class="footer-content">
+            <div class="footer-list">
+                <p class="section-text font-bolder">Heading 1</p>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Heading 2</p>
+                <ul>
+                    <li><a href="#">Item 1</a></li>  
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Heading 3</p>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Heading 4</p>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-line"></div>
+
+         <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img src="#" alt="Summit IT Logo">
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+        </div>
+    </footer>
+    
+
+    <!--Credits-->
+    <div class="credits">
+        <p>2023 &copy; Summit IT, LLC | All Rights Reserved.</p>
+    </div>
+</body>
+
+ <!--JavaScript-->
+ <script src="./js/script.js"></script>
+</html>

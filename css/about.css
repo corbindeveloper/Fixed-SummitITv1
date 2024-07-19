@@ -1,0 +1,295 @@
+.about-hero {
+    padding: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 50px 50px;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+}
+
+.about-header {
+    font-family: "Orbitron", "Lato", sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.about-text {
+    line-height: 1.8;
+    font-size: 1.3rem;
+    width: 50%;
+    color: var(--color-white);
+    min-width: 300px;
+    text-align: center;
+    padding: 3% 0;
+ }
+
+
+ .about-hero-btn {
+    background-color: var(--color-white);
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--color-primary-red);
+    transition: all 0.3s ease-in-out;
+}
+
+.about-hero-btn:hover {
+    background-color: var(--color-light-grey);
+    transform: scale(1.1);
+}
+
+/*Card Containers Sections aka Section 2 and 3*/
+
+
+.value-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.value-text {
+    min-width: 80%;
+    text-align: center;
+}
+
+
+.about-card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 0;
+}
+
+.about-card-subtainer {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-card {
+    width: 30%;
+    min-width: 350px;
+    max-width: 800px;
+    min-height: 360px;
+    background-color: var(--color-primary-red);
+    border-radius: 5px;
+    border: 3px solid rgba(0,0,0,0.2);
+    margin: 1%;
+    padding: 1% 2% 2% 2%;
+    color: rgba(255, 255, 255, 0.9);
+}
+ 
+.about-card > h3 {
+    font-weight: 600;
+    color: var(--color-white);
+   
+}
+
+.about-card > i {  
+    font-size: 2.7rem; 
+    line-height: 1.4;
+    color: rgba(255,255,255,0.9);
+}
+
+.about-card > p {
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+
+/*Perks and Benefits Section Specific*/
+.benefits-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefits-text {
+    min-width: 80%;
+    text-align: center;
+}
+
+
+.comp-pay {
+    background-color: #0dd15251;
+    }
+
+.comp-pay > i {
+    color: rgb(13, 209, 83);   
+}
+
+.comp-pay > h3, .comp-pay > p {
+    color: var(--color-black);
+}
+
+.pto-card {
+    background-color: #BD0DD130;
+    color: var(--color-black);
+}
+
+.pto-card > i {
+    color: #BD0ED1;
+}
+
+.pto-card > h3, .pto-card > p {
+    color: var(--color-black);
+}
+
+.profit-sharing-card {
+    background-color: #0DC4D155;
+    color: var(--color-black);
+}
+
+.profit-sharing-card > h3, .profit-sharing-card > p {
+    color: var(--color-black);
+}
+
+.profit-sharing-card > i {
+    color: #0DC4D1;
+}
+
+.health-card {
+    background-color: #D10D7F47;
+}
+
+.health-card > i {
+    color: #D10D7F
+}
+
+.health-card > h3, .health-card > p {
+    color: var(--color-black);
+}
+
+/*Info Section*/
+.about-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.info-header {
+    min-width: 70%;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.info-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.info-card-subtainer {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    line-height: 3;
+    font-size: 1.3rem;
+
+    width: 100%;
+    min-width: 300px;
+    text-align: center;
+}
+
+/*Openn Position Section*/
+.open-section {
+    padding: 6% 3%;
+}
+
+
+.open-text {
+    text-align: center;
+}
+
+/*How To Apply? Section*/
+.hta-section {
+    padding: 3% 3%;
+}
+
+.hta-text {
+    text-align: center;
+}
+
+
+/*Middle Layout*/
+@media screen and (max-width: 1000px) {
+/* About Hero Section -- Middle*/
+.about-hero {
+    padding: 10% 0 3% 0;
+    background: url("../assets/Circuit\ Board.svg");
+  }
+
+  .about-content {
+    position: static;
+  }
+
+
+  .about-header {
+    padding-top: 20%;
+    font-size: 3.0rem;
+    margin-bottom: 3%;
+  
+  }
+
+  .about-text {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    padding: 3% 1%;
+    line-height: 1.4;
+  }
+}
+
+
+/*Mobile Layout*/
+@media screen and (max-width: 700px) {  
+    /* About Hero Section -- Mobile*/
+    .about-hero {
+        padding: 20% 0 3% 0;
+    }
+
+    .about-header {
+        font-size: 1.9rem;
+        margin-bottom: 10%;
+    }
+
+  
+
+   .info-text {
+    font-size: 1.0rem;
+    line-height: 2.3;
+    width: 100%;
+    text-align: left;
+   }
+}

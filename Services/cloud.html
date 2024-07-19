@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/managedIT.css">
+    <link rel="stylesheet" href="../css/hover.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <!-- Libraries -->
+    <script src="https://kit.fontawesome.com/4229a7500a.js" crossorigin="anonymous"></script>
+
+    <title>SIT v1 Cloud Services</title> 
+</head>
+<body>
+    <header id="stickyHeader">
+        <div class="logo">
+            <a href="../index.html"><img src="../assets/SITS logo.png"></a>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul> 
+                <div class="dropdown">
+                <!-- <li><a href="#">About Us</a></li> -->
+                <li class="dropbtn">About Us <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="../About/whysummit.html">Why Summit?</a>
+                        <a href="../About/careers.html">Careers</a>
+                       
+                    </div>
+                </div>
+                <div class="dropdown">
+                <li class="dropbtn">Our Services <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="./managedIt.html">Managed IT Services</a>
+                        <a href="./co-managedIt.html">Co-Managed IT</a>
+                        <a href="./cybersecurity.html">Cybersecurity</a>
+                        <a href="./backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+                        <a href="./cloud.html">Cloud Services</a>
+                        <a href="./managedvoip.html">Managed VoIP Services</a>
+                    </div>
+                </div>
+                <li><a href="../forms/contactus.html" class="nav-btn nav-btn-alt">Contact Us</a></li>
+            </ul>
+        </nav>
+
+
+        <!--Mobile Only Navagation-->
+        <nav class="mobile-nav" >
+            <div class="mobile-nav-btn" onclick="mobileMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!--Mobile Dropdown-->
+    <div class="mobile-nav-list" id="mobile-nav-func"> 
+        <div class="mobile-nav-item" onclick="mobileAbout()">
+            <span>About Us <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="about-nav"> 
+            <a href="../About/whysummit.html">Why Summit?</a>
+            <a href="../About/careers.html">Careers</a>
+        </div>
+
+        <div class="mobile-nav-item" onclick="mobileService()"> 
+            <span>Our Services <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="service-nav">
+            <a href="./managedIt.html">Managed IT Services</a>
+            <a href="./co-managedIt.html">Co-Managed IT</a>
+            <a href="./cybersecurity.html">Cybersecurity</a>
+            <a href="./backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+            <a href="./cloud.html">Cloud Services</a>
+            <a href="./managedvoip.html">Managed VoIP Services</a>
+        </div>
+
+        <div class="mobile-nav-item">
+            <span><a href="../forms/contactus.html">Contact Us</a></span>
+        </div>
+        
+        <div class="mobile-social">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <main>
+        <!--Section 1: cloud Hero Section-->
+        <section class="managed-hero shadow-bottom" style="background-color: rgb(0,0,0,1);">
+            <img class="hero-video" src="../assets/shutterstock_2204212039.jpg" style="width: 100%">
+            <div class="managed-hero-content">
+                <h1 class="managed-hero-header">Cloud Services</h1>
+                <p class="managed-hero-text">Expand seamlessly with flexible infastructure tailored to evolving needs.</p>
+                <div class="hero-btn-container">
+                    <a href="#learn" class="hero-btn">Learn More</a>
+                    <a href="#consultation" class="hero-btn hero-btn-alt">Schedule a Consultation</a>
+                </div>
+            
+            </div>
+
+        </section>
+
+        <!--Section 2: cloud Information Section-->
+        <section class="info-section uniform-section hex-background">
+            <h1 class="section-heading">The Importance of Cloud IT Services</h1>
+            <p class="section-subheading">Increase Efficiency and Comfortability with Summit IT's Cloud Services</p>
+ 
+            <div class="info-container split-container">
+                <div class="info-image" style="background: url(../assets/stock-photo-project-leader-and-chief-executive-discuss-data-shown-on-a-laptop-in-background-big-screen-showing-1976669096.jpg); background-size: cover; background-position: center;">
+                   
+                </div> 
+                <div class="info-content">
+                    <p class="section-text">Cloud services streamline crucial IT resources, allowing you to pay only for what you use and maintain complete ownership of your data.</p>
+                    <br>
+                    <p class="section-text">At our company, we're passionate about empowering businesses to thrive. That's why we offer comprehensive cloud IT services, delivered by a team of expert technicians. We handle everything from strategically deploying the latest technologies to meticulously applying regular security patches. Our proactive maintenance and seamless upgrade management ensure your cloud infrastructure stays optimized and secure.  This frees you and the business team, to focus on what matters most –  growing your business and achieving your strategic goals. With our expert cloud IT services as your foundation, you can confidently scale your operations and navigate the ever-evolving technological landscape.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Section 3: IT Color Wheel and a +/-  -->
+        <section class="it-wheel uniform-section grey-section shadow-top-bottom" id="learn">
+            <h1 class="section-heading">Cloud Services FAQ</h1>
+
+            <div class="wheel-container split-container"> 
+                <div class="wheel-content">
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>What core functionalities does it offer?</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i> 
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p> Our cloud service provides a secure and scalable platform for businesses to access computing resources like virtual machines, storage, databases, and networking on-demand over the internet. This eliminates the need for physical infrastructure and allows you to focus on your core business activities.</p>
+                        </div>
+                    </div> 
+
+                        <div class="drop-card">
+                            <div class="drop-card-title toggleButton">
+                                <h4>How does it ensure security and privacy compliance?</h4>
+                                <div class="plus-circle">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="drop-card-description">
+                                <p>We implement industry-leading security measures like encryption at rest and in transit, firewalls, and access controls. We also adhere to strict compliance standards like HIPAA, PCI-DSS, and GDPR to safeguard your data privacy.</p>
+                            </div>
+                    </div>
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>What support does our cloud service have?</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>We offer 24/7 customer support through phone, email, and live chat. Our dedicated team of experts is available to assist you with any questions, troubleshooting, or technical issues.</p>
+                        </div>
+                    </div>
+
+                  
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>Does the cloud service work with existing IT?</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>Yes, our cloud service offers tools and APIs to facilitate seamless integration with your existing on-premise infrastructure, creating a hybrid cloud environment.</p>
+                        </div> 
+                    </div>
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>Do I have to manage my cloud resources?</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i> 
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>With Summit IT, we manage your cloud for you, so you can be free to grow your business</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="wheel-image" style="background: url(../assets/shutterstock_2174862847.jpg); background-position:center; background-size:cover; background-repeat: no-repeat;">
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <!--Section 4:Our Cloud Benefits--> 
+        <section class="managed-coverage uniform-section hex-background">
+ 
+            <h1 class="section-heading">Our Cloud Benefits</h1>
+            <p class="section-subheading">Flexible benefits for full ease</p> 
+        
+            <div class="coverage-container">
+                <div class="coverage-subtainer">
+                    <div class="coverage-card">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <h3>Agility and Scalability</h3>
+                        <p>Cloud resources can be scaled up or down instantly to meet your fluctuating demands. This agility allows you to quickly adapt to new projects, or unexpected growth, without expense of purchasing and maintaining additional hardware. Need to crunch massive amounts of data for a one-time project? Scale up your processing power for a short period and then scale back down. This flexibility keeps your IT costs under control while empowering you to seize new opportunities with speed.</p>
+                        
+                    </div>
+
+                    <div class="coverage-card">
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                        <h3>Reduced IT Costs</h3>
+                        <p>Say goodbye to expensive hardware upgrades and ongoing maintenance fees. Cloud computing eliminates the need for significant upfront investments in physical servers and software licenses. You only pay for the resources you use, making it a highly cost-effective solution for businesses of all sizes. Additionally, the cloud provider handles all maintenance and updates, freeing up your IT staff to focus on more strategic projects. This translates to significant cost savings and improved efficiency for your IT department.</p>
+                       
+                    </div>
+
+                    <div class="coverage-card">
+                        <i class="fa-solid fa-shield"></i>
+                        <h3>Enhanced Data Security</h3>
+                        <p>Unlike traditional on-premises data centers, cloud security boasts an inherent elasticity that adapts to your evolving needs. Imagine a surge in customer data for a critical marketing campaign. On-premises, this could expose vulnerabilities as your security infrastructure strains to accommodate the extra load. Cloud computing offers a dynamic solution: elastic data security that scales seamlessly alongside your data volume.</p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="coverage-btn-container">
+                <a href="../forms/consultation.html" class="coverage-btn">Schedule Today</a> 
+            </div>
+        </section> 
+
+           <!--Section 5: It Managed - Call to Action Section-->
+           <section class="managed-cta grey-section uniform-section shadow-top-bottom">
+            <h2 class="section-heading">A Coverage of Managed IT Services to Ensure Business Success</h2>
+            
+            <div class="managed-bar-red"></div>
+            
+            <div class="managed-cta-container">
+
+                    <div class="managed-cta-content">
+                        <i class="fa-solid fa-lock"></i>
+                        <a href="./cybersecurity.html">
+                        <p class="section-small-heading hvr-underline-from-left">Cybersecurity</p>
+                        </a>
+                    </div>
+                
+                    <div class="managed-cta-content" >
+                        <i class="fa-solid fa-folder"></i>
+                        <a href="./backupdisasterrecovery.html">
+                        <p class="section-small-heading hvr-underline-from-left">Backup & Disaster Recovery</p>
+                        </a>
+                    </div>
+            
+                    <div class="managed-cta-content">
+
+                        <i class="fa-solid fa-people-group"></i>
+                        <a href="./co-managedIt.html">
+                        <p class="section-small-heading hvr-underline-from-left">Co-Managed IT</p>
+                        </a>
+                    </div>
+               
+                    <div class="managed-cta-content"> 
+                       
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <a href="./managedvoip.html">
+                        <p class="section-small-heading hvr-underline-from-left">Managed VoIP Services</p> 
+                        </a>
+                    </div>
+            </div>
+
+        </section>
+
+        <!--Section 6: Sechdule a Consultation-->
+        <section class="contact-section uniform-section" id="consultation">
+            <div>
+                <h2 class="section-heading">Schedule a Consultation</h2>
+                <p class="section-subheading">Our staff of industry experts are standing by to assist with your needs. Please, complete and submit this form and we will respond to your inquiry shortly...</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <script type="text/javascript" src="https://formlets.com/static/js/iframeResizer.min.js"></script>
+                        <iframe class="formlets-iframe" src="https://formlets.com/forms/rSpkfg3JGrtlKug6/?iframe=true&nofocus=y" frameborder="0" width="100%"></iframe>
+                    <script type="text/javascript" src="https://formlets.com/static/js/iframe.js"></script>
+                </div>
+
+                <div class="contact-text">
+                    <h2 class="section-small-heading">Information</h2>
+                    <div class="contact-bar-grey">
+                        <div class="contact-bar-red"></div>
+                    </div>
+                    <p class="contact-bullet">At Summit IT Solutions, our commitment stretches across a robust portfolio of companies, each dedicated to excellence.</p>
+                    <p class="contact-bullet">Schedule a free consultation with Summit IT experts. We'll assess your needs, discuss security, backups, and more. Then, we'll recommend solutions for a secure and efficient IT environment. Gain control and potential.  Contact us today!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer--> 
+    <footer class="uniform-section red-section shadow-top-bottom footer-section">
+       
+        <div class="footer-content">
+            <div class="footer-list">
+                <p class="section-text font-bolder">About Us</p>
+                <ul>
+                    <li><a href="../About/whysummit.html">Why Summit?</a></li>
+                    <li><a href="../About/careers.html">Careers</a></li>
+                </ul>
+            </div>
+ 
+            <div class="footer-list">
+                <p class="section-text font-bolder">Our Services</p>
+                <ul>
+                    <li><a href="./managedIt.html">Managed IT Services</a></li>  
+                    <li><a href="./co-managedIt.html">Co-Managed IT</a></li>
+                    <li><a href="./cybersecurity.html">Cybersecurity</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Our Services</p>
+                <ul>
+                    <li><a href="./backupdisasterrecovery.html">Backup & Disaster Recovery</a></li>  
+                    <li><a href="./cloud.html">Cloud Services</a></li>  
+                    <li><a href="./managedvoip.html">Managed VoIP Services</a></li>  
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Resources</p>
+                <ul>
+                    <li><a href="#">Blog 1</a></li>
+                    <li><a href="#">Blog 2</a></li>
+                    <li><a href="#">Blog 3</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-line"></div>
+
+         <div class="footer-bottom">
+                <div class="footer-logo">
+                    <a href="../index.html">
+                    <img src="../assets/SITS logo.png" alt="Summit IT Logo">
+                    </a>
+                </div>
+                <div class="footer-social"> 
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+        </div>
+    </footer>
+    
+    <!--Credits-->
+    <div class="credits">
+        <p>2023 &copy; Summit IT Solutions, LLC | All Rights Reserved.</p> 
+    </div>
+
+    </body>
+    <!--JavaScript-->
+    <script src="../js/script.js"></script>
+    </html>
+
+

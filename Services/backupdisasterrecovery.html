@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/managedIT.css">
+    <link rel="stylesheet" href="../css/hover.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <!-- Libraries -->
+    <script src="https://kit.fontawesome.com/4229a7500a.js" crossorigin="anonymous"></script>
+
+    <title>SIT v1 Backup & Disaster Recovery</title> 
+</head>
+<body>
+    <header id="stickyHeader">
+        <div class="logo">
+            <a href="../index.html"><img src="../assets/SITS logo.png"></a>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul> 
+                <div class="dropdown">
+                <!-- <li><a href="#">About Us</a></li> -->
+                <li class="dropbtn">About Us <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="../About/whysummit.html">Why Summit?</a>
+                        <a href="../About/careers.html">Careers</a>
+                       
+                    </div>
+                </div>
+                <div class="dropdown">
+                <li class="dropbtn">Our Services <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content">
+                        <a href="./managedIt.html">Managed IT Services</a>
+                        <a href="./co-managedIt.html">Co-Managed IT</a>
+                        <a href="./cybersecurity.html">Cybersecurity</a>
+                        <a href="./backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+                        <a href="./cloud.html">Cloud Services</a>
+                        <a href="./managedvoip.html">Managed VoIP Services</a>
+                    </div>
+                </div>
+                <li><a href="../forms/contactus.html" class="nav-btn nav-btn-alt">Contact Us</a></li>
+            </ul>
+        </nav>
+
+
+        <!--Mobile Only Navagation-->
+        <nav class="mobile-nav" >
+            <div class="mobile-nav-btn" onclick="mobileMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!--Mobile Dropdown-->
+    <div class="mobile-nav-list" id="mobile-nav-func"> 
+        <div class="mobile-nav-item" onclick="mobileAbout()">
+            <span>About Us <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="about-nav"> 
+            <a href="../About/whysummit.html">Why Summit?</a>
+            <a href="../About/careers.html">Careers</a>
+        </div>
+
+        <div class="mobile-nav-item" onclick="mobileService()"> 
+            <span>Our Services <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="service-nav">
+            <a href="./managedIt.html">Managed IT Services</a>
+            <a href="./co-managedIt.html">Co-Managed IT</a>
+            <a href="./cybersecurity.html">Cybersecurity</a>
+            <a href="./backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+            <a href="./cloud.html">Cloud Services</a>
+            <a href="./managedvoip.html">Managed VoIP Services</a>
+        </div>
+
+        <div class="mobile-nav-item">
+            <span><a href="../forms/contactus.html">Contact Us</a></span>
+        </div>
+        
+        <div class="mobile-social">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div> 
+    </div>
+
+    <main>
+        <!--Section 1: Backup&Disaster Hero Section-->
+        <section class="managed-hero shadow-bottom" style="background-color: rgb(0,0,0,1);">
+            <img class="hero-video" src="../assets/shutterstock_1394052911.jpg" style="width: 100%">
+            <div class="managed-hero-content">
+                <h1 class="managed-hero-header">Backup & Disaster Recovery</h1>
+                <p class="managed-hero-text">We ensure security, so you can focus on the growth of the business</p>
+                
+            <div class="hero-btn-container">
+                <a href="#learn" class="hero-btn">Learn More</a>
+                <a href="#consultation" class="hero-btn hero-btn-alt">Schedule a Consultation</a>
+            </div>
+            </div>
+
+        </section>
+
+        <!--Section 2: Backup&Disaster Information Section-->
+        <section class="info-section uniform-section hex-background">
+            <h1 class="section-heading">Secure a last line of defense against Cyberthreats</h1>
+            <p class="section-subheading">Summit not only fights for your business, but we consider the aftermath of threats as well.</p>
+ 
+            <div class="info-container split-container">
+                <div class="info-image"  style="background: url(../assets/shutterstock_699442432.jpg); background-size: cover; background-position: center;">
+                   
+                </div> 
+                <div class="info-content">
+                    <p class="section-text">At Summit IT Solutions, we always consider the importance of files and software. Which is why our Backup & Disaster Recovery plan comes equppied with the best tools.</p>
+                    <br>
+                    <p class="section-text">In the unpredictable world of IT, disruptions are inevitable. Hardware failures, cyber, or even human error can all lead to data loss and downtime. This is where Backup and Disaster Recovery (BDR) comes in – your organization's safety net. BDR is a comprehensive strategy that ensures your critical data is always protected and readily available in the event of an IT crisis.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Section 3: IT Color Wheel and a +/-  -->
+        <section class="it-wheel uniform-section grey-section shadow-top-bottom" id="learn">
+            <h1 class="section-heading">What's Included in our Backup & Disaster Recovery Services</h1>
+
+            <div class="wheel-container split-container"> 
+                <div class="wheel-content">
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>Reduced Downtime</h4> 
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>Get your systems back up and running quickly after a disaster, minimizing business disruption and revenue loss.</p>
+                        </div>
+                    </div>
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>Flexible Compliance</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i> 
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>Store your backups in geographically dispersed locations to mitigate the impact of natural disasters or localized outages. Cloud storage offers a reliable and scalable option for offsite backups.</p>
+                        </div>
+                    </div>
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>Data Loss Prevention</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i> 
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>Protection of sensitive information from unauthorized access. We focus on safeguarding crticial information like financial data, customer records, intellectual property, and other confidental assets.</p>
+                        </div>
+                    </div>
+
+                        <div class="drop-card">
+                            <div class="drop-card-title toggleButton">
+                                <h4>Backup and Recovery Procedures</h4>
+                                <div class="plus-circle">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="drop-card-description">
+                                <p>Details on how you will back up your data and restore it in case of a disaster.</p>
+                            </div>
+                    </div>
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>Business Continuity Plan</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>Outline of how your business will continue critical operations during and after a disaster.</p>
+                        </div>
+                    </div>
+
+                
+
+                    <div class="drop-card">
+                        <div class="drop-card-title toggleButton">
+                            <h4>Data Protection</h4>
+                            <div class="plus-circle">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="drop-card-description">
+                            <p>We ensure that your valuable data and resources are secure and protected from any threat at any time.</p>
+                        </div> 
+                    </div>
+
+                    
+
+                    <div></div>
+                </div>
+
+                <div class="wheel-image" style="background: url(../assets/document-archvie.jpg); background-size: cover; height: 400px;">
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--Section 4:Complete IT Coverage--> 
+        <section class="managed-coverage uniform-section hex-background">
+ 
+            <h1 class="section-heading">Why you need Backup & Recovery</h1>
+            <p class="section-subheading">The common threats and errors that can happen</p> 
+        
+            <div class="coverage-container">
+                <div class="coverage-subtainer">
+                    <div class="coverage-card">
+                        <i class="fa-solid fa-computer"></i>
+                        
+                        <h3>Hardware Failure</h3>
+                        <p>Hardware failure is the malfunctioning of a computer's physical components. This can range from minor inconveniences to complete system crashes. A failing hard drive, for example, might make strange noises or exhibit slow performance before completely losing stored data. Other common hardware failures include overheating processors, failing power supplies, and faulty RAM (random access memory), which can cause crashes or unexpected shutdowns.</p>
+                    </div>
+
+                    
+
+                    <div class="coverage-card">
+                        <i class="fa-solid fa-unlock-keyhole"></i>
+                        <h3>Cyber Threats</h3>
+                        <p>In this growing industry, malicious hackers and scammers have become common. They may steal your data and force your business to pay a ransom. Their meddling may also corrupt your files in the process. Imagine the time and energy, how much your business would have to work to recreate these files.</p>
+
+                        <p>With our data recovery plan, we give support. We combat them by having your data on the ready. You minimize data loss, as your stolen files will be ready, and you minimize the time significantly in gathering your files back.</p>
+                        
+                      
+                    </div>
+
+                    <div class="coverage-card">
+                        <i class="fa-solid fa-person-burst"></i>
+                        <h3>Accidental Deletion</h3>
+                        <p>Sometimes the data loss may not even be because of the technology or a hacker, but a simple accident by a fellow co-worker. No one is perfect, but that is precisely why you want to ensure your business has a saftey net.</p>
+
+                        <p>With Summit there is total relief knowing that we are on your side at the ready prepared for any accidents or hiccups that may happen to your business.</p>
+                       
+                
+                    </div>
+                </div>
+            </div>
+            <div class="coverage-btn-container">
+
+                <a href="../forms/consultation.html" class="coverage-btn">Schedule Today</a> 
+            </div>
+        </section> 
+
+           <!--Section 5: It Managed - Call to Action Section-->
+           <section class="managed-cta grey-section uniform-section shadow-top-bottom">
+            <h2 class="section-heading">A Coverage of Managed IT Services to Ensure Business Success</h2>
+            
+            <div class="managed-bar-red"></div>
+            
+            <div class="managed-cta-container">
+
+                    <div class="managed-cta-content">
+                        <i class="fa-solid fa-lock"></i>
+                        <a href="./cybersecurity.html">
+                        <p class="section-small-heading hvr-underline-from-left">Cybersecurity</p>
+                        </a>
+                    </div>
+                
+                    <div class="managed-cta-content" >
+                        <i class="fa-solid fa-people-group"></i>
+                        <a href="./co-managedIt.html">
+                        <p class="section-small-heading hvr-underline-from-left">Co-Managed IT</p>
+                        </a>
+                    </div>
+            
+                    <div class="managed-cta-content">
+
+                        <i class="fa-solid fa-cloud"></i>
+                        <a href="./cloud.html">
+                        <p class="section-small-heading hvr-underline-from-left">Cloud Services</p>
+                        </a>
+                    </div>
+               
+                    <div class="managed-cta-content"> 
+                       
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <a href="./managedvoip.html">
+                        <p class="section-small-heading hvr-underline-from-left">Managed VoIP Services</p> 
+                        </a>
+                    </div>
+            </div>
+
+        </section>
+
+        <!--Section 6: Sechdule a Consultation-->
+        <section class="contact-section uniform-section" id="consultation">
+            <div>
+                <h2 class="section-heading">Schedule a Consultation</h2>
+                <p class="section-subheading">Our staff of industry experts are standing by to assist with your needs. Please, complete and submit this form and we will respond to your inquiry shortly...</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <script type="text/javascript" src="https://formlets.com/static/js/iframeResizer.min.js"></script>
+                        <iframe class="formlets-iframe" src="https://formlets.com/forms/rSpkfg3JGrtlKug6/?iframe=true&nofocus=y" frameborder="0" width="100%"></iframe>
+                    <script type="text/javascript" src="https://formlets.com/static/js/iframe.js"></script>
+                </div> 
+
+                <div class="contact-text">
+                    <h2 class="section-small-heading">Information</h2>
+                    <div class="contact-bar-grey">
+                        <div class="contact-bar-red"></div>
+                    </div>
+                    <p class="contact-bullet">At Summit IT Solutions, our commitment stretches across a robust portfolio of companies, each dedicated to excellence.</p>
+                    <p class="contact-bullet">Schedule a free consultation with Summit IT experts. We'll assess your needs, discuss security, backups, and more. Then, we'll recommend solutions for a secure and efficient IT environment. Gain control and potential.  Contact us today!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer--> 
+    <footer class="uniform-section red-section shadow-top-bottom footer-section">
+       
+        <div class="footer-content">
+            <div class="footer-list">
+                <p class="section-text font-bolder">About Us</p>
+                <ul>
+                    <li><a href="#">Why Summit?</a></li>
+                    <li><a href="../About/careers.html">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Our Services</p>
+                <ul>
+                    <li><a href="./managedIt.html">Managed IT Services</a></li>  
+                    <li><a href="./co-managedIt.html">Co-Managed IT</a></li>
+                    <li><a href="./cybersecurity.html">Cybersecurity</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Our Services</p>
+                <ul>
+                    <li><a href="./backupdisasterrecovery.html">Backup & Disaster Recovery</a></li>  
+                    <li><a href="./cloud.html">Cloud Services</a></li>  
+                    <li><a href="./managedvoip.html">Managed VoIP Services</a></li>  
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="section-text font-bolder">Resources</p>
+                <ul>
+                    <li><a href="#">Blog 1</a></li>
+                    <li><a href="#">Blog 2</a></li>
+                    <li><a href="#">Blog 3</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-line"></div>
+
+         <div class="footer-bottom">
+                <div class="footer-logo">
+                    <a href="../index.html">
+                    <img src="../assets/SITS logo.png" alt="Summit IT Logo">
+                    </a>
+                </div>
+                <div class="footer-social"> 
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+        </div>
+    </footer>
+    
+    <!--Credits-->
+    <div class="credits">
+        <p>2023 &copy; Summit IT Solutions, LLC | All Rights Reserved.</p> 
+    </div>
+
+    </body>
+    <!--JavaScript-->
+    <script src="../js/script.js"></script>
+    </html>
+
+
