@@ -66,7 +66,9 @@
 
 .info-image {
     min-width: 40%;
-    background: url("../assets/okc\ city\ image.jpg");
+
+    
+    background: url("../assets/istockphoto-1220350688-612x612.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
