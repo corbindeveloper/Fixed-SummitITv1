@@ -419,63 +419,7 @@
         flex-direction: column;
     }
 
-    /*Header/Nav -- Middle*/ 
-    header {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav ul {
-        justify-content: center;
-        gap: 20px;
-    }
-
-    /*Video Hero --Mobile*/
-    .hero-video {
-        display: none;
-    }
-
-
-    /*Footer -- Middle*/
-    .footer-section {
-        padding: 6% 1%; 
-    }
-   
-    .footer-bottom {
-        justify-content: center;
-        gap: 6%;
-    }
-
-   .footer-logo {
-        width: 200px;
-    }
-    
-}
-
-/*Mobile Layout*/
-@media screen and (max-width: 700px) {
-
-    /*General Tags -- Mobile*/
-    .uniform-section {
-        padding: 20% 6%;
-    }
-    .section-heading {
-        font-size: 1.6rem;
-    }
-
-    .section-small-heading {
-        font-size: 1.3rem;
-    }
-    
-    .section-text{
-        font-size: 1.1rem;
-    }
-
-    .split-container {
-        margin-bottom: 20%;
-    }
-   
-    /*Header/Navigation --Mobile*/
+    /*Header/Navigation --Middle*/
     .logo > a > img {
         width: 70%;
         height: 70px;
@@ -554,6 +498,64 @@
      .mobile-social > a {
         color: var(--color-primary-red);
      }
+
+    
+    header {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    /*Video Hero --Mobile*/
+    .hero-video {
+        display: none;
+    }
+
+
+    /*Footer -- Middle*/
+    .footer-section {
+        padding: 6% 1%; 
+    }
+   
+    .footer-bottom {
+        justify-content: center;
+        gap: 6%;
+    }
+
+   .footer-logo {
+        width: 200px;
+    }
+    
+}
+
+/*Mobile Layout*/
+@media screen and (max-width: 700px) {
+
+    /*General Tags -- Mobile*/
+    .uniform-section {
+        padding: 20% 6%;
+    }
+    .section-heading {
+        font-size: 1.6rem;
+    }
+
+    .section-small-heading {
+        font-size: 1.3rem;
+    }
+    
+    .section-text{
+        font-size: 1.1rem;
+    }
+
+    .split-container {
+        margin-bottom: 20%;
+    }
+   
+    
 
      /*Video Hero --Mobile*/
      .hero-video {
