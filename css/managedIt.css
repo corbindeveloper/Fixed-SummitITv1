@@ -14,7 +14,7 @@
     width: 60%;
     position: absolute;
     z-index: 4;
-    margin-top: 10%;
+    margin-top: 10%; 
 }
 
 
@@ -67,7 +67,6 @@
 .info-image {
     min-width: 40%;
 
-    
     background: url("../assets/istockphoto-1220350688-612x612.jpg");
     background-position: center;
     background-size: cover;
