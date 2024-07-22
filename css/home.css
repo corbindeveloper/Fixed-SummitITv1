@@ -410,15 +410,15 @@
         transition: none;
         background: none;
         background-size: none;
+      
     }
-
-    
 
     .type-card-content {
         flex-direction: row;
         gap: 30px;
         padding: 0 0;
         font-size: 1.1rem;
+        
     }
 
    .support-icon {
@@ -428,6 +428,7 @@
 
     .support-type-card:hover .inner-card-content {
         display: none;
+       
     }
 
     /*Facing any of these Challenges Section -- Mobile*/
