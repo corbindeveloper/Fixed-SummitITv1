@@ -422,13 +422,20 @@
     }
 
    .support-icon {
-      width: 20%;
-      height: 50px;
+        width: 20%;
+        height: 50px;
    }
 
-    .support-type-card:hover .inner-card-content {
+   .inner-card-content {
+        max-height: 10px;
+   }
+
+   .support-type-text {
         display: none;
-       
+    }
+
+    .inner-card-content > p {
+        display: none;
     }
 
     /*Facing any of these Challenges Section -- Mobile*/
