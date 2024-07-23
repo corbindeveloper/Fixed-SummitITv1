@@ -133,7 +133,7 @@
     padding: 4% 0;
 }
 
-.type-card-content {
+.type-card-content { 
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -280,12 +280,12 @@
 
 
 .consultation-content {
-    width: 55%;
+    width: 50%;
 }
 
 .consultation-btn {
     text-decoration: none;
-    padding: 9px 18px;
+    padding: 9px 18px; 
     background-color: var(--color-primary-red);
     color: var(--color-white);
     border-radius: 5px;
