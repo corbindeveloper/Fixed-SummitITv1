@@ -355,6 +355,28 @@
     padding-bottom: 0.25%;
 }
 
+/*Middle Layout*/
+@media screen and (max-width: 1000px) {
+
+    /*Schedule a Consultation Today --Middle Layout*/
+    .consultation-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .consultation-video {
+        height: 300px;
+        margin: 10% 0;
+    }
+
+    .consultation-content {
+        width: 100%;
+    }
+
+    .consultation-btn-container {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 /*Mobile Layout*/
 @media screen and (max-width: 700px) { 
@@ -459,10 +481,6 @@
     } 
 
     /*Schedule a Consulation Today -- Mobile*/
-     .consultation-video {
-        display: none;
-     }
-
      .consultation-content {
         width: 100%; 
         
