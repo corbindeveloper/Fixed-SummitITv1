@@ -67,7 +67,7 @@
 .info-image {
     min-width: 40%;
 
-    background: url("../assets/okc\ downtown.jpg");
+    background: url("../assets/okc\ downtown.jpg"); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
