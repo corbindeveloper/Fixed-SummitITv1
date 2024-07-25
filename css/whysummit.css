@@ -193,7 +193,7 @@
 
 /*Middle Layout*/
 @media screen and (max-width: 1000px) {
-     /*Why Summit? Hero Section -- Mobile*/
+     /*Why Summit? Hero Section -- Middle*/
     .whysummit-hero {
         padding: 20% 0 3% 0;
         background: url("../assets/Circuit\ Board.svg");

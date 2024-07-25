@@ -566,8 +566,13 @@
     }
 
      /*Contact Us -- Mobile*/
+     .contact-form{
+        order: 2;
+     }
+
      .contact-text{
-        padding: 0 0;
+        order: 1;
+        padding: 10% 0;
         width: 100%;
         font-size: .8rem;
      }

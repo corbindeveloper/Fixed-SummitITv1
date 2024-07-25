@@ -277,7 +277,7 @@
 
     /*Managed Hero Section --Middle*/
     .managed-hero {
-        padding: 20% 0 3% 0;
+        padding: 14% 0 3% 0;
         background: url("../assets/Circuit\ Board.svg");
     }
 
@@ -310,10 +310,34 @@
 /*Mobile Layout*/
 @media screen and (max-width: 700px) {
 
+    /*Hero --Mobile*/
+    .managed-hero {
+        padding-top: 30%;
+    }
+
+    .managed-hero-content {
+        width: 90%;
+    }
+
+    .managed-hero-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-btn-container{
+        gap: 20px;
+        padding: 10% 10%;
+        flex-direction: column;
+    }
+    
+    .hero-btn {
+        padding: 15px 18px;
+        font-size: 1.0rem;
+        text-align: center;
+    }
+
     /*IT Information -- Mobile*/
     .info-container{
         padding-top: 20%;
-        
     }
 
     .info-image {
@@ -350,7 +374,9 @@
     }
 
     /*Complete IT Coverage Section -- Mobile*/
+    
     .coverage-card {
+        margin: 6% 0;
       min-width: 300px;
     }
 
