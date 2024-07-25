@@ -193,7 +193,7 @@
 
 /*Middle Layout*/
 @media screen and (max-width: 1000px) {
-     /*Why Summit? Hero Section -- Mobile*/
+     /*Why Summit? Hero Section -- Middle*/
     .whysummit-hero {
         padding: 20% 0 3% 0;
         background: url("../assets/Circuit\ Board.svg");
@@ -242,10 +242,31 @@
 
 /*Mobile Layout*/
 @media screen and (max-width: 700px) {
+
+    /* Why Summit? Hero Section -- Mobile */
+    .whysummit-hero {
+        padding-top: 30%;
+    }
+
+    .hero-btn-container {
+        gap: 20px;
+        padding: 20% 10% 18% 10%;
+       
+    }
+
+    .whysummit-text{
+        line-height: 1.8;
+    }
+
+    .whysummit-hero-btn {
+        padding: 15px 18px;
+        font-size: 1.4rem;
+    }
     
     /*Why Summit? It all starts with Security --Mobile*/
     .whysummit-card {
         border-radius: 20px;
+        margin: 10% 0;
     }
 
 
