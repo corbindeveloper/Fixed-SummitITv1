@@ -3,55 +3,55 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://summititokc.com/index.html</loc>
+        <loc>https://summitsecureit.com/index.html</loc>
         <priority>1.0</priority>
     </url>
 
     <!--About Pages-->
     <url>
-        <loc>https://summititokc.com/About/whysummit.html</loc>
-        <priority>0.5</prioriy>
+        <loc>https://summitsecureit.com/About/whysummit.html</loc>
+        <priority>0.6</prioriy>
     </url>
 
     <url>
-        <loc>https://summititokc.com/About/careers.html</loc>
-        <priority>0.5</priority>
+        <loc>https://summitsecureit.com/About/careers.html</loc>
+        <priority>0.6</priority>
     </url>
 
     <!--Services Pages-->
     <url>
-        <loc>https://summititokc.com/Services/managedIt.html</loc>
+        <loc>https://summitsecureit.com/Services/managedIt.html</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://summititokc.com/Services/co-managedIt.html</loc>
+        <loc>https://summitsecureit.com/Services/co-managedIt.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://summititokc.com/Services/cybersecurity.html</loc>
+        <loc>https://summitsecureit.com/Services/cybersecurity.html</loc>
         <priority>0.8</priority>
     </url>
     <url>    
-        <loc>https://summititokc.com/Services/backupdisasterrecovery.html</loc>
+        <loc>https://summitsecureit.com/Services/backupdisasterrecovery.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://summititokc.com/Services/cloud.html</loc>
+        <loc>https://summitsecureit.com/Services/cloud.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://summititokc.com/Services/managedvoip.html</loc>
+        <loc>https://summitsecureit.com/Services/managedvoip.html</loc>
         <priority>0.8</priority>
     </url>
 
     <!--Form Pages-->
     <url> 
-        <loc>https://summititokc.com/Forms/consultation.html</loc>
+        <loc>https://summitsecureit.com/forms/consultation.html</loc>
         <priority>0.3</priority>
     </url>
 
     <url> 
-        <loc>https://summititokc.com/Forms/contactus.html</loc>
+        <loc>https://summitsecureit.com/forms/contactus.html</loc>
         <priority>0.3</priority>
     </url>
 </urlset>
