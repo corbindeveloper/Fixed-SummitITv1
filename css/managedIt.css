@@ -85,7 +85,7 @@
 
 /*IT Color Wheel Section*/
 .wheel-container {
-    padding: 7% 0;
+    padding: 6% 0;
 }
 
 .wheel-content {
@@ -325,7 +325,7 @@
 
     .hero-btn-container{
         gap: 20px;
-        padding: 10% 10%;
+        padding: 20% 10% 30% 10%;
         flex-direction: column;
     }
     
@@ -350,6 +350,7 @@
     }
 
     /*IT Color Wheel Section --Mobile*/
+
     .wheel-content {
         order: 2;
         padding-top: 10%;

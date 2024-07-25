@@ -60,6 +60,7 @@
         
     }
 
+
     header.hidden {
         opacity: 0;
         transition: all 1s ease-in-out;
@@ -481,7 +482,7 @@
         line-height: 1.8; 
         color: var(--color-black);
         border-bottom: 1px solid var(--color-20-black);
-        padding: 1% 0;
+        padding: 2% 0;
         background-color: var(--color-white);
     }
 
@@ -534,7 +535,7 @@
 
     /*General Tags -- Mobile*/
     .uniform-section {
-        padding: 20% 6%;
+        padding: 26% 6%;
     }
     .section-heading {
         font-size: 1.6rem;
@@ -548,9 +549,7 @@
         font-size: 1.1rem;
     }
 
-    .split-container {
-        margin-bottom: 20%;
-    }
+  
    
     
     /*header -- Mobile*/
