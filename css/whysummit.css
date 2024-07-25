@@ -250,8 +250,12 @@
 
     .hero-btn-container {
         gap: 20px;
-        padding: 20% 10% 30% 10%;
+        padding: 20% 10% 18% 10%;
        
+    }
+
+    .whysummit-text{
+        line-height: 1.8;
     }
 
     .whysummit-hero-btn {
