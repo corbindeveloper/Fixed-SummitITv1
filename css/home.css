@@ -411,7 +411,7 @@
 
     .hero-btn-container{
         gap: 20px;
-        padding: 20% 10% 20% 10%;
+        padding: 10% 10% 20% 10%;
         flex-direction: column;
     }
 
@@ -429,7 +429,7 @@
     }
 
     .support-type-card {
-        margin: 5% 5%;
+        margin: 7% 5%;
         width: 90%;
         transition: none;
         background: none;
@@ -442,7 +442,6 @@
         gap: 30px;
         padding: 0 0;
         font-size: 1.1rem;
-        
     }
 
    .support-icon {
