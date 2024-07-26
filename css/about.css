@@ -269,6 +269,12 @@
     padding: 3% 1%;
     line-height: 1.4;
   }
+
+
+  .hero-btn-container {
+    gap: 20px;
+    padding: 10% 10%;
+  }
 }
 
 
