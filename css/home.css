@@ -358,6 +358,51 @@
 /*Middle Layout*/
 @media screen and (max-width: 1000px) {
 
+    /*Support Section -- Middle Layout*/
+    .support-type-container {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 0;
+    }
+
+    .support-type-card {
+        margin: 7% 5%;
+        width: 90%;
+        transition: none;
+        background: none;
+        background-size: none;
+    }
+
+    .type-card-content {
+        flex-direction: row;
+        gap: 30px;
+        padding: 0 0;
+        font-size: 1.1rem;
+    }
+
+    .type-card-content > h3 {
+        font-size: 1.6rem;
+    }
+
+   .support-icon {
+        width: 20%;
+        height: 50px;
+   }
+
+   .inner-card-content {
+        max-height: 10px;
+   }
+
+   .support-type-text {
+        display: none;
+    }
+
+    .inner-card-content > p {
+        display: none;
+    }
+
+    
+
     /*Schedule a Consultation Today --Middle Layout*/
     .consultation-container {
         display: flex;
@@ -422,43 +467,14 @@
     }
 
     /*Support Section -- Mobile*/
-    .support-type-container {
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 0 0 0;
-    }
-
     .support-type-card {
         margin: 7% 5%;
         width: 90%;
-        transition: none;
-        background: none;
-        background-size: none;
-      
     }
 
-    .type-card-content {
-        flex-direction: row;
-        gap: 30px;
-        padding: 0 0;
-        font-size: 1.1rem;
-    }
 
-   .support-icon {
-        width: 20%;
-        height: 50px;
-   }
-
-   .inner-card-content {
-        max-height: 10px;
-   }
-
-   .support-type-text {
-        display: none;
-    }
-
-    .inner-card-content > p {
-        display: none;
+    .type-card-content > h3 {
+        font-size: 1.3rem;
     }
 
     /*Facing any of these Challenges Section -- Mobile*/

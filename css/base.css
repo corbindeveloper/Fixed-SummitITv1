@@ -500,19 +500,27 @@
         color: var(--color-primary-red);
      }
 
-    
-    
-
     nav ul {
         justify-content: center;
         gap: 20px;
     }
 
-    /*Video Hero --Mobile*/
+    /*Video Hero --Middle*/
     .hero-video {
         display: none;
     }
 
+    /*Contact Us -- Middle*/
+    .contact-form{
+        order: 2;
+     } 
+
+     .contact-text{
+        order: 1;
+        padding: 10% 0;
+        width: 100%;
+        font-size: .8rem;
+     }
 
     /*Footer -- Middle*/
     .footer-section {
@@ -562,17 +570,6 @@
     }
 
      /*Contact Us -- Mobile*/
-     .contact-form{
-        order: 2;
-     } 
-
-     .contact-text{
-        order: 1;
-        padding: 10% 0;
-        width: 100%;
-        font-size: .8rem;
-     }
-
      .contact-bullet {
         font-size: 1.1rem;
      }

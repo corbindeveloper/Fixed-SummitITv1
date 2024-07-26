@@ -273,7 +273,7 @@
 
 
 /*Middle Layout*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
 
     /*Managed Hero Section --Middle*/
     .managed-hero {
@@ -294,48 +294,13 @@
         font-size: 1.1rem;
     }
 
-    .hero-btn-container {
-        flex-direction: column;
-        gap: 30px;
-        
-    }
-
-    .hero-btn {
-        padding: 15px 25px;
-        font-size: 1.1rem;
-        text-align: center;
-    }
-}
-
-/*Mobile Layout*/
-@media screen and (max-width: 700px) {
-
-    /*Hero --Mobile*/
-    .managed-hero {
-        padding-top: 30%;
-    }
-
-    .managed-hero-content {
-        width: 90%;
-    }
-
-    .managed-hero-header {
-        margin-bottom: 1.5rem;
-    }
-
     .hero-btn-container{
-        gap: 20px;
-        padding: 20% 10% 30% 10%;
+        gap: 30px;
+        padding: 10% 10%;
         flex-direction: column;
     }
     
-    .hero-btn {
-        padding: 15px 18px;
-        font-size: 1.0rem;
-        text-align: center;
-    }
-
-    /*IT Information -- Mobile*/
+    /*IT Information -- Middle Section*/ 
     .info-container{
         padding-top: 20%;
     }
@@ -349,9 +314,9 @@
         width: 100%;
     }
 
-    /*IT Color Wheel Section --Mobile*/
+     /*IT Color Wheel Section --Middle*/
 
-    .wheel-content {
+     .wheel-content {
         order: 2;
         padding-top: 10%;
         width: 100%;
@@ -374,22 +339,8 @@
         height: 300px;
     }
 
-    /*Complete IT Coverage Section -- Mobile*/
     
-    .coverage-card {
-        margin: 6% 0;
-      min-width: 300px;
-    }
-
-    .coverage-card:hover{
-        transform: none;
-    }
-
-    .coverage-btn {
-        font-size: 1.1rem;
-    }
-
-    /*Managed IT - Call to Action -- Mobile*/
+    /*Managed IT - Call to Action -- Middle*/
     .managed-cta {
         padding-top: 10%;
     }
@@ -408,6 +359,50 @@
 
     .managed-cta-content > i {
         font-size: 1.7rem;
+    }
+}
+
+/*Mobile Layout*/
+@media screen and (max-width: 700px) {
+
+    /*Hero --Mobile*/
+    .managed-hero {
+        padding-top: 30%;
+    }
+
+    .managed-hero-content {
+        width: 90%;
+    }
+
+    .managed-hero-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-btn-container{
+        gap: 20px;
+        padding: 20% 10% 30% 10%;
+       
+    }
+    
+    .hero-btn {
+        padding: 15px 18px;
+        font-size: 1.0rem;
+        text-align: center;
+    }
+
+    /*Complete IT Coverage Section -- Mobile*/
+    
+    .coverage-card {
+      margin: 6% 0;
+      min-width: 300px;
+    }
+
+    .coverage-card:hover{
+        transform: none;
+    }
+
+    .coverage-btn {
+        font-size: 1.1rem;
     }
         
 }
