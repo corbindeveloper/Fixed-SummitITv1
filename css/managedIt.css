@@ -17,7 +17,6 @@
     margin-top: 15%; 
 }
 
-
 .managed-hero-header {
     font-size: 4.0rem;
     font-weight: 700; 
@@ -48,8 +47,7 @@
     font-weight: 600;
     font-size: 1.2rem;
     transition: all .3s ease-in-out;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
-    
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);   
 }
 
 .hero-btn:hover {
@@ -66,7 +64,6 @@
 
 .info-image {
     min-width: 40%;
-
     background: url("../assets/okc\ downtown.jpg"); 
     background-position: center;
     background-size: cover;
@@ -243,7 +240,6 @@
     margin: 2% 45%;
     border-top: 4px solid rgba(0,0,0,0.1);
     background-color: var(--color-primary-red);
-  
 }
 
 .managed-cta-container {
