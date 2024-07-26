@@ -26,7 +26,6 @@
     font-size: 3.5rem;
     color: var(--color-white);
     font-weight: 600;
-    
 }
 
 .whysummit-text {
@@ -64,7 +63,6 @@
     justify-content: center;
     align-items: center;
     padding: 6% 0;
-    
 }
 
 .whysummit-card-subtainer {
@@ -87,7 +85,6 @@
     color: rgba(255, 255, 255, 0.9);
     transition: all .3s ease-in-out;
     line-height: 1.6;
-    
 }
 
 .whysummit-card > i {
@@ -140,10 +137,6 @@
     padding-bottom: 4%;
 }
 
-
-
-
-
 /*Why Summit Call to Action Section*/
 .cta-section {
     padding: 3% 0;
@@ -161,8 +154,6 @@
     width: 100%;
     margin: 0 20%;
 }
-
-
 
 .cta-btn {
     text-decoration: none;
