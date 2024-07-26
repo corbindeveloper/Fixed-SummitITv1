@@ -9,7 +9,7 @@
 }
 
 
-.about-content { 
+.about-content {  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,7 +102,6 @@
 .about-card > h3 {
     font-weight: 600;
     color: var(--color-white);
-   
 }
 
 .about-card > i {  
@@ -187,8 +186,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .info-header {
@@ -259,7 +257,6 @@
     padding-top: 20%;
     font-size: 3.0rem;
     margin-bottom: 3%;
-  
   }
 
   .about-text {
@@ -291,8 +288,8 @@
     }
 
     .about-text {
-        padding: 0 4%;
-        line-height: 1.8;
+     padding: 0 4%;
+     line-height: 1.8;
     }
 
    .hero-btn-container {
