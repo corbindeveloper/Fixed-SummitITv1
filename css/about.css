@@ -17,6 +17,7 @@
     position: absolute;
     z-index: 4;
     width: 100%;
+    margin-top: 3%;
 }
 
 .about-header {
@@ -56,8 +57,6 @@
 }
 
 /*Card Containers Sections aka Section 2 and 3*/
-
-
 .value-section {
     display: flex;
     flex-direction: column;
