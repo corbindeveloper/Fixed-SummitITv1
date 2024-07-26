@@ -269,7 +269,7 @@
 
 
   .hero-btn-container {
-    gap: 20px;
+    gap: 20px; 
     padding: 10% 10%;
   }
 }
