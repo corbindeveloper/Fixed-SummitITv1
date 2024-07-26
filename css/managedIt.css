@@ -14,7 +14,7 @@
     width: 60%;
     position: absolute;
     z-index: 4;
-    margin-top: 10%; 
+    margin-top: 15%; 
 }
 
 
@@ -307,7 +307,7 @@
 
     .info-image {
         height: 300px;
-        margin-bottom: 10%;
+        margin-bottom: 10%; 
     }
 
     .info-content{
