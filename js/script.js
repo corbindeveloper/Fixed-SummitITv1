@@ -3,8 +3,15 @@ window.addEventListener('DOMContentLoaded', () => {
     const header = document.getElementById("stickyHeader")
     let lastScrollY = 0;
 
+  //Viewport Variables 
+  const viewportWidth = window.innerWidth;
+
     window.addEventListener( 'scroll', () => {
         const currentScrollY = window.scrollY
+
+        if(viewportWidth <= 700) {
+          return;
+        }
 
         if(currentScrollY > lastScrollY) {
             header.classList.add('hidden');
@@ -15,6 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
             header.style.pointerEvents = "all";
         } 
         lastScrollY = currentScrollY;
+      
         }); 
     })
 
