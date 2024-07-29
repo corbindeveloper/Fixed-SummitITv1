@@ -41,14 +41,14 @@
 
  .about-hero-btn {
     background-color: var(--color-white);
+    padding: 15px 35px;
+    border-radius: 30px;
     text-decoration: none;
-    padding: 10px 15px;
-    margin-bottom: 30px;
-    border-radius: 15px;
-    font-weight: 700;
-    font-size: 1.3rem;
     color: var(--color-primary-red);
-    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
 }
 
 .about-hero-btn:hover {
