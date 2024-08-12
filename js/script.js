@@ -27,7 +27,6 @@ window.addEventListener('DOMContentLoaded', () => {
     })
 
 
-
 //Dropdown Cards Functionality
 
 const toggleButtons = document.querySelectorAll(".toggleButton");
@@ -53,9 +52,6 @@ toggleButtons.forEach(button => {
         }
     })
 })
-
-
-
 
 //Show More functionality 
   function showMore() {
