@@ -1,10 +1,4 @@
 /*This file targets specific CSS Sections only found in the Cybersecurity Webpage*/
-
-
-
-
-
-
 /*Cybersecurity Features Section*/   
 .feature-container {
     display: flex;
@@ -27,7 +21,6 @@
     border-color: var(--color-black);
     background: linear-gradient(to bottom, var(--color-primary-red) 15%, var(--color-light-grey));
 }
-
 
 .type-card-content {
     display: flex;
@@ -68,6 +61,7 @@
 }
 
 /*Mobile Layout*/
+
 /*Features Section - Mobile Layout*/
 @media screen and (max-width: 700px) {
     .feature-container {
@@ -81,8 +75,6 @@
         width: 100%;
         margin: 3% 0;
     }
-
-
 
     .type-card-content {
         flex-direction: row;

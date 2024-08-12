@@ -38,7 +38,6 @@
     padding: 3% 0;
  }
 
-
  .whysummit-hero-btn {
     background-color: var(--color-white);
     padding: 15px 35px;
@@ -50,7 +49,6 @@
     transition: all .3s ease-in-out;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
 }
-
 
 .whysummit-hero-btn:hover {
     background-color: var(--color-light-grey);
@@ -182,7 +180,6 @@
     background-size: cover;
 }
 
-
 /*Middle Layout*/
 @media screen and (max-width: 1100px) {
      /*Why Summit? Hero Section -- Middle*/
@@ -207,8 +204,6 @@
         line-height: 1.4;
     }
 
-    
-
     .whysummit-hero-btn {
         font-size: 1.6rem;
         padding: 6px 10px;
@@ -232,7 +227,6 @@
         flex-direction: column;
     }
 }
-
 
 /*Mobile Layout*/
 @media screen and (max-width: 700px) {
@@ -261,7 +255,6 @@
         border-radius: 20px;
         margin: 10% 0;
     }
-
 
     /*Why Summit? Call to Action -- Mobile */
     .cta-content {

@@ -87,12 +87,6 @@
     color: var(--color-primary-red);
 }
 
-.hero-btn-alt:hover {
-
-}
-
-
-
 /*Particles-JS CSS, to get it on the content*/
 #particles-js {
     position: relative;

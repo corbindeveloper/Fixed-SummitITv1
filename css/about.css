@@ -115,7 +115,6 @@
     line-height: 2;
 }
 
-
 /*Perks and Benefits Section Specific*/
 .benefits-section {
     display: flex;
@@ -128,7 +127,6 @@
     min-width: 80%;
     text-align: center;
 }
-
 
 .comp-pay {
     background-color: #0dd15251;
@@ -238,7 +236,6 @@
     text-align: center;
 }
 
-
 /*Middle Layout*/
 @media screen and (max-width: 1100px) {
 /* About Hero Section -- Middle*/
@@ -251,7 +248,6 @@
     position: static;
     padding: 0 3%;
   }
-
 
   .about-header {
     padding-top: 20%;
@@ -273,7 +269,6 @@
     padding: 10% 10%;
   }
 }
-
 
 /*Mobile Layout*/
 @media screen and (max-width: 700px) {  
