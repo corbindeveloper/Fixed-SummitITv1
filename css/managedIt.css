@@ -7,7 +7,7 @@
     align-items: center;
     padding: 0 0 0 0;
     border-radius: 0 0 50px 50px;
-    min-height: 85vh; 
+    min-height: 85vh;
 }
 
 .managed-hero-content {
@@ -58,7 +58,6 @@
 }
 
 /*IT Information*/
-
 .info-container{
     padding-top: 6%;
 }
@@ -72,7 +71,6 @@
     border-radius: 15px;
     box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.25); 
 } 
-
 
 .info-content {
     width: 50%;
@@ -89,7 +87,6 @@
 .wheel-content {
     width: 40%;
 }
-
 
 .drop-card {
     box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.25);
@@ -114,7 +111,6 @@
     font-weight: 600;
     line-height: 1.2;
 }
-
 
 .drop-card-description {
     background-color: var(--color-primary-red);
@@ -249,7 +245,6 @@
     padding: 4% 0;
 }
 
-
 .managed-cta-content {
     display: flex;
     padding: 0 3%;
@@ -261,13 +256,10 @@
     color: var(--color-white);
 }
 
-
-
 .managed-cta-content > i {
     font-size: 1.9rem;
     color: var(--color-white);
 }
-
 
 /*Middle Layout*/
 @media screen and (max-width: 1100px) {
@@ -346,8 +338,7 @@
         flex-direction: column;
         padding: 0 0;
     }
-
-    
+  
     .managed-cta-content {
         justify-content: center;
         padding: 3% 0;
@@ -387,8 +378,7 @@
         text-align: center;
     }
 
-    /*Complete IT Coverage Section -- Mobile*/
-    
+    /*Complete IT Coverage Section -- Mobile*/ 
     .coverage-card {
       margin: 6% 0;
       min-width: 300px;
