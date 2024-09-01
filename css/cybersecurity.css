@@ -31,7 +31,7 @@
     color: var(--color-black);
 }
 
-.feature-icon {
+.feature-icon { 
     width: 30%;
     height: 40px;
     background-color: var(--color-primary-red); 

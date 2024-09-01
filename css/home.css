@@ -125,6 +125,7 @@
     background-size: 300% 300%;
     transition: .5s ease-out;
     padding: 4% 0;
+    height:500px;
 }
 
 .type-card-content { 
@@ -204,7 +205,7 @@
 
 /* Facing any of these challenges? */
 .drop-card-container {
-    padding: 7% 0;
+    padding: 7% 0 0 0;
 }
 
 .drop-card {
@@ -365,6 +366,7 @@
         transition: none;
         background: none;
         background-size: none;
+        height: 92px;
     }
 
     .type-card-content {
