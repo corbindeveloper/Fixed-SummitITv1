@@ -36,6 +36,7 @@
     padding: 15% 0 10% 0;
     border-radius: 0 0 80px 80px;
     gap: 32px;
+    position: relative;
 }
 
 .hero-content {
@@ -102,14 +103,32 @@
     z-index: 0;
   }
 
-  
+
+/*Demo Form*/
+.demo-form{
+    position: absolute;
+    top: 700px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: var(--color-light-grey);
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
+    height: 300px;
+    border-radius: 50px;
+    z-index: 6;   
+} 
+
 /* ************************** */
 /* ************************** */
 
 /* What type of support are you seeking? */
 .support-type-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 60px;
     padding: 7% 0 0 0;
 }
 
@@ -117,7 +136,6 @@
 .support-type-card {
     border: 4px solid var(--color-primary-red);
     border-radius: 15px;
-    width: 20%;
     text-decoration: none;
     color: var(--color-black);
     box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.25);
@@ -125,6 +143,7 @@
     background-size: 300% 300%;
     transition: .5s ease-out;
     padding: 4% 0;
+    width: 300px;;
     height:500px;
 }
 
@@ -212,7 +231,7 @@
     box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     width: 70%;
-    margin: 0 15% 5% 15%;
+    margin: 0 15% 2% 15%;
     background-color: var(--color-light-grey);
 }
 
@@ -302,15 +321,16 @@
 
 .why-summit-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 3% 10% 0 10%;
+    gap: 50px;
 }
 
 .why-summit-card {
     width: 40%;
-    padding: 4% 1% 5% 1%;
+    padding: 3% 4% 3% 4%;
 }
 
 .why-summit-card-top {
@@ -350,6 +370,31 @@
     padding-bottom: 0.25%;
 }
 
+/*Google Review Section*/
+.google-review {
+    background-color: var(--color-black);
+    padding: 3% 12%;
+    color: var(--color-white);
+}
+
+.google-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.google-btn{
+    text-decoration: none;
+    padding: 2% 2%;
+    background-color: var(--color-primary-red);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+}
+
 /*Middle Layout*/
 @media screen and (max-width: 1000px) {
 
@@ -358,6 +403,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 0 0 0 0;
+        gap: 0px;
     }
 
     .support-type-card {
@@ -527,10 +573,18 @@
     .why-summit-card-text {
         font-size: 1rem;
         line-height: 2.3;
+        padding: 0 0;
     }
 
     .why-card-bottom {
         padding-bottom: 3%;
+    }
+
+    /*Google Review Section -- Mobile*/
+    .google-content {
+        flex-direction: column;
+        font-size: .9rem;
+        text-align: center;
     }
 }
 
