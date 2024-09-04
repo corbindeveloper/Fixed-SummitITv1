@@ -503,6 +503,10 @@
         text-align: center;
     }
 
+    .demo-form {
+        width: 100%;
+    }
+
     /*Support Section -- Mobile*/
     .support-type-card {
         margin: 7% 5%;
