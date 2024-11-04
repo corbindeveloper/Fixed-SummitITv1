@@ -174,7 +174,7 @@
 
     /*** Sections ***/
     .uniform-section {
-        padding: 8%;   
+        padding: 8% 12%;   
     }
 
     .red-section {
@@ -234,7 +234,8 @@
 /* Split-Container, Font Bolding*/
     .split-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 60px;
     }
 
     .font-bolder {
