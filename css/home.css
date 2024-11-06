@@ -443,6 +443,7 @@
     /*Hero -- Mobile*/
     .hero {
         padding-top: 40%;
+        max-height: 100vh;
     }
 
     .hero-content {
