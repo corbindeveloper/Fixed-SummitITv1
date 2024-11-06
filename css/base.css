@@ -166,8 +166,7 @@
     color: var(--color-primary-red);
     border-radius: 15px;
 }
-
-    /* *************************************** */
+/* *************************************** */
 /* *************************************** */
 
 /* General Tags */
@@ -541,8 +540,7 @@
 
    .footer-logo {
         width: 200px;
-    }
-    
+    }  
 }
 
 /*Mobile Layout*/
@@ -562,6 +560,10 @@
     
     .section-text{
         font-size: 1.1rem;
+    }
+
+    .scroll-item {
+        transition: all .6 ease-in-out;
     }
 
     /*header -- Mobile*/
