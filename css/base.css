@@ -245,6 +245,18 @@
     .hex-background {
         background: url("../assets/page-hex.svg");
     }
+
+    /*Scroll Functionality CSS*/
+    .scroll-item {
+        opacity: 0;
+        transform: translateX(-30px);
+        transition: all .8s ease-in-out;
+    }
+    
+    .scroll-item.visible {
+        opacity: 1;
+        transform:translateX(0);
+    }
  
 /* Video Hero Section CSS*/
 .hero-video {

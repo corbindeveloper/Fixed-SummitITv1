@@ -138,10 +138,12 @@
 
 .wheel-image {
     min-width: 50%;
-    height: 600px;
-    background-color: var(--color-primary-red);
+    height: 560px;
+    background: url("../assets/Wheel_Icon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 15px;
-    box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.25);
+   
 }
 
 /*Complete IT Coverage Section*/
