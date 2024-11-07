@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1556 538.56">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #bf2026;
+      }
+    </style>
+  </defs>
+  <rect x="76.25" width="1407.79" height="220.78" rx="10.39" ry="10.39"/>
+  <circle class="cls-1" cx="138.35" cy="185.65" r="3.52"/>
+  <circle class="cls-1" cx="301.53" cy="205.47" r="3.52"/>
+  <circle class="cls-1" cx="176.7" cy="185.65" r="3.52"/>
+  <circle class="cls-1" cx="403.66" cy="185.65" r="3.52"/>
+  <circle class="cls-1" cx="373.01" cy="185.65" r="3.52"/>
+  <polyline class="cls-2" points="1354.24 159.43 1321.96 127.15 1271.13 177.97"/>
+  <polyline class="cls-1" points="144.22 179.03 171.85 151.41 235.05 214.6"/>
+  <polyline class="cls-1" points="147.75 165.76 117.35 135.36 85.46 167.25"/>
+  <polyline class="cls-2" points="147.75 152.67 117.35 122.28 85.46 154.17"/>
+  <polyline class="cls-1" points="288.54 180.17 320.44 148.28 350.83 178.67 374.47 202.31"/>
+  <polyline class="cls-1" points="172.79 192.69 152.05 213.43 86.31 213.43"/>
+  <polyline class="cls-1" points="398.18 192.69 377.44 213.43 311.7 213.43"/>
+  <polyline class="cls-1" points="207.22 174.69 239.51 142.41 293.7 196.6"/>
+  <polyline class="cls-1" points="380.31 177.69 413.44 144.56 480.75 211.86"/>
+  <circle class="cls-1" cx="1423.11" cy="185.65" r="3.52"/>
+  <circle class="cls-1" cx="1259.94" cy="205.47" r="3.52"/>
+  <circle class="cls-1" cx="1384.76" cy="185.65" r="3.52"/>
+  <circle class="cls-1" cx="1157.81" cy="185.65" r="3.52"/>
+  <circle class="cls-1" cx="1188.46" cy="185.65" r="3.52"/>
+  <polyline class="cls-1" points="1417.24 179.03 1389.61 151.41 1326.42 214.6"/>
+  <polyline class="cls-1" points="1413.72 165.76 1444.11 135.36 1476.01 167.25"/>
+  <polyline class="cls-1" points="1272.92 180.17 1241.03 148.28 1210.63 178.67 1186.99 202.31"/>
+  <polyline class="cls-1" points="1388.68 192.69 1409.41 213.43 1475.15 213.43"/>
+  <polyline class="cls-1" points="1163.28 192.69 1184.02 213.43 1249.76 213.43"/>
+  <polyline class="cls-1" points="1354.24 174.69 1321.96 142.41 1267.76 196.6"/>
+  <polyline class="cls-1" points="1181.15 177.69 1148.02 144.56 1080.72 211.86"/>
+  <polyline class="cls-2" points="1181.15 163.6 1148.02 130.47 1080.72 197.78"/>
+</svg>

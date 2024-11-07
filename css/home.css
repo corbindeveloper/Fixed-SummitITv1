@@ -178,12 +178,13 @@
     flex-direction: column;
     text-align: center;
     gap: 180px;
-    padding: 30% 1% 0% 1%;  
+    padding: 30% 6% 0% 6%;  
     max-height: 100px;
 }
 
 .support-type-text {
     font-size: 1.1rem;
+    
 }
 
 .support-type-card:hover {
@@ -242,6 +243,11 @@
     display: none;
 }
 
+.drop-card-answer > p {
+    font-size: 18px;
+    line-height: 2;
+}
+
 .plus-circle {
     background-color: var(--color-primary-red);
     border-radius: 180px;
@@ -290,11 +296,6 @@
     font-size: 1.1rem;
     transition: all .3s ease-in-out;
     
-}
-
-.consultation-btn:hover {
-    background-color: var(--color-light-grey);
-    color: var(--color-primary-red);
 }
 
 /* ************************** */
@@ -346,6 +347,7 @@
 .why-summit-card-text {
     padding: 0 1%;
     line-height: 1.7; 
+    font-size: 1.1rem;
 }
 
 .why-card-bottom {
@@ -494,6 +496,7 @@
     .drop-card-question > h4 {
         font-size: 1.1rem;
     } 
+
 
     /*Schedule a Consulation Today -- Mobile*/
      .consultation-content {

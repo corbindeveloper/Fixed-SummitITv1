@@ -32,11 +32,12 @@
 }
 
 .feature-icon { 
-    width: 30%;
-    height: 40px;
+    width: 100%;
+    height: 100px;
     background-color: var(--color-primary-red); 
     border-radius: 40px;  
-   
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .feature-type-header {
@@ -60,10 +61,10 @@
     color: var(--color-primary-red);
 }
 
-/*Mobile Layout*/
+/*Middle Layout*/
 
-/*Features Section - Mobile Layout*/
-@media screen and (max-width: 700px) {
+/*Features Section - Middle Layout*/
+@media screen and (max-width: 1000px) {
     .feature-container { 
         flex-direction: column;
         justify-content: center;
@@ -72,20 +73,27 @@
     }
 
     .feature-card {
+        justify-content: center;
         width: 100%;
         margin: 3% 0;
     }
 
     .type-card-content {
         flex-direction: row;
-        justify-content: center;
-        padding: 1% 0;
+        justify-content: space-between;
+        padding: 3% 10%;
     }
 
     .feature-icon {
-        width: 10%;
-        padding: 0% 0;
+        width: 30%;
+        height: 30px;
+        padding: 0 0;
         gap:0px;
+    }
+
+    .feature-type-header {
+        width: 70%;
+        
     }
 
     .show-more {
