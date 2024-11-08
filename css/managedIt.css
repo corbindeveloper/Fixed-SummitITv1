@@ -227,9 +227,12 @@
 /*Managed IT - Call to Action*/
 .managed-cta {
     padding: 3% 0 1% 0;
-    background-color: var(--color-black);
+    background: var(--color-black);
     color: var(--color-white);
-    
+    background: url("../assets/bannerrefined1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .managed-bar-red {
@@ -334,6 +337,8 @@
     /*Managed IT - Call to Action -- Middle*/
     .managed-cta {
         padding-top: 10%;
+        background-repeat: repeat;
+        background-size: 90%;
     }
     
     .managed-cta-container {
