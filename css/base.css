@@ -166,6 +166,75 @@
     color: var(--color-primary-red);
     border-radius: 15px;
 }
+
+/*Hero Section*/
+.hero {
+    padding: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 50px 50px;
+    background-color: rgba(0, 0, 0, 0.95);
+    min-height: 85vh;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    position: absolute;
+    z-index:4;
+    width: 100%;
+    margin-top: 6%;
+}
+
+.hero-header {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--color-white);
+    margin-bottom: 1.5rem;
+    font-family: "Orbitron", "Lato", sans-serif;
+    text-align: center;
+    padding: 0 15%;
+}
+
+.hero-text {
+    line-height: 1.8;
+    font-size: 1.3rem;
+    width: 50%;
+    color: var(--color-white);
+    min-width: 300px;
+    text-align: center;
+    padding: 1% 0;
+    font-style: italic;
+}
+
+.hero-btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 4%;
+}
+
+.hero-btn {
+    background-color: var(--color-white);
+    padding: 15px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: var(--color-primary-red);
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.hero-btn:hover {
+    transform: scale(1.1);
+    background-color: var(--color-light-grey);  
+    
+}
 /* *************************************** */
 /* *************************************** */
 
@@ -259,7 +328,7 @@
  
 /* Video Hero Section CSS*/
 .hero-video {
-    max-height: 85vh;
+    min-height: 85vh;
     object-fit: cover;
     border-radius: 0 0 50px 50px;
     opacity: .3;
@@ -517,6 +586,44 @@
         gap: 20px;
     }
 
+
+    
+    /*Hero Section -- Middle*/
+    .hero {
+        padding: 14% 0;
+        background: url("../assets/Circuit\ Board.svg");
+    }
+
+    .hero-content {
+        position: static;
+    }
+
+    .hero-header {
+        padding-top: 10%;
+        font-size: 2.4rem;
+        margin-bottom: 6%;
+        
+    }
+
+    .hero-text {
+        font-size: 1.0rem;
+        width: 60%;
+        line-height: 1.4;
+    }
+
+    .hero-btn-container{
+        gap: 20px;
+        padding: 10% 10% 20% 10%;
+        flex-direction: column;
+       
+    }
+
+    .hero-btn {
+        padding: 15px 18px;
+        font-size: 1.0rem;
+        text-align: center;
+    }
+
     /*Video Hero --Middle*/
     .hero-video {
         display: none;
@@ -576,6 +683,24 @@
     header {
         width: 100%;
         margin: 0;
+    }
+
+    /*Hero Section -- Mobile*/
+    .hero {
+        padding-top: 30%;
+    }
+
+    .hero-content {
+        width: 90%;
+    }
+
+    .hero-header {
+        font-size: 1.9rem;
+    }
+
+
+    .hero-text {
+        line-height: 1.8;
     }
 
 

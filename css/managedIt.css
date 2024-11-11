@@ -1,62 +1,3 @@
-/*Hero Section*/
-.managed-hero {
-   background-color: rgba(0,0,0,0.95);
-    color: var(--color-white);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 0 0 0;
-    border-radius: 0 0 50px 50px;
-    min-height: 85vh; 
-}
-
-.managed-hero-content {
-    text-align: center;
-    width: 60%;
-    position: absolute;
-    z-index: 4;
-    margin-top: 15%;
-}
-
-.managed-hero-header {
-    font-size: 4.0rem;
-    font-weight: 700; 
-    margin-bottom: 1.5rem;
-    font-family: "Orbitron", "Lato", sans-serif;
-}
-
-.managed-hero-text {
-    font-size: 1.5rem;
-    line-height: 1.8;
-    margin-bottom: 2rem;
-    font-style: italic;
-}
-
-.hero-btn-container {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding-top: 3%;
-}
-
-.hero-btn {
-    background-color: var(--color-white);
-    padding: 15px 35px;
-    border-radius: 30px;
-    text-decoration: none;
-    color: var(--color-primary-red);
-    font-weight: 600;
-    font-size: 1.2rem;
-    transition: all .3s ease-in-out;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);   
-}
-
-.hero-btn:hover {
-    transform: scale(1.1);
-    background-color: var(--color-light-grey);  
-    
-}
-
 /*IT Information*/
 .info-container{
     padding-top: 6%;
@@ -268,30 +209,7 @@
 /*Middle Layout*/
 @media screen and (max-width: 1100px) {
 
-    /*Managed Hero Section --Middle*/
-    .managed-hero {
-        padding: 14% 0 3% 0;
-        background: url("../assets/Circuit\ Board.svg");
-    }
-
-    .managed-hero-content {
-        width: 100%;
-        padding: 0 6%;
-        position: static;
-    }
-    .managed-hero-header {
-        font-size: 2.2rem;
-    }
-        
-    .managed-hero-text {
-        font-size: 1.1rem;
-    }
-
-    .hero-btn-container{
-        gap: 30px;
-        padding: 10% 10%;
-        flex-direction: column;
-    }
+    
     
     /*IT Information -- Middle Section*/ 
     .info-container{
@@ -358,32 +276,7 @@
 
 /*Mobile Layout*/
 @media screen and (max-width: 700px) {
-
-    /*Hero --Mobile*/
-    .managed-hero {
-        padding-top: 30%;
-    }
-
-    .managed-hero-content {
-        width: 90%;
-    }
-
-    .managed-hero-header {
-        margin-bottom: 1.5rem;
-    }
-
-    .hero-btn-container{
-        gap: 20px;
-        padding: 20% 10% 30% 10%;
-       
-    }
     
-    .hero-btn {
-        padding: 15px 18px;
-        font-size: 1.0rem;
-        text-align: center;
-    }
-
     /*Complete IT Coverage Section -- Mobile*/ 
     .coverage-card {
       margin: 6% 0;

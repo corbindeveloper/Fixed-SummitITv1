@@ -22,70 +22,22 @@
     color: var(--color-white);
 }
 
+/* Account for bar height and padding */
 #main-content {
-    padding-top: 50px; /* Account for bar height and padding */
+    padding-top: 50px; 
   }
 
-.hero {
-    background-color: var(--color-black);
-    color: var(--color-white);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15% 0 10% 0;
-    border-radius: 0 0 80px 80px;
-    gap: 32px;
-    max-height: 85vh;
-}
-
-.hero-content {
-    text-align: center;
-    width: 60%;
-}
-
-.hero-header {
-    font-size: 3.2rem; 
-    font-weight: 700;
-    line-height: 1.4;
-    margin-bottom: 1.5rem;
-    font-family: "Orbitron", "Lato", sans-serif;
-}
-
-.hero-text {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    margin-bottom: 2rem;
-    font-style: italic;
-}
-
-.hero-btn-container {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-    padding-top: 2%;
-}
-
-.hero-btn {
-    background-color: var(--color-primary-red);
-    padding: 15px 35px;
-    border-radius: 30px;
-    text-decoration: none;
-    color: var(--color-white);
-    font-weight: 600;
-    font-size: 1.2rem;
-    z-index: 3;
-    transition: all .3s ease-in-out;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
-}
-
-.hero-btn:hover {
-    transform: scale(1.1);
-}
 
 .hero-btn-alt {
+    background-color: var(--color-primary-red);
+    color: var(--color-white);
+}
+
+.hero-btn-alt:hover {
+    transform: scale(1.1);
     background-color: var(--color-white);
     color: var(--color-primary-red);
-} 
+}
 
 /*Particles-JS CSS, to get it on the content*/
 #particles-js {
@@ -357,6 +309,12 @@
 /*Middle Layout*/
 @media screen and (max-width: 1000px) {
 
+    /*Hero Section for Main Page --Middle*/
+    .hero {
+        background-image: none;
+        background-color: var(--color-black);
+    }
+
     /*Support Section -- Middle Layout*/
     .support-type-container {
         flex-direction: column;
@@ -442,31 +400,7 @@
         padding-top: 85px;
     }
 
-    /*Hero -- Mobile*/
-    .hero {
-        padding-top: 40%;
-        max-height: 100vh; 
-    }
-
-    .hero-content {
-        width: 90%;
-    }
-
-    .hero-header {
-        font-size: 1.7rem;
-    }
-
-    .hero-btn-container{
-        gap: 20px;
-        padding: 10% 10% 20% 10%;
-        flex-direction: column;
-    }
-
-    .hero-btn {
-        padding: 15px 18px;
-        font-size: 1.0rem;
-        text-align: center;
-    }
+    
 
     /*Support Section -- Mobile*/
     .support-type-card {
