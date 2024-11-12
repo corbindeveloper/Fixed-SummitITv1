@@ -119,6 +119,14 @@
     transition: all .3s ease-in-out;
 }
 
+.coverage-card-image {
+    width: 70px;
+    height: 70px;
+    background: url("../assets/svgs/miniicons-piggybank\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
 .coverage-card > i {  
     padding-top: 4%;
     font-size: 3rem; 
