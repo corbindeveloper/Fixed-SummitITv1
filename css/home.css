@@ -318,7 +318,11 @@
     /*Hero Section for Main Page --Middle*/
     .hero {
         background-image: none;
-        background-color: var(--color-black);
+        background-color: var(--color-black); 
+    }
+
+    .hero-header {
+        font-size: 1.7rem;
     }
 
     /*Support Section -- Middle Layout*/
@@ -406,8 +410,6 @@
     #main-content {
         padding-top: 85px;
     }
-
-    
 
     /*Support Section -- Mobile*/
     .support-type-card {
