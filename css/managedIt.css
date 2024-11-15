@@ -178,6 +178,7 @@
     padding: 3% 0 1% 0;
     background: var(--color-black);
     color: var(--color-white);
+    background: url("../assets/services-CTA.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -262,8 +263,6 @@
     /*Managed IT - Call to Action -- Middle*/
     .managed-cta {
         padding-top: 10%;
-        background-repeat: repeat;
-        background-size: 90%;
     }
     
     .managed-cta-container {
