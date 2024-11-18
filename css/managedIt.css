@@ -122,11 +122,11 @@
 }
 
 .coverage-card-image {
-    width: 70px;
-    height: 70px;
-    background: url("../assets/svgs/miniicons-piggybank\ \(1\).svg");
+    width: 160px; 
+    height: 90px;
+    background: url("../assets/svgs/sectionicons-01\ 1.svg");
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
 }
 
 .coverage-card > i {  
@@ -137,7 +137,7 @@
 }
 
 .coverage-card > h3 {
-    padding-top: 6%;
+    padding-top: 4%;
     font-weight: 700;
     font-size: 1.9rem;
 }
