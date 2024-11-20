@@ -266,6 +266,11 @@
 /* ************************** */
 
 /* Why choose Summit IT Solutions? */
+.why-summit {
+    background-image: url("../assets/svgs/diamondpattern2-01.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+}
 
 .why-summit-container {
     display: flex;
@@ -397,6 +402,11 @@
     .consultation-btn-container {
         display: flex;
         justify-content: center;
+    }
+
+    /*Why choose summit IT solutions - Middle*/
+    .why-summit {
+        background-image: none;
     }
 }
 
