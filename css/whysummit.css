@@ -84,12 +84,13 @@
 
 /*Why Summit Call to Action Section*/
 .cta-section {
-    padding: 3% 0;
+    padding: 4% 0;
     display: flex;
- 
-    
     background-color: var(--color-black);
     color: var(--color-white);
+    background: url("../assets/services-CTA.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
 } 
 
 .cta-content {
