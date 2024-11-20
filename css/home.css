@@ -63,6 +63,12 @@
 /* ************************** */
 
 /* What type of support are you seeking? */
+.support-type {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .support-type-container {
     display: flex;
     justify-content: center;
@@ -340,6 +346,7 @@
         background: none;
         background-size: none;
         height: 92px;
+        background-color: var(--color-white);
     }
 
     .type-card-content {
