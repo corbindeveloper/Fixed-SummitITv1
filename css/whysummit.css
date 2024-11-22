@@ -84,30 +84,48 @@
 
 /*Why Summit Call to Action Section*/
 .cta-section {
-    padding: 4% 0;
+    padding: 3% 10%;
     display: flex;
     background-color: var(--color-black);
     color: var(--color-white);
-    background: url("../assets/services-CTA.svg");
+    background: url("../assets/svgs/mountainbanner2-01\ \(2\).svg");
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: bottom;
 } 
+
+.cta-graphic {
+    width: 50%;
+}
 
 .cta-content {
     display:flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 50%;
+}
+
+.cta-content > .section-heading {
+    font-weight: 1000;
+    font-size: 4rem;
+   
+}
+
+.cta-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 100%;
-    margin: 0 20%;
 }
 
 .cta-btn {
     text-decoration: none;
-    padding: 2% 2%;
+    padding: 3% 10%;
     background-color: var(--color-primary-red);
     color: var(--color-white);
-    border-radius: 50px;
-    font-size: 1.7rem;
+    border-radius: 15px;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
 }
@@ -144,8 +162,35 @@
     }
 
     /*CTA Section --Middle Layout*/
-    .cta-content {
+    .cta-section {
+        padding: 6% 0;
         flex-direction: column;
+    }
+
+    .cta-graphic {
+        width: 100%;
+    }
+
+    .cta-content {
+        width: 100%;
+        margin: 0 6%;
+    }
+
+    .cta-content > .section-heading {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .cta-btn-container {
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cta-btn {
+        width: 200px;   
     }
 }
 
@@ -159,6 +204,7 @@
     }
 
     /*Why Summit? Call to Action -- Mobile */
+
     .cta-content {
         width: 90%;
     }

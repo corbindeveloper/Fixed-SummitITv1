@@ -166,6 +166,10 @@
 /* ************************** */
 
 /* Facing any of these challenges? */
+.challenges-section{
+    background: url("../assets/svgs/redgearsvg2-01-01\ \(2\).svg");
+}
+
 .drop-card-container {
     padding: 7% 0 0 0;
 }
@@ -263,7 +267,7 @@
 
 /* Why choose Summit IT Solutions? */
 .why-summit {
-    background-image: url("../assets/svgs/diamondpattern2-01.svg");
+    background-image: url("../assets/svgs/diamondpattern2-01\ 1.svg");
     background-position: top right;
     background-repeat: no-repeat;
 }
