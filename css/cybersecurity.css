@@ -33,10 +33,10 @@
 }
 
 .feature-icon { 
-    width: 100%;
+    width: 140px;
     height: 100px;
     background-color: var(--color-primary-red); 
-    border-radius: 40px;  
+    
     background-repeat: no-repeat;
     background-position: center;
 }
