@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-49);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #bf2026;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-48);
+      }
+
+      .cls-6 {
+        filter: url(#drop-shadow-46);
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-51);
+      }
+
+      .cls-4 {
+        filter: url(#drop-shadow-50);
+      }
+
+      .cls-7 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-8 {
+        filter: url(#drop-shadow-47);
+      }
+    </style>
+    <filter id="drop-shadow-46" x="77" y="57" width="365" height="416" filterUnits="userSpaceOnUse">
+      <feOffset dx="-4" dy="4"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-47" x="115" y="108" width="293" height="323" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="2"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-48" x="147" y="185" width="226" height="147" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="2"/>
+      <feGaussianBlur result="blur-3" stdDeviation="4"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-49" x="227" y="206" width="69" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="2"/>
+      <feGaussianBlur result="blur-4" stdDeviation="4"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-50" x="136" y="313" width="251" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="2"/>
+      <feGaussianBlur result="blur-5" stdDeviation="4"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-5" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-51" x="222" y="236" width="79" height="79" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="2"/>
+      <feGaussianBlur result="blur-6" stdDeviation="4"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-6" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <polygon class="cls-6" points="96.69 164.86 96.69 357.45 263.48 453.75 430.27 357.45 430.27 164.86 263.48 68.57 96.69 164.86"/>
+  <g class="cls-8">
+    <line class="cls-7" x1="165.96" y1="296.04" x2="134.13" y2="296.04"/>
+    <line class="cls-7" x1="392.16" y1="229.78" x2="360.34" y2="229.78"/>
+    <circle class="cls-7" cx="129.11" cy="296.04" r="5.02"/>
+    <circle class="cls-7" cx="187" cy="376.31" r="5.02"/>
+    <circle class="cls-7" cx="331.67" cy="385.61" r="5.02"/>
+    <circle class="cls-7" cx="268.74" cy="416.89" r="5.02"/>
+    <circle class="cls-7" cx="129.11" cy="219.74" r="5.02"/>
+    <circle class="cls-7" cx="262" cy="118.33" r="5.02"/>
+    <circle class="cls-7" cx="291.7" cy="149.11" r="5.02"/>
+    <circle class="cls-7" cx="331.67" cy="176.3" r="5.02"/>
+    <circle class="cls-7" cx="195.24" cy="136.58" r="5.02"/>
+    <circle class="cls-7" cx="397.18" cy="306.09" r="5.02"/>
+    <circle class="cls-7" cx="397.18" cy="229.78" r="5.02"/>
+    <polyline class="cls-7" points="357.43 273.26 397.18 273.26 397.18 301.07"/>
+    <polyline class="cls-7" points="165.96 252.22 129.11 252.22 129.11 224.76"/>
+    <polyline class="cls-7" points="314.65 339.74 314.65 367 268.74 367 268.74 411.87"/>
+    <polyline class="cls-7" points="294.83 367 294.83 385.61 326.65 385.61"/>
+    <polyline class="cls-7" points="237.7 339.74 237.7 375.81 192.68 375.81"/>
+    <polyline class="cls-7" points="221.26 198.48 221.26 157.26 262 157.26 262 123.35"/>
+    <polyline class="cls-7" points="241.63 157.26 241.63 136.7 200.91 136.7"/>
+    <line class="cls-7" x1="291.7" y1="198.48" x2="291.7" y2="154.13"/>
+    <line class="cls-7" x1="291.7" y1="176.3" x2="326.65" y2="176.3"/>
+  </g>
+  <path class="cls-2" d="M179.13,195.06h165.74c9.93,0,18,8.07,18,18v104.76h-201.74v-104.76c0-9.93,8.07-18,18-18Z"/>
+  <path class="cls-5" d="M341,208.26h-159.51c-5.62,0-10.17,4.56-10.17,10.17v89.45h179.86v-89.45c0-5.62-4.56-10.17-10.17-10.17Z"/>
+  <path class="cls-1" d="M263.48,216.05c-10.85,0-19.91,7.65-22.08,17.84-.52,2.44,1.3,4.74,3.79,4.74h0c1.81,0,3.42-1.24,3.79-3.01,1.39-6.74,7.36-11.8,14.51-11.8s13.11,5.06,14.51,11.8c.37,1.77,1.98,3.01,3.79,3.01h0c2.49,0,4.31-2.31,3.79-4.74-2.18-10.2-11.24-17.84-22.08-17.84Z"/>
+  <path class="cls-4" d="M370.03,323.62h-79.17l-6.28,10.79h-42.21l-6.28-10.79h-79.17c-3.44,0-6.22,2.78-6.22,6.22,0,8.11,6.57,14.68,14.68,14.68h196.18c8.11,0,14.68-6.57,14.68-14.68,0-3.44-2.78-6.22-6.22-6.22ZM174.68,339.74c-3.14,0-5.68-2.54-5.68-5.68s2.54-5.68,5.68-5.68,5.68,2.54,5.68,5.68-2.54,5.68-5.68,5.68ZM195.24,339.74c-3.14,0-5.68-2.54-5.68-5.68s2.54-5.68,5.68-5.68,5.68,2.54,5.68,5.68-2.54,5.68-5.68,5.68Z"/>
+  <path class="cls-3" d="M282.51,246.43h-38.06c-4.31,0-7.8,3.49-7.8,7.8v19.03c0,14.82,12.01,26.83,26.83,26.83h0c14.82,0,26.83-12.01,26.83-26.83v-19.03c0-4.31-3.49-7.8-7.8-7.8ZM267.62,272.36v11.64c0,1.47-1.19,2.67-2.67,2.67h-1.64c-1.47,0-2.67-1.19-2.67-2.67v-11.64c-1.95-1.18-3.26-3.32-3.26-5.76,0-3.72,3.02-6.74,6.74-6.74s6.74,3.02,6.74,6.74c0,2.45-1.31,4.58-3.26,5.76Z"/>
+</svg>
