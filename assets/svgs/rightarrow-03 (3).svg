@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bf2026;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="332.69" y="50.44" width="52.94" height="260.72" rx="26.47" ry="26.47" transform="translate(-22.65 306.92) rotate(-45)"/>
+  <rect class="cls-1" x="228.8" y="303.2" width="260.72" height="52.94" rx="26.47" ry="26.47" transform="translate(-127.91 350.52) rotate(-45)"/>
+  <rect class="cls-1" x="43.18" y="229.48" width="408.17" height="52.94" rx="26.47" ry="26.47"/>
+</svg>
