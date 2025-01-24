@@ -38,7 +38,7 @@
     </style>
 
 </head>
-<body> 
+<body>  
 
     <a href="../../../index.html">
     <header id="popupHeader" style="background-color: #bf2026; border-radius: 0 50px 50px 0; margin: 10% 0; width: 18%; padding: 0 3%; display:none;">
@@ -140,10 +140,7 @@
             return;
         }
 
-        if(currentScrollY < lastScrollY) {
-            header.classList.add('hidden');
-            header.style.pointerEvents = "none";
-        } else {
+        if(currentScrollY > lastScrollY) {
             header.classList.remove('hidden')
             header.style.display = "flex";
             header.style.pointerEvents = "all";
