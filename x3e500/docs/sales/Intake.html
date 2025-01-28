@@ -33,18 +33,38 @@
     
     <link rel="icon" href="../../../assets/favicon.ico" type="image/x-icon">
 
+    <style>
+        #popupHeader {
+            position: fixed; 
+            left: -100%; 
+            top: 50%; 
+            transform: translateY(-50%); 
+            background-color: rgb(191, 32, 38); 
+            color: #fff;
+            width: 16%; 
+            padding: 0px 3%; 
+            display: flex; 
+            border-radius: 0px 50px 50px 0px; 
+            transition: left 1s ease-in-out; 
+        }
+
+        #popupHeader.active {
+            left: 0; 
+        }
+    </style>
+
 </head>
 <body>   
 
     <a href="../../../index.html">
-    <header id="popupHeader" style="background-color: #bf2026; border-radius: 0 50px 50px 0; margin: 10% 0; width: 18%; padding: 0 3%; display:none;">
-        <p style="color: #fff; font-size:1.0rem;">Back to Home</p>
+    <header id="popupHeader" style="margin: 0 0;">
+        <p style="color: #fff; font-size:1.4rem;">Back to Home</p>
     </header></a>
 
     <main class="uniform-section hex-background" style="padding: 6% 12%;">
       
         <div style="display:flex; flex-direction: column;  font-size:1.4rem; justify-content: center; align-items: center;">
-            <img src="../../../assets/SITS logo.png" style="width: 60%; max-width:500px;"></img><br>
+            <img src="../../../assets/SITS logo.png" alt="Summit IT Solutions Logo" style="width: 60%; max-width:500px;"></img><br>
             <div style="padding: 3% 12% 0 12%">
                 <p>Hello there!👋</p><br>
                 <p>We're all excited to start working with you and your team!</p><br>
@@ -122,29 +142,23 @@
     </body>
 
     <script>
+            window.addEventListener('DOMContentLoaded', () => {
+            const header = document.getElementById("popupHeader");
 
-    window.addEventListener('DOMContentLoaded', () => {
-        const header = document.getElementById("popupHeader")
-        let lastScrollY = 0; 
+            window.addEventListener('scroll', () => {
+                
+                
+                if(window.innerWidth <= 700) {
+                return;
+                }
 
-        const viewportWidth = window.innerWidth;
-
-        window.addEventListener( 'scroll', () => {
-            const currentScrollY = window.scrollY
-
-        if(viewportWidth <= 700) {
-            return;
-        }
-
-        if(currentScrollY > lastScrollY) {
-            header.classList.remove('hidden')
-            header.style.display = "flex";
-            header.style.pointerEvents = "all";
-        } 
-        lastScrollY = currentScrollY;
-      
-        }); 
-    })
+                if (window.scrollY > window.innerHeight / 4) { 
+                    header.classList.add('active'); 
+                } else {
+                    header.classList.remove('active'); 
+                }
+            });
+        });
 
     </script>
     
