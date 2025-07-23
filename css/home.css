@@ -240,7 +240,125 @@
     display: flex;
 }
 
-/* ************************** */
+
+/*First Call to Action*/
+.first-cta {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 3% 12%;
+    height: 340px; 
+    background-color: var(--color-primary-red);
+    border-radius: 30px;
+    box-shadow: rgba(0,0,0,.60);
+}
+
+.first-cta-content {
+    text-align: left;
+    color: var(--color-white);
+    padding: 0% 6%;
+    width: 100%;
+}
+
+.first-cta-header {
+   
+    font-size: 2.3rem;
+}
+
+.first-cta-buttons {
+    display: flex;
+    justify-content: flex-start;
+   
+
+}
+
+.first-cta-button {
+    background-color: var(--color-light-grey);
+    color: var(--color-primary-red);
+    font-size: 1.3rem;
+    padding: 10px 20px; 
+    margin: 3% 0;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.first-cta-img {
+    background-image: linear-gradient(270deg, rgba(255,255,255, 0) 10%, rgba(191,32,38,1)), url("../assets/document-archvie.jpg");
+    width: 90%;
+    height: 100%;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 0px 30px 30px 0px;
+    opacity: .60;
+}
+
+
+/*Why Choose Summit*/
+.why-summit-section {
+    display: flex; 
+    gap:100px;
+    justify-content: center;
+}
+
+.why-summit-img {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.why-summit-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.why-summit-subtainer {
+    gap:300px;
+}
+
+.why-summit-card {
+
+    width: 300px;
+    height: 300px; 
+    margin: 15% 0;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    padding: 1% 1%;
+    background: linear-gradient(60deg, var(--color-light-grey), var(--color-white));
+    opacity: 0.8;
+    border-radius: 30px;
+    box-shadow: var(--color-primary-red) 30px 30px;
+  
+}
+
+.why-summit-card-indent {
+    margin-top: 100%;
+    margin-bottom: 15%;
+    width: 300px; 
+    height: 300px; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+    padding: 1% 1%; 
+    background-color: var(--color-light-grey);
+    opacity: 0.8; 
+    border-radius: 30px;
+    box-shadow: var(--color-primary-red) 30px 30px;
+}
+
+.why-summit-card-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*  
+
+
+
+/* **************************
 /* ************************** */
 
 /* Facing any of these challenges? */
@@ -358,6 +476,7 @@
     padding: 3% 10% 0 10%;
 }
 
+/*
 .why-summit-card {
     width: 40%;
     padding: 4% 1% 5% 1%;
@@ -369,6 +488,7 @@
     align-items: center;
     padding-bottom: 10px;
 }
+*/
 
 .why-summit-icon {
     width: 45px;
@@ -399,7 +519,8 @@
 
 .why-card-bottom {
     padding-bottom: 0.25%;
-}
+} 
+
 
 /*Middle Layout*/
 @media screen and (max-width: 1000px) {

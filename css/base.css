@@ -375,7 +375,7 @@
     /*For Scroll Transition from Right*/
     .scroll-item-right {
         opacity: 0;
-        transform: translateX(30px);
+        transform: translateX(60px);
         transition: all .8s ease-in-out;
     }
 
