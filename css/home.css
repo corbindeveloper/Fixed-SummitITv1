@@ -25,7 +25,7 @@
 
 /*Hero Section -- Specific to the Main Page.*/
 .hero { 
-    min-height: 85vh; 
+    min-height: 95vh; 
 }
 
 .hero-btn-alt {
@@ -67,7 +67,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10% 10%;
+    padding: 20% 10%;
 }
 
 
@@ -81,40 +81,59 @@
     width: 60%;
     background-color: var(--color-primary-red);
     color: var(--color-white);
-    padding: 1% 1%;
+  
 }
 
 .problem-answer {
     display: flex;
-    gap: 30px;
     padding: 6% 0;
 }
 
 .problem-answer-image {
     width: 60%;
-    height: 240px;
+    height: 100%;
     background-color: var(--color-light-grey);
     border-radius: 10px;
     padding: 1% 6%;
+    margin: 0 6%;
 }
-
 
 .problem-answer-content {
     width: 100%;
-    text-align: right;
-    padding: 0% 10%;
+    text-align: right;   
+}
+
+.problem-answer-text {
+    padding: 0% 15%;
+}
+
+.problem-answer-text h2 {
+    font-family: "Orbitron", "Lato", sans-serif;
+    font-size: 2.4rem;;
+    padding-top: 3%;
+}
+
+.problem-answer-text h3 {
+    font-family: "Orbitron", "Lato", sans-serif;
+    padding: 1% 0;
+    font-size: 1.5rem;
+}
+
+.problem-answer-text p {
+    font-family: "Orbitron", "Lato", sans-serif;
+    padding: 0 0;
+    font-size: 1.1rem;
 }
 
 
-.problem-answer-content h2 {
-    font-family: "Orbitron", "Lato", sans-serif;
-    font-size: 1.9rem;;
-    padding: 1% 0;
-}
 
-.problem-answer-content h3 {
-    font-family: "Orbitron", "Lato", sans-serif;
-    padding: 1% 0;
+.problem-answer-divider {
+    height: 6px;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--color-white);
+    margin: 4% 0;
+    width: 60%;
+    margin-left: auto;
 }
 
 /* What type of support are you seeking? */
