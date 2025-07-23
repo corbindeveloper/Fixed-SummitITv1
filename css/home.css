@@ -57,6 +57,65 @@
   
 /* ************************** */
 /* ************************** */
+/*Problems We Solve*/
+.problems-section-left {
+    position: sticky;
+    top: 0;
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+
+
+.problems-section-right {
+    position: relative;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: var(--color-primary-red);
+    color: var(--color-white);
+    padding: 1% 1%;
+}
+
+.problem-answer {
+    display: flex;
+    gap: 30px;
+    padding: 6% 0;
+}
+
+.problem-answer-image {
+    width: 60%;
+    height: 240px;
+    background-color: var(--color-light-grey);
+    border-radius: 10px;
+    padding: 1% 6%;
+}
+
+
+.problem-answer-content {
+    width: 100%;
+    text-align: right;
+    padding: 0% 10%;
+}
+
+
+.problem-answer-content h2 {
+    font-family: "Orbitron", "Lato", sans-serif;
+    font-size: 1.9rem;;
+    padding: 1% 0;
+}
+
+.problem-answer-content h3 {
+    font-family: "Orbitron", "Lato", sans-serif;
+    padding: 1% 0;
+}
 
 /* What type of support are you seeking? */
 .support-type {

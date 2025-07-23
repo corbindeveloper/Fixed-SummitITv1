@@ -137,14 +137,19 @@
   }
 
 .dropdown-content {
-    display: none;
+   display: none;
+    background-color: var(--color-light-grey);
     background: linear-gradient(60deg, var(--color-light-grey), var(--color-dark-grey));
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 15px;
-    position:fixed;
+    position: fixed;
     min-width: 60%;
-    transform: translateX(-60%);
-    
+    min-height: 100px;
+    transform: translateX(-50%);
+}
+
+.dropdown-service {
+    transform: translateX(-66%);
 }
 
 .dropdown:hover .dropdown-content {
@@ -153,36 +158,45 @@
     align-items: center;
   }
 
-  .dropdown-title h3{
+  .dropdown-title{
+    display: flex;
+    font-weight: 700;
+    font-size: 3.3rem; 
+    text-align: center;
+    justify-content: space-around;
     align-items: center;
-    color: var(--color-black);
-    font-family: 'Orbitron', 'lato', 'san-serif';
-    font-size: 2.4rem;
+    background-image: linear-gradient(60deg,var(--color-black), var(--color-80-black), var(--color-50-black));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 10px 16px;
+    min-width: 40%;
   }
  
-  .dropdown-btns {
-    display:flex;
-    flex-direction: row;
+  .dropdown-items {
+    display: flex;
+    font-weight: 700;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    width: 60%;
+
   }
 
-.dropdown-content a {
-    background-color: var(--color-white);
+.dropdown-items a {
     color: var(--color-black);
-    font-family: "Orbitron", "Lato", sans-serif;
-    padding: 10px 14px;
+    padding: 12px 16px;
+    margin: 3% 3%;
+    font-size: 1.1rem;
     text-decoration: none;
     display: flex;
-    width: 300px;
     justify-content: center;
-   text-align: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height:60px;
     border-radius: 30px;
-    margin: 10px 0; 
-    border: 3px solid var(--color-white);
-    font-weight: 700;
-    
+    background-color: var(--color-light-grey);
+    font-family: "Orbitron", "Lato", sans-serif;
 }
 
 .dropdown-content a:hover {
@@ -190,6 +204,8 @@
     border-radius: 30px;
     border: 3px solid var(--color-primary-red)
 }
+
+
 
 /*Hero Section*/
 .hero {
