@@ -172,6 +172,10 @@
     padding: 10px 16px;
     min-width: 40%;
   }
+
+  .dropdown-title span {
+    font-family: "Orbitron", "Lato", sans-serif;
+  }
  
   .dropdown-items {
     display: flex;
