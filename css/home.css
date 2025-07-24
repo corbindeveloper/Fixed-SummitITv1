@@ -58,6 +58,11 @@
 /* ************************** */
 /* ************************** */
 /*Problems We Solve*/
+
+.problems-solve-section {
+    display:flex;
+}
+
 .problems-section-left {
     position: sticky;
     top: 0;
@@ -70,8 +75,6 @@
     padding: 20% 10%;
 }
 
-
-
 .problems-section-right {
     position: relative;
     overflow-y: auto;
@@ -79,7 +82,7 @@
     justify-content: center;
     flex-direction: column;
     width: 60%;
-    background-color: var(--color-primary-red);
+    background-image: linear-gradient(to bottom, rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38, .1),  rgba(191,32,38, .1), rgba(255,255,255,1)), url("../assets/svgs/redgearsrevised1-01\ \(6\).svg");
     color: var(--color-white);
   
 }
@@ -320,7 +323,6 @@
 }
 
 .why-summit-card {
-
     width: 300px;
     height: 300px; 
     margin: 15% 0;
@@ -331,7 +333,6 @@
     opacity: 0.8;
     border-radius: 30px;
     box-shadow: var(--color-primary-red) 30px 30px;
-  
 }
 
 .why-summit-card-indent {
@@ -352,6 +353,42 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.why-summit-card-bot {
+    margin: 4% 4%;
+}
+
+.why-summit-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 180px;
+    background: linear-gradient(to bottom, var(--color-primary-red), var(--color-black));
+    color: var(--color-light-grey);
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    text-align: center;
+    font-weight: 600;
+    
+    font-family: 'Orbitron', 'lato, sans-serif';
+}
+
+.why-summit-card-title {
+    font-family: 'Orbitron', 'lato', 'sans-serif';
+    font-size: 1.4rem;
+    font-weight: 500;
+    justify-content: flex-end;
+}
+
+.why-summit-card-text {
+    padding: 1% 1%;
+    line-height: 1.7; 
+    font-size: 1.1rem;
+}
+
+
 
 
 /*Testimonial Section*/
@@ -511,6 +548,26 @@
 }
 
 
+/*Vendors Section*/
+.vendor-content {
+    display: flex;
+    justify-content: center;
+    padding: 3% 0;
+}
+
+.vendor-card {
+    background-color: var(--color-white);
+    width: 30%;
+    height: 200px;
+    border-radius: 30px;
+    margin-right: 3%;
+}
+
+.vendor-navigation {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* **************************
 /* ************************** */
@@ -644,7 +701,7 @@
 }
 */
 
-.why-summit-icon {
+/* .why-summit-icon {
     width: 45px;
     height: 45px;
     border-radius: 180px;
@@ -658,9 +715,9 @@
     text-align: center;
     font-weight: 600;
     font-style: italic;
-}
+} */
 
-.why-summit-card-title {
+/* .why-summit-card-title {
     font-size: 1.4rem;
     font-weight: 500;
 }
@@ -669,7 +726,7 @@
     padding: 0 1%;
     line-height: 1.7; 
     font-size: 1.1rem;
-}
+} */
 
 .why-card-bottom {
     padding-bottom: 0.25%;
@@ -688,6 +745,48 @@
     .hero-header {
         font-size: 1.7rem;
     }
+
+    /*Problems We Solve -- Middle*/
+    .problems-solve-section {
+        flex-direction: column;
+    }
+
+
+    .problems-section-left{
+        width: 100%;
+    }
+
+    .problems-section-right{
+        width: 100%;
+    }
+
+    .problem-answer {
+        flex-direction: column;
+        padding: 10% 0;
+    }
+
+    .problem-answer-image {
+        width: 90%;
+        height: 200px;
+    }
+
+    .problem-answer-content {
+        text-align: left;
+    }
+
+
+    /*Why Choose Summit --Middle*/
+    .why-summit-section {
+        flex-direction: column;
+    }
+
+    .why-summit-content {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+
+    /*----------------------------------*/
 
     /*Support Section -- Middle Layout*/
     .support-type-container {
