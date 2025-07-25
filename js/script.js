@@ -112,6 +112,9 @@ function mobileMenu() {
   } else {
     mobileNavList.style.display = "flex";
     body.style.overflow = "hidden";
+
+    mobileNavList.style.overflowY = "scroll";
+    mobileNavList.style.WebkitOverflowScrolling = "touch";
   }
 }
 
@@ -132,6 +135,26 @@ function mobileService() {
     mobileServiceList.style.display = "none";
   } else {
     mobileServiceList.style.display = 'flex';
+  }
+}
+
+function mobileHardware() {
+  const mobileAboutList = document.getElementById('hardware-nav')
+
+  if(mobileAboutList.style.display === "flex") {
+    mobileAboutList.style.display = "none";
+  } else {
+    mobileAboutList.style.display = 'flex';
+  }
+}
+
+function mobileIndustries() {
+  const mobileAboutList = document.getElementById('industries-nav')
+
+  if(mobileAboutList.style.display === "flex") {
+    mobileAboutList.style.display = "none";
+  } else {
+    mobileAboutList.style.display = 'flex';
   }
 }
 

@@ -82,7 +82,8 @@
     justify-content: center;
     flex-direction: column;
     width: 60%;
-    background-image: linear-gradient(to bottom, rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38, .1),  rgba(191,32,38, .1), rgba(255,255,255,1)), url("../assets/svgs/redgearsrevised1-01\ \(6\).svg");
+    background-image: linear-gradient(to bottom, rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38, .1),  rgba(191,32,38, .1), rgba(255,255,255,1)), url("../assets/svgs/SITSmainpageassets-22\ 3.webp");
+    background-size: cover;
     color: var(--color-white);
   
 }
@@ -309,6 +310,11 @@
     justify-content:center;
     align-items: center;
 }
+
+.why-summit-img > img {
+     box-shadow: var(--color-primary-red) -40px 40px;
+     border-radius: 30px;   
+    }
 
 .why-summit-content {
     display: flex;
@@ -549,6 +555,13 @@
 
 
 /*Vendors Section*/
+
+.vendor-section {
+    background: url('../assets/svgs/SITSmainpageassets-21\ 2\ \(1\).webp');
+    padding: 1% 12%;
+    background-size: cover;
+}
+
 .vendor-content {
     display: flex;
     justify-content: center;
@@ -734,7 +747,7 @@
 
 
 /*Middle Layout*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
 
     /*Hero Section for Main Page --Middle*/
     .hero {
@@ -743,7 +756,7 @@
     }
 
     .hero-header {
-        font-size: 1.7rem;
+        font-size: 2.7rem;
     }
 
     /*Problems We Solve -- Middle*/
@@ -766,12 +779,40 @@
     }
 
     .problem-answer-image {
-        width: 90%;
+        justify-content: center;
+        width: 76%;
         height: 200px;
     }
 
     .problem-answer-content {
         text-align: left;
+    }
+
+    /*First Call To Action*/
+    .first-cta {
+        flex-direction: column;
+        margin: 0 3%;
+    }
+
+    .first-cta-content {
+        order: 2;
+        text-align: center;
+    }
+
+    .first-cta-header {
+        font-size: 1.9rem;
+    }
+
+    .first-cta-buttons {
+        justify-content: center;
+        padding: 3% 0;
+    }
+
+    .first-cta-img {
+        order: 1;
+        width: 100%;
+        background-image: linear-gradient(180deg, rgba(255,255,255, 0) 10%, rgba(191,32,38,1)), url("../assets/document-archvie.jpg");
+        border-radius: 30px 30px 0px 0px
     }
 
 
@@ -780,11 +821,108 @@
         flex-direction: column;
     }
 
+    .why-summit-img > img {
+        width: 100%;
+        height: 300px;
+        box-shadow: var(--color-primary-red) -10px 10px;
+    }
+
     .why-summit-content {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 0px;
     }
 
+    .why-summit-subtainer {
+        gap: 0px;
+    }
+
+    .why-summit-card {
+        width: 90%;
+        margin: 10% 0;
+        padding: 0 0;
+    }
+
+    .why-summit-card-indent {
+        width: 90%;
+        margin: 10% 0;
+        padding: 0 0;
+    }
+
+    /*Testimonial --Middle*/
+    .testimonial-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .speech-bubble-left {
+        border-radius: 30px;
+        max-width: 100%;
+        margin-bottom: 62px;
+    }
+
+    .speech-bubble-left::after {
+        visibility: hidden;
+    }
+
+    .speech-bubble-right {
+        border-radius: 30px;
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .speech-bubble-right::after {
+        visibility: hidden;
+    }
+
+    .speech-text {
+        font-size: .9rem;
+        padding: 3% 0;
+    }
+
+    .speech-quoter {
+        font-size: 1.1rem;
+        padding: 3% 0;
+    }
+
+    /*Second Call to Action -- Middle*/
+    .second-cta {
+        flex-direction: column;
+    }
+
+    .second-cta-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .second-cta-header {
+        font-size: 1.9rem;
+    }
+
+    .second-cta-buttons {
+        justify-content: center;
+        padding: 3% 0;
+    }
+
+    .second-cta-img {
+        width: 100%; 
+        background-image: linear-gradient(180deg, rgba(255,255,255, 0) 30%, rgb(0, 0, 0)), url("../assets/document-archvie.jpg");
+        border-radius: 30px 30px 0px 0px;
+    }
+
+
+    /*Our Vendors -- Middle Layout*/
+    .vendor-content {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .vendor-card {
+    width: 100%;
+       height: 100px; 
+       margin: 10% 0;
+    }
 
     /*----------------------------------*/
 
@@ -920,36 +1058,6 @@
         font-size: 1.0rem;
      }
 
-     /*Why Choose IT Solutions --Mobile*/ 
-     .why-summit-container{
-        flex-direction: column;
-     }
-
-    .why-summit-card {
-        width: 100%;
-        padding: 0 0 0 0;
-    }
-
-    .why-summit-card-top {
-        margin: 10% 0;
-    }
-
-    .why-summit-icon {
-        margin-right: 6px;
-        font-size: 1.1rem;
-    }
-
-    .why-summit-card-title {
-        font-size: 1.1rem;
-    }
-
-    .why-summit-card-text {
-        font-size: 1rem;
-        line-height: 2.3;
-    }
-
-    .why-card-bottom {
-        padding-bottom: 3%;
-    }
+     
 }
 

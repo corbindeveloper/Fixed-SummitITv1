@@ -15,7 +15,7 @@
     --color-50-white: rgba(255, 255, 255, 0.5);
     --color-80-white: rgba(255, 255, 255, 0.8);
 
-    --section-heading-font-size: 2.1rem;
+    --section-heading-font-size: 3.7rem;
     --section-heading-font-weight: 600;
     --section-heading-line-height: 1.2;
 
@@ -95,6 +95,7 @@
 
     .mobile-nav-list {
         display: none;
+        height: 100%;
     }
 
     .nav-btn {
@@ -321,6 +322,24 @@
         text-align: center;
     }
 
+    .section-heading-left {
+        font-family: 'Orbitron', 'Lato', 'Sans-Serif';
+        font-size: var(--section-heading-font-size);
+        font-weight: var(--section-heading-font-weight);
+        line-height: var(--section-heading-line-height);
+        padding-bottom: 10px;
+        text-align: left;
+    }
+
+    .section-heading-right {
+        font-family: 'Orbitron', 'Lato', 'Sans-Serif';
+        font-size: var(--section-heading-font-size);
+        font-weight: var(--section-heading-font-weight);
+        line-height: var(--section-heading-line-height);
+        padding-bottom: 10px;
+        text-align: right;
+    }
+
     .section-subheading {
         font-size: var(--section-subheading-font-size);
         font-weight: var(--section-subheading-font-weight);
@@ -517,18 +536,18 @@
         color: var(--color-light-grey);
     }
 
-    .footer-legals {
+    .footer-links {
         flex-direction: column;
         width: 100%;
     }
 
-    .footer-legals > a {
+    .footer-links > a {
         flex-direction: column;
         color: var(--color-white);
         font-size: 1.4rem;
         font-family: 'Orbitron', 'lato', 'sans-serif';
+        font-weight: 600;
         text-decoration: none;
-        
     }
 
     /*Right Section of Footer*/
@@ -582,6 +601,24 @@
         border-radius: 3px;
     }
 
+
+
+
+
+    .footer-middle {
+        background-color: var(--color-black);
+        display: flex; 
+        justify-content: center;
+    }
+
+    .footer-middle > a {
+        color: var(--color-white);
+        font-size: 1.4rem;
+        font-family: 'Orbitron', 'Lato', 'sans-serif';
+        padding: 0% 4%;
+        text-decoration: none;
+    }
+
     .credits {
         background-color: #A51C20;
     }
@@ -594,11 +631,21 @@
     }
 
 /*Middle Layout*/
-@media screen and (max-width: 1100px) {  
+@media screen and (max-width: 1300px) {  
 
     /*General Base -- Middle*/
     .section-heading {
-        font-size: 1.9rem;
+        font-size: 2.9rem;
+    }
+
+    .section-heading-left {
+        font-size: 2.9rem;
+        
+    }
+
+    .section-heading-right {
+        font-size: 2.9rem;
+        
     }
 
     .section-small-heading{
@@ -755,7 +802,14 @@
     /*Footer -- Middle*/
     .footer-section {
         padding: 6% 1%; 
+        flex-direction: column;
     }
+
+    .footer-left {
+        justify-content: center;
+        align-items: center;
+    }
+
    
     .footer-bottom {
         justify-content: center;
@@ -765,6 +819,33 @@
    .footer-logo {
         width: 200px;
     }  
+
+    .footer-links {
+        text-align: center;
+    }
+
+    /*Right Section of Footer -- Middle*/
+    .footer-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-list {
+        text-align: center;
+    }
+
+    .footer-list-header {
+        margin-top: 3%;
+    }
+
+    .footer-middle {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-middle > a {
+        padding: 4% 0;
+    }
 }
 
 /*Mobile Layout*/
@@ -774,9 +855,7 @@
     .uniform-section {
         padding: 26% 6%;
     }
-    .section-heading {
-        font-size: 1.6rem;
-    }
+    
 
     .section-small-heading {
         font-size: 1.3rem;
@@ -826,35 +905,6 @@
      }
 
     /*Footer -- Mobile*/
-    .footer-content { 
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 70%;
-        margin: 0 15%;
-    }
-
-    .footer-list {
-        width: 30%;
-        min-width: 50%;
-        text-align: center;
-        margin: 4% 0;
-    }
- 
-    .footer-list > ul { 
-        padding-top: 0; 
-    }
-
-    .footer-list > ul > li > a {
-        font-size: 1.0rem;
-    }
-
-    .footer-logo {
-        width: 160px;   
-    }
-
-    .footer-logo > a > img {
-        padding: 2% 10%;
-        height: 70px;
-    }
+    
 }
 

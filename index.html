@@ -154,6 +154,58 @@
 
     <!--Mobile Dropdown-->
     <div class="mobile-nav-list" id="mobile-nav-func">
+        
+        <div class="mobile-nav-item" onclick="mobileService()">
+            <span>Our Services <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="service-nav">
+            <a href="#">Managed Cybersecurity</a>
+            <a href="#">Penetration Testing</a>
+            <a href="#">IT Support</a>
+            <a href="#">IT Management</a>
+            <a href="#">Co-Managed IT</a>
+            <a href="#">Backup & Disaster Recovery</a>
+            <a href="#">Business Communications (VoIP)</a>
+            <a href="#">Conference Room as a Service</a>
+            <a href="#">Cloud Services</a>
+            <a href="#">Compliance</a>
+            <a href="#">New Office Setup</a>
+        </div>
+
+        <div class="mobile-nav-item" onclick="mobileHardware()">
+            <span>Hardware <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="hardware-nav">
+            <a href="#">Business Phones</a>
+            <a href="#">Networking Equipment</a>
+            <a href="#">Cameras</a>
+            <a href="#">Door Access Control</a>
+            <a href="#">Conference Rooms</a>
+            <a href="#">New Office Setup</a>
+        </div>
+
+        <div class="mobile-nav-item" onclick="mobileIndustries()">
+            <span>Industries <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="industries-nav">
+            <a href="#">Law Firms</a>
+            <a href="#">Accounting</a>
+            <a href="#">Financial Services</a>
+            <a href="#">Local Government</a>
+            <a href="#">Healthcare & Dental</a>
+            <a href="#">Veterinary Clinics</a>
+            <a href="#">Service Businesses</a>
+            <a href="#">Retail</a>
+            <a href="#">Manufacturing</a>
+            <a href="#">Golf Clubs & Hospitality</a>
+            <a href="#">Real Estate</a>
+        </div>
+
+
+
         <div class="mobile-nav-item" onclick="mobileAbout()">
             <span>About Us <i class="fa-solid fa-circle-chevron-down"></i></span>
         </div>
@@ -163,19 +215,7 @@
             <a href="./About/careers.html">Careers</a>
         </div>
 
-        <div class="mobile-nav-item" onclick="mobileService()">
-            <span>Our Services <i class="fa-solid fa-circle-chevron-down"></i></span>
-        </div>
-
-        <div class="mobile-drop-nav" id="service-nav">
-            <a href="./Services/managedIt.html">Managed IT Services</a>
-            <a href="./Services/co-managedIt.html">Co-Managed IT</a>
-            <a href="./Services/cybersecurity.html">Cybersecurity</a>
-            <a href="./Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a>
-            <a href="./Services/cloud.html">Cloud Services</a>
-            <a href="./Services/managedvoip.html">Managed VoIP Services</a>
-        </div>
-
+        
         <div class="mobile-nav-item">
             <span><a href="../forms/contactus.html">Contact Us</a></span>
         </div> 
@@ -289,7 +329,7 @@
 
         <!-- Section 3: Our Solutions -->
         <section class="support-type uniform-section" id="learn">
-            <h2 class="section-heading" style="font-size:3.7rem;">Our Solutions</h2>
+            <h2 class="section-heading">Our Solutions</h2>
 
             <div class="support-type-container"> 
                 <a href="./Services/managedIt.html" class="support-type-card">
@@ -362,10 +402,10 @@
 
         <!--Why Choose Summit?-->
         <section class="uniform-section">
-            <h2 class="section-heading" style="font-size:3.7rem; text-align: left;">Why Choose Summit?</h2>
+            <h2 class="section-heading-left">Why Choose Summit?</h2>
             <div class="why-summit-section">
                 <div class="why-summit-img scroll-item">
-                    <img src="./assets/voip-meeting.webp" width=640px height="500px" style="background-color: #efefef; box-shadow: #bf2026 -40px 40px; border-radius: 30px;">
+                    <img src="./assets/voip-meeting.webp" width=640px height="500px">
                 </div>
 
                 <div class="why-summit-content"> 
@@ -382,11 +422,11 @@
 
                         <div class="why-summit-card scroll-item-right"> 
                             <div class="why-summit-card-top">
-                                <div class="why-summit-icon">3</div>
+                                <div class="why-summit-icon">2</div>
                             </div>
                              <div class="why-summit-card-bot">
-                                <h4 class="why-summit-card-title">Local, Family Business</h4>
-                                <p class="why-summit-card-text">Proudly local and family-owned. Our personal touch sets us apart, providing tailored solutions with a relatable message.</p>
+                                <h4 class="why-summit-card-title">Fixed Monthly Fee</h4>
+                                <p class="why-summit-card-text">We offer a comprehensive service with support, 24/7 security and more for a predictable, flat monthly fee.</p>
                             </div>
                         </div>
                     </div>
@@ -394,11 +434,11 @@
                     <div class="why-summit-subtainer">
                         <div class="why-summit-card-indent scroll-item-right">
                             <div class="why-summit-card-top">
-                                <div class="why-summit-icon">2</div>
+                                <div class="why-summit-icon">3</div>
                             </div>
                               <div class="why-summit-card-bot">
-                                <h4 class="why-summit-card-title">Local, Family Business</h4>
-                                <p class="why-summit-card-text">Proudly local and family-owned. Our personal touch sets us apart, providing tailored solutions with a relatable message.</p>
+                                <h4 class="why-summit-card-title">Team of Experts</h4>
+                                <p class="why-summit-card-text">Behind every solution, is a powerhouse team. Our experts bring years of experience to the table, ensuring top notch service and support</p>
                             </div>
                         </div>
 
@@ -407,8 +447,8 @@
                                 <div class="why-summit-icon">4</div>
                             </div>
                             <div class="why-summit-card-bot">
-                                <h4 class="why-summit-card-title">Local, Family Business</h4>
-                                <p class="why-summit-card-text">Proudly local and family-owned. Our personal touch sets us apart, providing tailored solutions with a relatable message.</p>
+                                <h4 class="why-summit-card-title">Proven Security</h4>
+                                <p class="why-summit-card-text">Protecting you, always. Our cutting edge security measures keep your data safe, so you can focus on what matters most.</p>
                             </div>
                         </div>
                     </div>
@@ -425,7 +465,7 @@
 
         <!--Testimonials-->
         <section class="uniform-section" style="background: linear-gradient(to bottom, #fff, #a5a5a5, #a5a5a5);">
-            <h2 class="section-heading" style="font-size: 3.7rem; text-align: right;">Hear from our Customers</h2>
+            <h2 class="section-heading-right">Hear from our Customers</h2>
             <div class="testimonial-content">
                 <div class="speech-bubble-left">
                     <p class="speech-text">"The technician went out of his way to check in and get everything fixed quickly. The communication was top of the line."</p>
@@ -468,8 +508,8 @@
         </section>
 
         <!--Vendors Section-->
-        <section class="uniform-section" style="background-color: #bf2026; padding: 1% 12%;">     
-             <h2 class="section-heading" style="font-size: 3.7rem; text-align: left; color:#ffff">Our Vendors</h2>
+        <section class="vendor-section">     
+             <h2 class="section-heading-left" style=" color:#ffff">Our Vendors</h2>
              <div class="vendor-content">
                 <div class="vendor-card"></div>
                 <div class="vendor-card"></div>
@@ -660,7 +700,7 @@
         <!-- Section 7: Contact Us-->
         <section class="uniform-section" id="contactus">  
                 <div>
-                    <h2 class="section-heading" style="font-size: 3.7rem;">Let's Get In Touch</h2>
+                    <h2 class="section-heading">Let's Get In Touch</h2>
                     <p class="section-subheading">Our staff of industry experts are standing by to assist with your needs. Please submit this form and we will respond to your inquiry shortly...</p>
                 </div>
                 <div class="contact-container">
@@ -713,11 +753,11 @@
                     <a href="#"><i class="fa-solid fa-envelope"></i></a>
                 </div>
 
-                    <div class="footer-legals">
-                        <a href="#">Privacy Policy</a>
+                    <div class="footer-links">
+                        <a href="#">About Us</a>
                     </div>
-                    <div class="footer-legals">
-                        <a href="#">Terms of Use</a>
+                    <div class="footer-links">
+                        <a href="#">Resources</a>
                     </div>
                     
                 </div>
@@ -774,25 +814,19 @@
                 </ul>
             </div>
 
-            <div class="footer-list">
-                <p class="footer-list-header">About Us</p>
-                <ul>
-                    <li><a href="./About/whysummit.html">Why Summit?</a></li>
-                    <li><a href="./About/careers.html">Careers</a></li>
-                </ul>
-                <br>
-                <p class="footer-list-header">Resources</p>
-                <ul>
-                    <li><a href="#">Coming Soon</a></li>
-                   
-                </ul>
-            </div>
+            
         </div>
 
         <div class="footer-line"></div>
 
          
     </footer>
+
+    <!--Middle Footer Section-->
+    <div class="footer-middle">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+    </div>
     
     <!--Credits-->
     <div class="credits" style="background-color: #000000;">
