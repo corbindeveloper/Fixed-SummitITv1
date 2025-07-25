@@ -70,7 +70,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6)), url('../assets/svgs/SITSmainpageassets-19\ 3.webp');
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6), rgba(255,255,255)), url('../assets/svgs/SITSmainpageassets-19\ 3.webp');
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: 50%;
@@ -158,10 +158,10 @@
     margin-left: auto;
 }
 
-/* What type of support are you seeking? */
+/* What type of support are you seeking? (Our Solutions)*/
 .support-type {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 
@@ -877,6 +877,7 @@
         width: 90%;
         margin: 10% 0;
         padding: 0 0;
+        transition: none;
     }
 
     .why-summit-card-indent {
@@ -1061,7 +1062,7 @@
 
 
     .type-card-content > h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     /*Facing any of these Challenges Section -- Mobile*/
