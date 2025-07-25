@@ -213,6 +213,7 @@
 .support-type-header {
     font-size: 1.3rem;
     padding: 0 4%;
+    font-family: 'Orbitron', 'Lato', 'san-serif';
 }
 
 .inner-card-content {
@@ -265,7 +266,7 @@
 }
 
 .first-cta-header {
-   
+    font-family: 'Orbitron', 'Lato', 'san-serif';
     font-size: 2.3rem;
 }
 
@@ -281,6 +282,7 @@
     color: var(--color-primary-red);
     font-size: 1.3rem;
     padding: 10px 20px; 
+    font-family: 'Orbitron', 'Lato', 'san-serif';
     margin: 3% 0;
     text-decoration: none;
     border-radius: 6px;
@@ -398,6 +400,10 @@
 
 
 /*Testimonial Section*/
+.testimonial-section {
+    padding: 6% 12%;
+    background: linear-gradient(to bottom, var(--color-white), var(--color-dark-grey), var(--color-dark-grey));
+}
 
 .testimonial-content {
     display: flex; 
@@ -523,6 +529,7 @@
 }
 
 .second-cta-header {
+    font-family: 'Orbitron', 'Lato', 'san-serif';
     font-size: 2.3rem;
 }
 
@@ -536,6 +543,7 @@
     color: var(--color-white);
     font-size: 1.3rem;
     padding: 10px 20px; 
+    font-family: 'Orbitron', 'Lato', 'san-serif';
     margin: 3% 0;
     text-decoration: none;
     border-radius: 6px;
