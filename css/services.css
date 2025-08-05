@@ -1,0 +1,481 @@
+/*Contact Sales Section*/
+.contact-sales {
+    display: flex;
+    gap: 10%;
+}
+
+
+.contact-sales-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.contact-sales-subtitle {
+    font-style: italic;
+    font-size: 1.9rem;
+    padding-bottom: 3%;
+}
+
+
+.contact-sales-desc {
+    font-size: 1.3rem;
+    padding: 3% 0;
+    line-height: 1.4;
+}
+
+.contact-sales-btn-container {
+    padding: 6% 0;
+    text-align: center;
+}
+
+.contact-sales-btn {
+    background-color: var(--color-primary-red);
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 4%;
+    border-radius: 10px;
+    font-family: "Orbitron", 'lato', 'sans-serif';
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+
+.contact-sales-img {
+
+}
+
+.contact-sales-img > img {
+     box-shadow: var(--color-primary-red) -40px 40px;
+     border-radius: 30px;   
+}
+
+/*Service CTA*/
+.service-cta {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 3% 12%;
+    height: 340px; 
+    background-color: var(--color-black);
+    border-radius: 30px;
+    box-shadow: rgba(0,0,0,.60);
+}
+
+.service-cta-content {
+    text-align: right;
+    color: var(--color-white);
+    padding: 0% 6%;
+    width: 50%;
+}
+
+.service-cta-header {
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    font-size: 2.3rem;
+}
+
+
+
+.service-cta-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.service-cta-button {
+    background-color: var(--color-primary-red);
+    color: var(--color-white);
+    font-size: 1.3rem;
+    padding: 10px 20px; 
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    margin: 3% 0;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.service-cta-img {
+    background-image: linear-gradient(90deg, rgba(255,255,255, 0) 30%, rgb(0, 0, 0)), url("../assets/document-archvie.jpg");
+    width: 90%;
+    height: 100%;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 30px 0px 0px 30px;
+    opacity: .50;
+}
+
+/*it-dropdown-section*/
+.it-dropdown-section {
+    display: flex;
+    background-color: var(--color-primary-red);
+    padding: 10% 10%;
+    gap: 10%;
+    background-image: linear-gradient(to bottom, white .5%, rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38, .1),  rgba(191,32,38, .1), rgba(255,255,255,1)), linear-gradient(to top, rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38,.1), rgba(191,32,38, .1), rgba(191,32,38, .1), rgba(255,255,255,1)), url("../assets/svgs/SITSmainpageassets-21\ 2\ \(1\).webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dropdown-content-left {
+    padding-top: 4%;
+    width: 100%
+}
+
+.drop-card {
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 4%;
+    background-color: var(--color-white);
+}
+
+.drop-card-title{
+    background-color: var(--color-white); 
+    color: var(--color-black);
+    padding: 4% 6%;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.drop-card-title > h4 {
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.drop-card-description {
+    background-color: var(--color-light-grey);
+    color: var(--color-black);
+    padding: 4% 3%;
+    border-radius: 0 0 15px 15px;
+    display: none;
+    line-height: 1.9;
+}
+
+.plus-circle {
+    background-color: var(--color-primary-red);
+    border-radius: 180px;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+
+.dropdown-content-right {
+   
+    justify-content: center;
+}
+
+.dropdown-image > img {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;
+}
+
+/*Steps Towards Coverage Section*/
+.managed-container {
+    display: flex;
+    padding: 3% 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.managed-subtainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.managed-card-img {
+   width: 100%;
+   height: 440px;
+   border-radius: 50px;
+   background-color: var(--color-white); 
+   
+   box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.25), 0 6px 11px 0px rgba(0, 0, 0, 0.25);
+   border: 2px solid var(--color-primary-red);
+}
+
+.managed-card-img > img {
+    padding: 6% 0;
+}
+
+.managed-card-content {
+   width: 100%;
+   height: 440px;
+   font-size: 1.3rem;
+   padding: 4% 3%;
+   border-radius: 50px;
+   background-color: var(--color-white); 
+   line-height: 1.4;
+   text-align: center;
+   box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.25), 0 6px 11px 0px rgba(0, 0, 0, 0.25);
+   border: 2px solid var(--color-primary-red);
+}
+
+.managed-card-title {
+    font-family: "Orbitron", 'lato', 'sans-serif';
+    font-size: 2.4rem;
+    padding: 3% 0;
+}
+
+/*----------------------------------------------*/
+
+/*IT Information*/
+
+
+
+.info-container{
+    padding-top: 6%;
+}
+
+
+.info-image {
+    min-width: 40%;
+    background: url("../assets/okc\ downtown.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.25); 
+} 
+
+.info-content {
+    width: 50%;
+    min-height: 400px;
+    background-color: var(--color-white);
+    border-radius: 3px;
+} 
+
+/*IT Color Wheel Section*/
+
+/*Complete IT Coverage Section*/
+.coverage-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 0;
+}
+
+.coverage-subtainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.coverage-card {
+    width: 30%;
+    min-width: 350px;
+    max-width: 800px;
+    min-height: 640px;
+    background-color: var(--color-primary-red);
+    border-radius: 15px;
+    border: 3px solid rgba(0,0,0,0.2);
+    margin: 1%;
+    padding: 1% 3%;
+    color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.coverage-card-image {
+    height: 120px;
+    background: url("../assets/svgs/sectionicons-01\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.coverage-card > i {  
+    padding-top: 4%;
+    font-size: 3rem; 
+    line-height: 1.4;
+    color: rgba(255,255,255,0.9);
+}
+
+.coverage-card > h3 {
+    padding-top: 4%;
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+.coverage-card > p {
+    padding-top: 4%;
+    letter-spacing: 1px;
+    line-height: 1.9;
+}
+
+.coverage-card:hover {
+    transform: scale(1.1);
+}
+
+.coverage-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.coverage-btn {
+    background-color: var(--color-primary-red);
+    color: var(--color-white);
+    padding: 15px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.coverage-btn:hover {
+    background-color: var(--color-light-grey);
+    color: var(--color-primary-red);
+    transform: scale(1.1);
+}
+
+/*Managed IT - Call to Action*/
+.managed-cta {
+    padding: 3% 0 1% 0;
+    background: var(--color-black);
+    color: var(--color-white);
+    background: url("../assets/services-CTA.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.managed-bar-red {
+    display: flex; 
+    justify-content: center;
+    width: 10%;
+    margin: 2% 45%;
+    border-top: 4px solid rgba(0,0,0,0.1);
+    background-color: var(--color-primary-red);
+}
+
+.managed-cta-container {
+    display:flex;
+    justify-content: center;
+    padding: 4% 0;
+}
+
+.managed-cta-content {
+    display: flex;
+    padding: 0 3%;
+    gap: 10px;
+}
+
+.managed-cta-content > a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.managed-cta-content > i {
+    font-size: 1.9rem;
+    color: var(--color-white);
+}
+
+/*Middle Layout*/
+@media screen and (max-width: 1100px) {
+
+    
+    
+    /*IT Information -- Middle Section*/ 
+    .info-container{
+        padding-top: 20%;
+    }
+
+    .info-image {
+        height: 300px;
+        margin-bottom: 10%; 
+    }
+
+    .info-content{
+        width: 100%;
+    }
+
+     /*IT Color Wheel Section --Middle*/
+
+     .wheel-content {
+        order: 2;
+        padding-top: 10%;
+        width: 100%;
+    }
+
+    .drop-card {
+        margin-bottom: 10%;
+    }
+
+    .drop-card-title > h4 {
+        font-size: 1.0rem;
+    }
+
+    .drop-card-description {
+        line-height: 1.8;
+    }
+
+    .wheel-image{
+        order: 1;
+        height: 300px;
+        background-size: contain;
+    }
+
+    
+    /*Managed IT - Call to Action -- Middle*/
+    .managed-cta {
+        padding-top: 10%;
+    }
+    
+    .managed-cta-container {
+        flex-direction: column;
+        padding: 0 0;
+    }
+  
+    .managed-cta-content {
+        justify-content: center;
+        padding: 3% 0;
+        gap: 6px;
+    }
+
+    .managed-cta-content > i {
+        font-size: 1.7rem;
+    }
+}
+
+/*Mobile Layout*/
+@media screen and (max-width: 700px) {
+    
+    /*Complete IT Coverage Section -- Mobile*/ 
+    .coverage-card {
+      margin: 6% 0;
+      min-width: 300px;
+    }
+
+    .coverage-card:hover{
+        transform: none;
+    }
+
+    .coverage-btn {
+        font-size: 1.1rem;
+    }
+        
+}
