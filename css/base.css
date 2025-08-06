@@ -232,7 +232,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.95);
-    max-height: 85vh;
+    max-height: 100vh;
 }
 
 .hero-content {
@@ -419,9 +419,8 @@
  
 /* Video Hero Section CSS*/
 .hero-video {
-    min-height: 85vh;
+    min-height: 100vh;
     object-fit: cover;
-    border-radius: 0 0 50px 50px;
     opacity: .3;
 }
 
@@ -745,12 +744,10 @@
         gap: 20px;
     }
 
-
-    
     /*Hero Section -- Middle*/
     .hero {
         padding: 14% 0;
-        background: url("../assets/Circuit\ Board.svg");
+        background-image: url("../assets/Circuit\ Board.svg");
     }
 
     .hero-content {
@@ -856,6 +853,10 @@
     .uniform-section {
         padding: 26% 6%;
     }
+
+    .section-heading {
+        font-size: 2.3rem;
+    }
     
 
     .section-small-heading {
@@ -879,6 +880,7 @@
     /*Hero Section -- Mobile*/
     .hero {
         padding-top: 40%;
+        background-image: url("../assets/Circuit\ Board.svg");
     }
 
     .hero-content {
