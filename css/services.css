@@ -204,6 +204,11 @@
     line-height: 1.9;
 }
 
+.desc-alt-color {
+    background-color: var(--color-primary-red);
+    color:var(--color-white);
+}
+
 .plus-circle {
     background-color: var(--color-primary-red);
     border-radius: 180px;
