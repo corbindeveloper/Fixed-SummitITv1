@@ -242,3 +242,132 @@
     border-radius: 0px 30px 30px 0px;
     opacity: .60;
 }
+
+/*Middle Layout*/
+@media screen and (max-width: 1300px) {
+    /*Industry Sales Section--Middle*/
+    .industry-sales {
+        flex-direction: column;
+    }
+
+    .industry-sales-img > img {
+        width: 350px;
+        height: 400px;
+        box-shadow: var(--color-white) -20px 20px;
+    }
+
+    .industry-sales-content {
+        padding: 10% 0;
+    }
+
+    /*First Industry CTA -- Middle*/
+    .industry-cta {
+        flex-direction: column;
+    }
+
+    .industry-cta-content {
+        text-align: center;
+        width: 100%;
+    }
+
+    .industry-cta-header {
+        font-size: 1.9rem;
+    }
+
+    .industry-cta-buttons {
+        justify-content: center;
+        padding: 3% 0;
+    }
+
+    .industry-cta-img {
+        width: 100%;
+        background-image: linear-gradient(180deg, rgba(255,255,255, 0) 30%, rgb(0, 0, 0)), url("../assets/document-archvie.jpg");
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    /*Industry Info Section--Middle*/
+    .industry-info-content {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .industry-info-text {
+        order: 2;
+    }
+
+    .industry-info-box {
+        width: 300px;
+        height: 300px;
+        margin: 10% 10%;
+    }
+
+    .industry-info-img {
+        order: 1;
+    }
+
+    .industry-info-img > img {
+        width: 300px;
+        height: 300px;
+        margin: 10% 10%;
+        box-shadow: var(--color-primary-red) 30px 30px;
+    }
+
+    /*Industry Service Coverage --Middle*/
+   
+
+    .industry-coverage-top{
+        flex-direction: column;
+    }
+
+    .coverage-desc {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+
+    .coverage-subtainer {
+        flex-direction: column;
+    }
+
+    .coverage-card {
+        margin: 10% 0;
+        min-width: 100px;
+    }
+
+    .coverage-card-img {
+        width: 270px;
+        margin: 3%;
+    }
+
+    .coverage-card-title {
+        padding: 3%;
+    }
+
+
+    /*Second Industry CTA -- Middle*/
+    .second-industry-cta {
+        flex-direction: column;
+        margin: 3% 3%;
+    }
+
+    .second-industry-cta-content {
+        order: 2;
+        text-align: center;
+    }
+
+    .second-industry-cta-header {
+        font-size: 1.9rem;
+    }
+
+    .second-industry-cta-buttons {
+        justify-content: center;
+        padding: 3% 0;
+    }
+
+    .second-industry-cta-img {
+        order: 1;
+        width: 100%;
+        background-image: linear-gradient(180deg, rgba(255,255,255, 0) 10%, rgba(191,32,38,1)), url("../assets/document-archvie.jpg");
+        border-radius: 30px 30px 0px 0px
+    }
+}
