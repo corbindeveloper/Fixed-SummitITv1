@@ -1,0 +1,244 @@
+/*Industry Sales Section*/
+.industry-sales {
+    display: flex;
+    gap: 10%;
+    background-image: url("../assets/svgs/SITSmainpageassets-22\ 3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.industry-sales-img > img {
+    box-shadow: var(--color-white) -40px 40px;
+    border-radius: 30px;
+}
+
+
+.industry-sales-subtitle {
+    font-style: italic;
+    font-size: 1.9rem;
+    padding-bottom: 3%;
+}
+
+.industry-sales-desc {
+    font-size: 1.3rem;
+    padding: 3% 0;
+    line-height: 1.4;
+    color: var(--color-white);
+}
+
+.industry-sales-btn-container {
+    padding: 6% 0;
+    text-align: center;
+}
+
+
+.industry-sales-btn {
+    background-color: var(--color-white);
+    color: var(--color-primary-red);
+    text-decoration: none;
+    padding: 4%;
+    border-radius: 10px;
+    font-family: "Orbitron", 'lato', 'sans-serif';
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+
+/*Industry CTA*/
+.industry-cta {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin: 3% 12%;
+    height: 340px;
+    background-color: var(--color-black);
+    border-radius: 30px;
+    box-shadow: rgba(0,0,0,.60);
+}
+
+.industry-cta-img {
+    background-image: linear-gradient(90deg, rgba(255,255,255, 0) 30%, rgb(0, 0, 0)), url("../assets/document-archvie.jpg");
+    width: 90%;
+    height: 100%;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 30px 0px 0px 30px;
+    opacity: .50;
+}
+
+
+.industry-cta-content {
+    text-align: right;
+    color: var(--color-white);
+    padding: 0% 6%;
+    width: 50%;
+}
+
+.industry-cta-header {
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    font-size: 2.3rem;
+}
+
+.industry-cta-buttons {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.industry-cta-button {
+    background-color: var(--color-primary-red);
+    color: var(--color-white);
+    font-size: 1.3rem; 
+    padding: 10px 20px; 
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    margin: 3% 0;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/*Industry Info Section*/
+
+.industry-info-content{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.industry-info-text{
+    flex-direction: column;
+}
+
+.industry-info-box {
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+    padding: 10% 10%;
+    background: linear-gradient(60deg, var(--color-light-grey), var(--color-white));
+    border-radius: 30px;
+    box-shadow: var(--color-primary-red) 30px 30px;
+    margin: 20% 0;
+    align-items: end;
+}
+
+.industry-info-long-box{
+    width: 600px;
+    height: 300px;
+}
+
+.industry-info-img > img {
+    margin-top: 30%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: var(--color-primary-red) -60px 60px;
+}
+
+/*Industry Service Coverage*/
+.industry-coverage {
+    padding: 4% 12%;
+    background-image: url("../assets/svgs/SITSmainpageassets-21\ 2\ \(1\).webp");
+    background-size: cover;
+}
+
+.industry-coverage-top{
+   display: flex;
+   gap: 6%;
+}
+
+.coverage-desc {
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    color: var(--color-white);
+    font-size: 1.6rem;
+    width: 50%;
+    line-height: 1.6;
+}
+
+.coverage-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 0;
+}
+
+.coverage-subtainer {
+    display: flex;
+    padding: 3% 0;
+}
+
+.coverage-card {
+    background-color: var(--color-white);
+    min-width: 400px;
+    min-height: 200px;
+    max-height: 100%;
+    margin-right: 8%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0;
+    box-shadow: var(--color-dark-grey) 24px 24px;
+}
+
+.coverage-card-img {
+   width: 330px;
+   height: 224px;
+   border-radius: 8px;
+   
+}
+
+.coverage-card-title {
+    padding: 3% 0;
+    font-size: 1.6rem;
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    text-align: center;
+}
+
+/*Second Industry CTA*/
+.second-industry-cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 12%;
+    height: 340px;
+    background-color: var(--color-primary-red);
+    border-radius: 30px;
+    box-shadow: rgba(0,0,0,.60);
+}
+
+.second-industry-cta-content {
+    text-align: left;
+    color: var(--color-white);
+    padding: 0% 6%;
+    width: 100%;
+}
+
+.second-industry-cta-header {
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    font-size: 2.3rem;
+}
+
+.second-industry-cta-buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.second-industry-cta-button {
+    background-color: var(--color-light-grey);
+    color: var(--color-primary-red);
+    font-size: 1.3rem;
+    padding: 10px 20px; 
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    margin: 3% 0;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.second-industry-cta-img {
+    background-image: linear-gradient(270deg, rgba(255,255,255, 0) 10%, rgba(191,32,38,1)), url("../assets/document-archvie.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 0px 30px 30px 0px;
+    opacity: .60;
+}
