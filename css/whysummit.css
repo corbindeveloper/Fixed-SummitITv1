@@ -1,5 +1,60 @@
-/*Why Summit? --It all starts with security*/
-.whysummit-card-container {
+/*Why Summit Section*/
+
+
+.why-summit {
+    padding: 6% 12%;
+    background: linear-gradient(to bottom, var(--color-white), var(--color-light-grey) 10%);
+}
+
+.why-summit-content {
+    display: flex; 
+    gap: 3%;
+    padding: 3% 0;
+}
+
+.why-summit-text {
+    flex-direction: column;
+}
+
+.why-summit-box {
+    width: 700px;
+    height: 200px;
+    flex-wrap: wrap;
+    padding: 3% 3%;
+    background-color: var(--color-primary-red);
+    border-radius: 30px;
+    margin: 6% 0;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 15px;
+    color: var(--color-white);
+    font-size: 1.1rem;
+}
+
+.why-summit-img > img {
+    width: 750px; 
+    height: 700px;
+    box-shadow: var(--color-primary-red) 40px 40px;
+    border-radius: 30px;
+}
+
+/*It all starts with security Section*/
+
+.starts-security {
+    background: linear-gradient(to bottom, var(--color-light-grey), var(--color-black), var(--color-80-black), var(--color-black), var(--color-dark-grey), var(--color-dark-grey), var(--color-white));
+}
+
+.starts-security .section-heading {
+    padding: 10%;
+    color: var(--color-white);
+}
+
+.starts-security .section-subheading{
+    color:var(--color-white);
+    font-size: 1.4rem;
+    line-height: 1.4;;
+}
+
+.security-card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -7,24 +62,24 @@
     padding: 6% 0 0 0;
 }
 
-.whysummit-card-subtainer {
+.security-card-subtainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.whysummit-card {
-    width: 30%;
+.security-card {
+    width: 24%;
     min-width: 350px;
     max-width: 800px;
     min-height: 560px;
-    background-color: var(--color-primary-red);
+    background-color: var(--color-white);
+    box-shadow: var(--color-primary-red) 40px 40px;
     border-radius: 50px;
     border: 3px solid rgba(0,0,0,0.2);
-    margin: 1%;
+    margin: 3%;
     padding: 1% 2% 2% 2%;
-    color: rgba(255, 255, 255, 0.9);
     transition: all .3s ease-in-out;
     line-height: 1.6;
     opacity: 0;
@@ -32,221 +87,153 @@
     transition: opacity 0.5s ease-in-out, transform 0.6s ease-in-out;
 }
 
-
-.whysummit-card-image {
-    height: 140px;
+.security-card-image {
+    height: 240px;
     background: url("../assets/svgs/icons1209revised-01.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.whysummit-card > i {
-    font-size: 2.7rem;
-    line-height: 1.4;
-}
 
-.whysummit-card > h3 {
+
+.security-card > h3 {
     font-weight: 600;
     font-size: 1.9rem;
-    color: var(--color-white);
+    text-align: center;
+    font-family: "Orbitron", 'lato', 'sans-serif';
 }
 
-.whysummit-card:hover {
+.security-card:hover {
     transform: scale(1.1);
 }
 
-/*Why Summit Services Section*/
+/*Peak Expertise Section*/
 
-.why-service-container {
-    display: flex;
-    padding: 3% 0;
-    justify-content: center;
-    align-items: center;
+.expertise-divider {
+ padding-top: 10%;
 }
 
-.why-service-subtainer {
+.expertise-bar {
+    background-color: var(--color-primary-red);
+    width: 30%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 1% 0;
+}
+.expertise-bar > h2 {
+    padding: 3% 10%;
+    font-family: "Orbitron", 'lato', 'sans-serif';
+    font-size: 4.1rem;
+    color: var(--color-white);
+}
+
+.expertise-section {
+    padding: 3% 6%;
+}
+
+.expertise-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-.why-service-card {
-   width: 90%;
-   height: 440px;
+.expertise-subtainer {
+    display: flex;
+
+}
+
+.expertise-card {
+   width: 20%;
    font-size: 1.3rem;
-   padding: 10% 4%;
-   border-radius: 50px;
-   color: var(--color-primary-red);
    background-color: var(--color-white); 
    line-height: 1.4;
    text-align: center;
-   margin-top: 9%;
-   box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.25), 0 6px 11px 0px rgba(0, 0, 0, 0.25);
+   margin: 1%;
+   
 }
 
-.why-summit-card-icon {
+.expertise-icon {
     background: url("../assets/svgs/oneteamicons-01\ 1\ \(1\).svg");
     background-repeat: no-repeat;
     width: 100%;
-    height:160px;
+    height:240px;
     background-size: contain;
-    background-position: center;
-}
-
-
-
-
-/*Why Summit Call to Action Section*/
-.cta-section {
-    padding: 3% 10%;
-    display: flex;
-    background-color: var(--color-black);
-    color: var(--color-white);
-    background: url("../assets/svgs/mountainbanner2-01\ \(2\).svg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: bottom;
-} 
-
-.cta-graphic {
-    width: 50%;
-}
-
-.cta-content {
-    display:flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
-    width: 50%;
 }
 
-.cta-content > .section-heading {
-    font-weight: 1000;
-    font-size: 3.5rem;
-    padding: 0 0;
-}
-
-.cta-btn-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.cta-btn {
-    text-decoration: none;
-    padding: 3% 10%;
-    background-color: var(--color-primary-red);
-    color: var(--color-white);
-    border-radius: 15px;
-    font-size: 1.5rem;
-    font-weight: 700;
+.expertise-card > h3 {
+    font-family: "Orbitron", 'lato', 'sans-serif';
     text-align: center;
 }
 
-.cta-btn:hover{
-    background-color: var(--color-white);
-    color: var(--color-primary-red);
-}
-
-.cta-btn-alt {
-    background-color: var(--color-light-grey);
-    color: var(--color-primary-red);
-}
-
-.cta-bar-red {
-    display: flex; 
-    justify-content: center;
-    width: 90%;
-    margin: 6% 0;
-    border-top: 4px solid rgba(0,0,0,0.1);
-    background-color: var(--color-primary-red);
-}
-
-.cta-image {
-    width: 30%;
-    height: 250px;
-    background-color: var(--color-primary-red);
-    border-radius: 15px;
-    background: url("../assets/stock-photo-man-use-laptop-with-cloud-computing-diagram-show-on-hand-cloud-technology-data-storage-2057949305.jpg");
-    background-position: center;
-    background-size: cover;
-}
 
 /*Middle Layout*/
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1300px) {
     
-    /*Why Summit? Services Section -- Middle*/
-    .why-service-container {
-        flex-direction: column;
-        padding: 3% 3%;
-    }
-
-    .why-service-card {
-        width: 100%;
-        font-size: 1.0rem;
-        margin-top: 10%;
-    }
-
-    /*CTA Section --Middle Layout*/
-    .cta-section {
-        padding: 6% 0;
+    /*Why Summit Section -- Middle*/
+    .why-summit-content {
         flex-direction: column;
     }
 
-    .cta-graphic {
+    .why-summit-text {
+        order: 2;
+    }
+
+    .why-summit-box {
         width: 100%;
+        height: 400px;
+        margin: 15% 0;
     }
 
-    .cta-content {
-        width: 100%;
-        margin: 0 6%;
+    .why-summit-img {
+        order: 1;
     }
 
-    .cta-content > .section-heading {
-        font-size: 2.3rem;
-        text-align: center;
+    .why-summit-img > img  {
+        width: 300px;
+        height: 300px;
+        box-shadow: var(--color-primary-red) 20px 20px;
     }
 
-    .cta-btn-container {
+    /*It All Starts With Security Section -- Middle*/
+    .starts-security {
+        background:linear-gradient(to bottom, var(--color-black), var(--color-light-grey));
+    }
 
+    .security-card {
+        box-shadow: none; 
+        padding: 3%;
+    }
+
+    /*Peak of Expertise Section -- Middle*/
+    .expertise-bar {
+        width: 50%;
+    }
+
+    .expertise-bar > h2 {
+        font-size: 1.9rem;
+    }
+
+    .expertise-subtainer {
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        gap: 20px;
     }
 
-    .cta-btn {
-        width: 200px;   
+    .expertise-card {
+        width: 100%;
+        margin: 3% 0;
     }
+
+    .expertise-card > h3 {
+        text-align: left;
+    }
+
 }
 
 /*Mobile Layout*/
 @media screen and (max-width: 700px) {
     
-    /*Why Summit? It all starts with Security --Mobile*/
-    .whysummit-card {
-        border-radius: 20px;
-        margin: 10% 0;
-    }
-
-    /*Why Summit? One Team for all Services --Mobile*/
-    .why-service-card{
-        padding: 10% 6%;
-        height: 400px;
-    }
-    /*Why Summit? Call to Action -- Mobile */
-
-    .cta-content {
-        width: 90%;
-    }
-
-    .cta-btn {
-        padding: 3% 3%;
-    }
-
-    .cta-image {
-        display: none;
-    }
+   
 }

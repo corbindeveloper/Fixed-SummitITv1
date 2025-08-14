@@ -32,38 +32,109 @@
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">    
 </head>
 <body>
-    <header id="stickyHeader">
-        <!-- Logo -->
+    <div id="main-content"> 
+    <header id="stickyHeader"> 
+        <!-- Logo --> 
         <div class="logo">
-            <a href="../index.html">
-                <img src="../assets/SITS logo.png" alt="Summit IT Solutions Logo">
+            <a href="../index.html">  
+                <img src="../assets/SITS logo.png" alt="Summit IT Solutions Logo"> 
             </a>
         </div>
-
-        <!-- Navigation -->
+                <!-- Navigation -->
         <nav class="main-nav">
             <ul> 
                 <div class="dropdown">
+                <li class="dropbtn">Our Services <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content dropdown-service">
+                      
+                        <div class="dropdown-title"> 
+
+                            <span>Our Services</span>
+                            
+                        </div>
+                        <div class="dropdown-items">
+                            <a href="./Services/cybersecurity.html">Managed Cybersecurity</a>
+                            <a href="#">Penetration Testing</a>
+                            <a href="#">IT Support</a>
+                            <a href="./Services/managedIt.html">IT Management</a>
+                            <a href="./Services/co-managedIt.html">Co-Managed IT</a>
+                            <a href="./Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+                            <a href="./Services/managedvoip.html">Business Communications (VoIP)</a>
+                            <a href="#">Conference Room as a Service</a>
+                            <a href="./Services/cloud.html">Cloud Services</a>
+                            <a href="#">Compliance</a>
+                            <a href="#">New Office Setup</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="dropdown">
+                <!-- <li><a href="#">About Us</a></li> -->
+                <li  class="dropbtn">Hardware <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content dropdown-hardware">
+                        <div class="dropdown-title"> 
+
+                            <span>Hardware</span>
+                        </div>
+                        <div class="dropdown-items">
+                            <a href="./About/whysummit.html">Business Phones</a>
+                            <a href="./About/careers.html">Networking Equipment</a> 
+                            <a href="./About/whysummit.html">Cameras</a>
+                            <a href="./About/careers.html">Door Access Control</a> 
+                            <a href="./About/whysummit.html">Conference Rooms</a>
+                            <a href="./About/careers.html">New Office Setup</a> 
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                <!-- <li><a href="#">About Us</a></li> -->
+                <li  class="dropbtn">Industries <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content dropdown-industries">
+                        <div class="dropdown-title"> 
+
+                            <span>Industries</span>
+                        </div>
+                        <div class="dropdown-items">
+                            <a href="./About/whysummit.html">Law Firms</a>
+                            <a href="./About/careers.html">Accounting</a> 
+                            <a href="./About/whysummit.html">Financial Services</a>
+                            <a href="./About/careers.html">Local Government</a> 
+                            <a href="./About/whysummit.html">Healthcare & Dental</a>
+                            <a href="./About/careers.html">Veterinary Clinics</a> 
+                            <a href="./About/whysummit.html">Service Businesses</a>
+                            <a href="./About/careers.html">Retail</a> 
+                            <a href="./About/whysummit.html">Manufacturing</a>
+                            <a href="./About/careers.html">Golf Clubs & Hospitality</a> 
+                            <a href="./About/whysummit.html">Real Estate</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="dropdown">
                 <!-- <li><a href="#">About Us</a></li> -->
                 <li  class="dropbtn">About Us <i class="fa-solid fa-circle-chevron-down"></i></li>
-                    <div class="dropdown-content">
-                        <a href="./whysummit.html">Why Summit?</a>
-                        <a href="./careers.html">Careers</a>
-                       
+                    <div class="dropdown-content dropdown-about">
+                        <div class="dropdown-title"> 
+
+                            <span>About Us</span>
+                        </div>
+                        <div class="dropdown-items">
+                            <a href="./About/whysummit.html">Why Summit?</a>
+                            <a href="./About/careers.html">Careers</a> 
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="dropdown">
-                <li class="dropbtn">Our Services <i class="fa-solid fa-circle-chevron-down"></i></li>
-                    <div class="dropdown-content">
-                        <a href="../Services/managedIt.html">Managed IT Services</a>
-                        <a href="../Services/co-managedIt.html">Co-Managed IT</a>
-                        <a href="../Services/cybersecurity.html">Cybersecurity</a>
-                        <a href="../Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a>
-                        <a href="../Services/cloud.html">Cloud Services</a>
-                        <a href="../Services/managedvoip.html">Managed VoIP Services</a>
-                    </div>
-                </div>
+
+                
+                <li><a href="#">Resources</a></li>
                 <li><a href="#contactus" class="nav-btn">Contact Us</a></li>
+             
             </ul>
         </nav>
 
@@ -75,43 +146,82 @@
         </nav>
     </header>
 
-
     <!--Mobile Dropdown-->
     <div class="mobile-nav-list" id="mobile-nav-func">
-        <div class="mobile-nav-item" onclick="mobileAbout()">
-            <span>About Us <i class="fa-solid fa-circle-chevron-down"></i></span>
-        </div>
-
-        <div class="mobile-drop-nav" id="about-nav">
-            <a href="./whysummit.html">Why Summit?</a>
-            <a href="./careers.html">Careers</a>
-        </div>
-
+        
         <div class="mobile-nav-item" onclick="mobileService()">
             <span>Our Services <i class="fa-solid fa-circle-chevron-down"></i></span>
         </div>
 
         <div class="mobile-drop-nav" id="service-nav">
-            <a href="../Services/managedIt.html">Managed IT Services</a>
-            <a href="../Services/co-managedIt.html">Co-Managed IT</a>
-            <a href="../Services/cybersecurity.html">Cybersecurity</a>
-            <a href="../Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a>
-            <a href="../Services/cloud.html">Cloud Services</a>
-            <a href="../Services/managedvoip.html">Managed VoIP Services</a>
+            <a href="#">Managed Cybersecurity</a>
+            <a href="#">Penetration Testing</a>
+            <a href="#">IT Support</a>
+            <a href="#">IT Management</a>
+            <a href="#">Co-Managed IT</a>
+            <a href="#">Backup & Disaster Recovery</a>
+            <a href="#">Business Communications (VoIP)</a>
+            <a href="#">Conference Room as a Service</a>
+            <a href="#">Cloud Services</a>
+            <a href="#">Compliance</a>
+            <a href="#">New Office Setup</a>
         </div>
 
+        <div class="mobile-nav-item" onclick="mobileHardware()">
+            <span>Hardware <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="hardware-nav">
+            <a href="#">Business Phones</a>
+            <a href="#">Networking Equipment</a>
+            <a href="#">Cameras</a>
+            <a href="#">Door Access Control</a>
+            <a href="#">Conference Rooms</a>
+            <a href="#">New Office Setup</a>
+        </div>
+
+        <div class="mobile-nav-item" onclick="mobileIndustries()">
+            <span>Industries <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="industries-nav">
+            <a href="#">Law Firms</a>
+            <a href="#">Accounting</a>
+            <a href="#">Financial Services</a>
+            <a href="#">Local Government</a>
+            <a href="#">Healthcare & Dental</a>
+            <a href="#">Veterinary Clinics</a>
+            <a href="#">Service Businesses</a>
+            <a href="#">Retail</a>
+            <a href="#">Manufacturing</a>
+            <a href="#">Golf Clubs & Hospitality</a>
+            <a href="#">Real Estate</a>
+        </div>
+
+
+
+        <div class="mobile-nav-item" onclick="mobileAbout()">
+            <span>About Us <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="about-nav">
+            <a href="./About/whysummit.html">Why Summit?</a>
+            <a href="./About/careers.html">Careers</a>
+        </div>
+
+        
         <div class="mobile-nav-item">
             <span><a href="../forms/contactus.html">Contact Us</a></span>
-        </div>
+        </div> 
         
-        <div class="mobile-social">
+        <div class="mobile-social"> 
             <a href="#"><i class="fa-brands fa-youtube"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         </div>
-    </div>
+    </div> 
 
     <main>
-        <!--Section 1: Why Summit? Hero Section-->
+        <!--Section 1: About Us Hero Section-->
         
         
           <section class="hero shadow-button">
@@ -120,7 +230,7 @@
                 
             </video>
             <div class="hero-content">
-              <h1 class="hero-header">Why Summit?</h1>
+              <h1 class="hero-header">About Us</h1>
               <p class="hero-text"> 
                 At Summit IT Solutions, we aren't just your help desk, we are your team,
                 with an immense passion for delivering top notch security
@@ -130,35 +240,73 @@
               </div>
             </div>
           </section>
-          
-        <!--Section 2: Why Summit? It all starts with Security-->
-        <section class="uniform-section hex-background">
-            <h2 class="section-heading">It all starts with security</h2>
-            <p class="section-subheading">Whether you're a startup or a long time business, we've got a service that'll suit your business and elevate your protection.</p>
-            <div class="whysummit-card-container">
-                <div class="whysummit-card-subtainer">
-                    <div class="whysummit-card scroll-item">
-                        <div class="whysummit-card-image"></div>
+        
+        <!--Section 2: Why Summit?-->
+        <section class="uniform-section why-summit">
+            <h2 class=section-heading>Why Summit?</h2>
+            
+            <div class="why-summit-content">
+                 <div class="why-summit-text">
+                <div class="why-summit-box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="why-summit-box">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="why-summit-box">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+
+            <div class="why-summit-img">
+                <img src="../assets/voip-meeting.webp" width="650" height="500">
+            </div>
+        </section>
+
+
+
+
+        <!--Section 3: It All Starts With Security-->
+        <section class="starts-security">
+            <h2 class="section-heading">It All Starts With Security</h2>
+            <p class="section-subheading">Whether you're a startup or a long time business, we've got a service<br> that'll suit your business and elevate your protection.</p>
+            <div class="security-card-container">
+                <div class="security-card-subtainer">
+                    <div class="security-card scroll-item">
+                        <div class="security-card-image"></div>
                         <h3>Cybersecurity</h3>
                         <p>At Summit IT, we don't just manage your IT, we safeguard it. Our certified experts stay on top of evolving threats, providing 24/7 monitoring and robust security solutions to keep your data safe. We proactively identify and address vulnerabilities before they become breaches, ensuring business continuity and peace of mind. Partner with Summit IT and focus on running your business, while we become your trusted cybersecurity shield.</p>
                     </div>
-                    <div class="whysummit-card scroll-item">
-                        <div class="whysummit-card-image" style="background: url(../assets/svgs/icons1209revised-03.svg); background-repeat: no-repeat; background-size: contain;"></div>
+                    <div class="security-card scroll-item">
+                        <div class="security-card-image" style="background: url(../assets/svgs/icons1209revised-03.svg); background-repeat: no-repeat; background-size: contain;"></div>
                         <h3>IT Expertise</h3>
                         <p>Summit IT's dedicated expertise is here to provide prompt and professional assistance whenever you need it. Our team of friendly and knowledgeable technicians are available 24/7 to troubleshoot any issue, big or small. Whether you need help resetting a password, resolving software glitches, or navigating complex technical challenges, our team is your answer for getting back on track quickly and efficiently.</p>
                     </div> 
 
+                    <div class="security-card scroll-item">
+                        <div class="security-card-image"></div>
+                        <h3>Cybersecurity</h3>
+                        <p>At Summit IT, we don't just manage your IT, we safeguard it. Our certified experts stay on top of evolving threats, providing 24/7 monitoring and robust security solutions to keep your data safe. We proactively identify and address vulnerabilities before they become breaches, ensuring business continuity and peace of mind. Partner with Summit IT and focus on running your business, while we become your trusted cybersecurity shield.</p>
+                    </div>
+                    
+
                 </div>
 
-                <div class="whysummit-card-subtainer"> 
-                    <div class="whysummit-card scroll-item"> 
-                        <div class="whysummit-card-image" style="background: url(../assets/svgs/icons1209revised-02.svg); background-repeat: no-repeat;"></div>
+                <div class="security-card-subtainer"> 
+                    <div class="security-card scroll-item"> 
+                        <div class="security-card-image" style="background: url(../assets/svgs/icons1209revised-02.svg); background-repeat: no-repeat;"></div>
                         <h3>Data Protection</h3>
                         <p>At Summit IT, we don't just back up your data, we prepare for the unexpected. Disasters, both digital and physical, can cripple a business. Our team proactively identifies risks and crafts a customized plan to ensure swift data restoration and minimal downtime. We leverage secure, encrypted backups and conduct regular testing drills to guarantee a seamless recovery process. Partner with Summit IT and gain peace of mind, knowing your business can be back on track quickly.</p>
                     </div>   
                     
-                    <div class="whysummit-card scroll-item"> 
-                        <div class="whysummit-card-image" style="background: url(../assets/svgs/icons1209revised-04\ \(1\).svg); background-repeat: no-repeat;"></div>
+                    <div class="security-card scroll-item"> 
+                        <div class="security-card-image" style="background: url(../assets/svgs/icons1209revised-04\ \(1\).svg); background-repeat: no-repeat;"></div>
+                        <h3>Business Continuity</h3>
+                        <p>We understand the importance and complexities of running a business, that is why it is our mission to ensure a worry free IT for your business. Our team of experienced IT professionals will become an extension of your team, providing proactive maintenance, 24/7 monitoring, and robust data backup solutions. We'll handle everything from system updates and security patches to identifying and resolving potential issues before they disrupt your operations.</p>
+                    </div>   
+
+                    <div class="security-card scroll-item"> 
+                        <div class="security-card-image" style="background: url(../assets/svgs/icons1209revised-04\ \(1\).svg); background-repeat: no-repeat;"></div>
                         <h3>Business Continuity</h3>
                         <p>We understand the importance and complexities of running a business, that is why it is our mission to ensure a worry free IT for your business. Our team of experienced IT professionals will become an extension of your team, providing proactive maintenance, 24/7 monitoring, and robust data backup solutions. We'll handle everything from system updates and security patches to identifying and resolving potential issues before they disrupt your operations.</p>
                     </div>   
@@ -168,7 +316,80 @@
 
         </section>
 
-        <!--Section 3: One Team for all Services-->
+        <!--Section Divider-->
+        <div class="expertise-divider">
+            <div class="expertise-bar">
+                  <h2>Our Team:</h2>
+            </div>
+          
+        </div>
+
+        <!--Section 4: The Peak of Expertise-->
+        <section class="uniform-section expertise-section">
+            
+            <h2 class="section-heading-left">The Peak of Expertise</h2>
+
+            <div class="expertise-container">
+                <div class="expertise-subtainer">
+                    <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>Security Solutions</h3>
+                    </div>
+
+                    <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>Comprehensive Support</h3>
+                    </div>
+                     <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>Cloud Infrastructure</h3>
+                    </div>
+                     <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>TBD</h3>
+                    </div>
+                     <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>TBD</h3>
+                    </div>
+                     <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>TBD</h3>
+                    </div>
+
+                </div>
+                <div class="expertise-subtainer">
+                     <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>Data Protection</h3>
+                    </div>
+
+                    <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>Strategic IT Consulting</h3>
+                    </div>
+                     <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>Proactive Training</h3>
+                    </div>
+                     <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>TBD</h3>
+                    </div>
+                     <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>TBD</h3>
+                    </div>
+                     <div class="expertise-card">
+                        <div class="expertise-icon"></div>
+                        <h3>TBD</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 3: One Team for all Services
         <section class="grey-section uniform-section shadow-top-bottom">
             <h2 class="section-heading">One Team for all IT Services</h2>
             <p class="section-subheading">From IT management to Cybersecurity to VoIP management</p>
@@ -219,7 +440,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!--Contact Us-->
         <section class="uniform-section" id="contactus">
@@ -246,7 +467,7 @@
             </div>
     </section>
 
-    <!--Section: Why Summit Call to Action Section -->
+    <!-- Section: Why Summit Call to Action Section
     <section class="cta-section grey-section shadow-top-bottom">
         <div class="cta-graphic"> 
             <img src="../assets/monitoranimation2.gif" width="100%" height="100%" alt="IT Services">
@@ -259,71 +480,107 @@
                 <a href ="./careers.html" class="cta-btn cta-btn-alt hvr-pulse-grow">Careers <img src="../assets/svgs/rightarrow-03 (3).svg" width="32px" height="20px" alt="Careers Arrow"></a>
             </div>
             
-        </div>  
+        </div>   -->
     </section>
 
   
 
     </main>
 
-     <!--Footer--> 
-     <footer class="uniform-section red-section shadow-top-bottom footer-section">
+      <!--Footer--> 
+    <footer class="uniform-section red-section shadow-top-bottom footer-section" style="background:linear-gradient(180deg, #bf2026, #000000); border-radius: 0 0 0 0; display: flex;">
        
-        <div class="footer-content">
-            <div class="footer-list">
-                <p class="section-text font-bolder">About Us</p>
-                <ul>
-                    <li><a href="./whysummit.html">Why Summit?</a></li>
-                    <li><a href="./careers.html">Careers</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-list">
-                <p class="section-text font-bolder">Our Services</p>
-                <ul>
-                    <li><a href="../Services/managedIt.html">Managed IT Services</a></li>  
-                    <li><a href="../Services/co-managedIt.html">Co-Managed IT</a></li>
-                    <li><a href="../Services/cybersecurity.html">Cybersecurity</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-list">
-                <p class="section-text font-bolder">More Services</p>
-                <ul>
-                    <li><a href="../Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a></li>  
-                    <li><a href="../Services/cloud.html">Cloud Services</a></li>  
-                    <li><a href="../Services/managedvoip.html">Managed VoIP Services</a></li>  
-                </ul>
-            </div>
-
-            <div class="footer-list">
-                <p class="section-text font-bolder">Resources</p>
-                <ul>
-                    <li><a href="#">Coming Soon</a></li>
-                    
-                </ul>
-            </div>
-        </div>
-
-        <div class="footer-line"></div>
-
-         <div class="footer-bottom">
+         <div class="footer-left">
                 <div class="footer-logo">
-                    <a href="../index.html">
-                    <img src="../assets/SITS logo.png" alt="Summit IT Logo">
+                    <a href="#">
+                        <img src="../assets/SITS logo.png" alt="Summit IT Logo">
                     </a>
                 </div>
                 <div class="footer-social"> 
                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
                 </div>
+
+                    <div class="footer-links">
+                        <a href="#">About Us</a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#">Resources</a>
+                    </div>
+          </div>
+
+        <div class="footer-content">
+
+            <div class="footer-list">
+                <p class="footer-list-header">Our Services</p>
+                <ul>
+                    <li><a href="#">Managed Cybersecurity</a></li>  
+                    <li><a href="#">Penetration Testing</a></li>  
+                    <li><a href="#">IT Support</a></li>  
+                    <li><a href="#">IT Management</a></li>  
+                    <li><a href="#">Co-Managed IT</a></li>
+                    <li><a href="#">Backup & Disaster Recovery</a></li>   
+                    <li><a href="#">Business Communications (VoIP)</a></li>   
+                    <li><a href="#">Conference Room as a Service</a></li>  
+                    <li><a href="#">Cloud Services</a></li>  
+                    <li><a href="#">Compliance</a></li>  
+                    <li><a href="#">New Office Setup</a></li>  
+                </ul>
+            </div>
+
+            
+
+            <div class="footer-list">
+                <p class="footer-list-header">Hardware</p>
+                <ul>
+                    <li><a href="#">Business Phones</a></li>  
+                    <li><a href="#">Networking Equipment</a></li>  
+                    <li><a href="#">Cameras</a></li>  
+                    <li><a href="#">Door Access Control</a></li>  
+                    <li><a href="#">Conference Rooms</a></li>  
+                    <li><a href="#">New Office Setup</a></li>  
+                </ul>
+            </div>
+
+            <div class="footer-list">
+                <p class="footer-list-header">Industries</p>
+                <ul>
+                    <li><a href="#">Law Firms</a></li>  
+                    <li><a href="#">Accounting</a></li>  
+                    <li><a href="#">Financial services</a></li>  
+                    <li><a href="#">Local Government</a></li>  
+                    <li><a href="#">Healthcare & Dental</a></li>
+                    <li><a href="#">Veterinary Clinics</a></li>   
+                    <li><a href="#">Service Businesses</a></li>   
+                    <li><a href="#">Retail</a></li>  
+                    <li><a href="#">Manufacturing</a></li>  
+                    <li><a href="#">Golf Clubs & Hospitality</a></li>  
+                    <li><a href="#">Real Estate</a></li>  
+                </ul>
+            </div>
+
+            
         </div>
-    </footer>
+
+
+        <div class="footer-line"></div>
+
+         
+    </footer>    
+
+    <!--Middle Footer Section-->
+    <div class="footer-middle">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+    </div>
     
     <!--Credits-->
-    <div class="credits">
-        <p>2023 &copy; Summit IT Solutions, LLC | All Rights Reserved.</p> 
+    <div class="credits" style="background-color: #000000;">
+        <p style="color: #ffffff; font-family: Orbitron, Lato, sans-serif;">2023 &copy; Summit IT Solutions, LLC | All Rights Reserved.</p> 
     </div>
+    
+</div>
 
     </body>
     <!--JavaScript-->
