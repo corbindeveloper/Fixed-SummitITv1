@@ -1,6 +1,4 @@
 /*Why Summit Section*/
-
-
 .why-summit {
     padding: 6% 12%;
     background: linear-gradient(to bottom, var(--color-white), var(--color-light-grey) 10%);
@@ -31,7 +29,7 @@
 }
 
 .why-summit-img > img {
-    width: 750px; 
+    width: 760px; 
     height: 700px;
     box-shadow: var(--color-primary-red) 40px 40px;
     border-radius: 30px;
@@ -235,5 +233,4 @@
 /*Mobile Layout*/
 @media screen and (max-width: 700px) {
     
-   
 }
