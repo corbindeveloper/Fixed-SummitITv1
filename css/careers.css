@@ -1,7 +1,26 @@
-/*Card Containers Sections aka Section 2 and 3*/
+/*Section 2: Shape Section*/
+.shape-content {
+    display: flex;
+    gap: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6% 0;
+}
+
+.shape-text {
+ font-size: 2.9rem;
+ line-height: 1.4;
+}
+
+.shape-img > img {
+    box-shadow: var(--color-primary-red) -40px 40px;
+    border-radius: 30px;
+}
+
+
+/*Card Containers Sections aka Section 3 and 4*/
 .value-section {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -23,6 +42,7 @@
 
 .about-card-subtainer {
     display: flex; 
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;

@@ -39,32 +39,105 @@
             <a href="../index.html"><img src="../assets/SITS logo.png" alt="Summit IT Solutions Logo"></a> 
         </div>
 
+
+                <!-- Navigation -->
         <nav class="main-nav">
             <ul> 
                 <div class="dropdown">
+                <li class="dropbtn">Our Services <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content dropdown-service">
+                      
+                        <div class="dropdown-title"> 
+
+                            <span>Our Services</span>
+                            
+                        </div>
+                        <div class="dropdown-items">
+                            <a href="./Services/cybersecurity.html">Managed Cybersecurity</a>
+                            <a href="#">Penetration Testing</a>
+                            <a href="#">IT Support</a>
+                            <a href="./Services/managedIt.html">IT Management</a>
+                            <a href="./Services/co-managedIt.html">Co-Managed IT</a>
+                            <a href="./Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a>
+                            <a href="./Services/managedvoip.html">Business Communications (VoIP)</a>
+                            <a href="#">Conference Room as a Service</a>
+                            <a href="./Services/cloud.html">Cloud Services</a>
+                            <a href="#">Compliance</a>
+                            <a href="#">New Office Setup</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                <!-- <li><a href="#">About Us</a></li> -->
+                <li  class="dropbtn">Hardware <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content dropdown-hardware">
+                        <div class="dropdown-title"> 
+
+                            <span>Hardware</span>
+                        </div>
+                        <div class="dropdown-items">
+                            <a href="./About/whysummit.html">Business Phones</a>
+                            <a href="./About/careers.html">Networking Equipment</a> 
+                            <a href="./About/whysummit.html">Cameras</a>
+                            <a href="./About/careers.html">Door Access Control</a> 
+                            <a href="./About/whysummit.html">Conference Rooms</a>
+                            <a href="./About/careers.html">New Office Setup</a> 
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                <!-- <li><a href="#">About Us</a></li> -->
+                <li  class="dropbtn">Industries <i class="fa-solid fa-circle-chevron-down"></i></li>
+                    <div class="dropdown-content dropdown-industries">
+                        <div class="dropdown-title"> 
+
+                            <span>Industries</span>
+                        </div>
+                        <div class="dropdown-items">
+                            <a href="./About/whysummit.html">Law Firms</a>
+                            <a href="./About/careers.html">Accounting</a> 
+                            <a href="./About/whysummit.html">Financial Services</a>
+                            <a href="./About/careers.html">Local Government</a> 
+                            <a href="./About/whysummit.html">Healthcare & Dental</a>
+                            <a href="./About/careers.html">Veterinary Clinics</a> 
+                            <a href="./About/whysummit.html">Service Businesses</a>
+                            <a href="./About/careers.html">Retail</a> 
+                            <a href="./About/whysummit.html">Manufacturing</a>
+                            <a href="./About/careers.html">Golf Clubs & Hospitality</a> 
+                            <a href="./About/whysummit.html">Real Estate</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="dropdown">
                 <!-- <li><a href="#">About Us</a></li> -->
                 <li  class="dropbtn">About Us <i class="fa-solid fa-circle-chevron-down"></i></li>
-                    <div class="dropdown-content">
-                        <a href="./whysummit.html">Why Summit?</a>
-                        <a href="./careers.html">Careers</a>
+                    <div class="dropdown-content dropdown-about">
+                        <div class="dropdown-title"> 
+
+                            <span>About Us</span>
+                        </div>
+                        <div class="dropdown-items">
+                            <a href="./About/whysummit.html">Why Summit?</a>
+                            <a href="./About/careers.html">Careers</a> 
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="dropdown">
-                <li class="dropbtn">Our Services <i class="fa-solid fa-circle-chevron-down"></i></li>
-                    <div class="dropdown-content">
-                        <a href="../Services/managedIt.html">Managed IT Services</a>
-                        <a href="../Services/co-managedIt.html">Co-Managed IT</a>
-                        <a href="../Services/cybersecurity.html">Cybersecurity</a>
-                        <a href="../Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a>
-                        <a href="../Services/cloud.html">Cloud Services</a>
-                        <a href="../Services/managedvoip.html">Managed VoIP Services</a>
-                    </div>
-                </div>
-                <li><a href="../forms/contactus.html" class="nav-btn nav-btn-alt">Contact Us</a></li>
+
+                
+                <li><a href="#">Resources</a></li>
+                <li><a href="#contactus" class="nav-btn">Contact Us</a></li>
+             
             </ul>
         </nav>
 
-        <!--Mobile Only Navagation-->
+          <!--Mobile Only Navagation-->
         <nav class="mobile-nav" >
             <div class="mobile-nav-btn" onclick="mobileMenu()">
                 <i class="fa-solid fa-bars"></i>
@@ -73,38 +146,78 @@
     </header>
 
     <!--Mobile Dropdown-->
-    <div class="mobile-nav-list" id="mobile-nav-func"> 
-        <div class="mobile-nav-item" onclick="mobileAbout()">
-            <span>About Us <i class="fa-solid fa-circle-chevron-down"></i></span>
-        </div>
-
-        <div class="mobile-drop-nav" id="about-nav"> 
-            <a href="./whysummit.html">Why Summit?</a>
-            <a href="./careers.html">Careers</a>
-        </div>
-
-        <div class="mobile-nav-item" onclick="mobileService()"> 
+    <div class="mobile-nav-list" id="mobile-nav-func">
+        
+        <div class="mobile-nav-item" onclick="mobileService()">
             <span>Our Services <i class="fa-solid fa-circle-chevron-down"></i></span>
         </div>
 
         <div class="mobile-drop-nav" id="service-nav">
-            <a href="../Services/managedIt.html">Managed IT Services</a>
-            <a href="../Services/co-managedIt.html">Co-Managed IT</a>
-            <a href="../Services/cybersecurity.html">Cybersecurity</a>
-            <a href="../Services/backupdisasterrecovery.html">Backup & Disaster Recovery</a>
-            <a href="../Services/cloud.html">Cloud Services</a>
-            <a href="../Services/managedvoip.html">Managed VoIP Services</a>
+            <a href="#">Managed Cybersecurity</a>
+            <a href="#">Penetration Testing</a>
+            <a href="#">IT Support</a>
+            <a href="#">IT Management</a>
+            <a href="#">Co-Managed IT</a>
+            <a href="#">Backup & Disaster Recovery</a>
+            <a href="#">Business Communications (VoIP)</a>
+            <a href="#">Conference Room as a Service</a>
+            <a href="#">Cloud Services</a>
+            <a href="#">Compliance</a>
+            <a href="#">New Office Setup</a>
         </div>
 
+        <div class="mobile-nav-item" onclick="mobileHardware()">
+            <span>Hardware <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="hardware-nav">
+            <a href="#">Business Phones</a>
+            <a href="#">Networking Equipment</a>
+            <a href="#">Cameras</a>
+            <a href="#">Door Access Control</a>
+            <a href="#">Conference Rooms</a>
+            <a href="#">New Office Setup</a>
+        </div>
+
+        <div class="mobile-nav-item" onclick="mobileIndustries()">
+            <span>Industries <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="industries-nav">
+            <a href="#">Law Firms</a>
+            <a href="#">Accounting</a>
+            <a href="#">Financial Services</a>
+            <a href="#">Local Government</a>
+            <a href="#">Healthcare & Dental</a>
+            <a href="#">Veterinary Clinics</a>
+            <a href="#">Service Businesses</a>
+            <a href="#">Retail</a>
+            <a href="#">Manufacturing</a>
+            <a href="#">Golf Clubs & Hospitality</a>
+            <a href="#">Real Estate</a>
+        </div>
+
+
+
+        <div class="mobile-nav-item" onclick="mobileAbout()">
+            <span>About Us <i class="fa-solid fa-circle-chevron-down"></i></span>
+        </div>
+
+        <div class="mobile-drop-nav" id="about-nav">
+            <a href="./About/whysummit.html">Why Summit?</a>
+            <a href="./About/careers.html">Careers</a>
+        </div>
+
+        
         <div class="mobile-nav-item">
             <span><a href="../forms/contactus.html">Contact Us</a></span>
-        </div>
+        </div> 
         
-        <div class="mobile-social">
+        <div class="mobile-social"> 
             <a href="#"><i class="fa-brands fa-youtube"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         </div>
-    </div>
+    </div> 
 
     <main>
         <!--Section 1: About Hero-->
@@ -121,12 +234,23 @@
             </div>
         </section>
 
-        <!--Section 2: Our Values-->    
-        <section class="value-section uniform-section hex-background">
-            <div class="value-text">
-                <h2 class="section-heading">Our Values</h2>
-                <p class="section-subheading">What drives us daily.</p>
+        <!--Section 2: Shape Section-->
+        <section class="uniform-section shape-section">
+            <h2 class="section-heading">Shape Tomorrow with Us</h2>
+            <div class="shape-content">
+                <div class="shape-text">
+                    <p>Join our team at Summit Technology Affiliates and be a part of a future where innovation, collaboration, and excellence are not just ideals, but the foundation of our day to day journey. Here, your skills, creativity, and passion find a nurturing ground to thrive and make a tangible impact. Together, we're not just doing jobs, we're crafting a brighter future for our business, our customers, and our community.</p>
+                </div>
+
+                <div class="shape-img">
+                    <img src="../assets/hero-managed-it.webp" width="720px" height="600px">
+                </div>
             </div>
+        </section>
+
+        <!--Section 3: Our Values-->    
+        <section class="value-section uniform-section hex-background">
+            
             <div class="about-card-container">
                 <div class="about-card-subtainer">
                         <div class="about-card scroll-item">
@@ -156,9 +280,14 @@
                     </div>
                 </div>
             </div>
+
+            <div class="value-text">
+                <h2 class="section-heading">Our Values</h2>
+                <p class="section-subheading">What drives us daily.</p>
+            </div>
         </section>
 
-        <!--Section 3: Perks and Benefits-->
+        <!--Section 4: Perks and Benefits-->
         <section class="benefits-section uniform-section grey-section shadow-top-bottom">
             <div class="benefits-text">
                 <h2 class="section-heading">Perks and Benefits</h2>
