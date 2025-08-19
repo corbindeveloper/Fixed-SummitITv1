@@ -8,12 +8,12 @@
 }
 
 .shape-text {
- font-size: 2.9rem;
+ font-size: 1.9rem;
  line-height: 1.4;
 }
 
 .shape-img > img {
-    box-shadow: var(--color-primary-red) -40px 40px;
+    box-shadow: var(--color-primary-red) 40px 40px;
     border-radius: 30px;
 }
 
@@ -21,31 +21,23 @@
 /*Card Containers Sections aka Section 3 and 4*/
 .value-section {
     display: flex;
-    align-items: center;
-    justify-content: center; 
-}
-
-.value-text {
-    min-width: 80%;
-    text-align: center;
+    padding: 6% 0;
 }
 
 
 .about-card-container {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 6% 0 0 0;
+   
 }
 
 .about-card-subtainer {
     display: flex; 
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 1%;
 }
 
 .about-card {
@@ -54,29 +46,29 @@
     width: 30%;
     min-width: 400px;
     max-width: 800px;
-    min-height: 360px;
-    background-color: var(--color-primary-red);
-    border-radius: 5px;
-    border: 3px solid rgba(0,0,0,0.2);
+    min-height: 460px;
+    background-color: var(--color-white);
+    border-radius: 15px;
+    border: 3px solid var(--color-primary-red);
     margin: 1%;
     padding: 1% 2% 2% 2%;
-    color: rgba(255, 255, 255, 0.9);
     transform: scale(.6);
     transition: opacity 0.5s ease-in-out, transform 0.6s ease-in-out;
+    box-shadow: var(--color-primary-red) 10px 10px;
 }
  
 .about-card-icon {
-    justify-content: flex-start;
-    height: 90px;
+    justify-content: center;
+    height: 175px;
     background: url("../assets/svgs/careerpageicons-02.svg");
     background-repeat: no-repeat;
     background-size: contain;
-
 }
 
 .about-card > h3 {
+    text-align: center;
     font-weight: 600;
-    color: var(--color-white);
+    font-family: 'Orbitron', 'Lato', 'Sans-Serif';
     font-size: 1.7rem;
 }
 
@@ -89,23 +81,99 @@
 .about-card > p {
     letter-spacing: 1px;
     line-height: 2;
+    
 }
+
+.value-text {
+    min-width: 30%;
+    text-align: center;
+}
+
+.value-text .section-subheading {
+    text-align: left;
+    font-size: 1.7rem;
+}
+
+.value-bar-large {
+    background-color: var(--color-primary-red);
+    width: 100%;
+    height: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin: 6% 0;
+}
+
+.value-bar-med {
+    background-color: var(--color-primary-red);
+    width: 70%;
+    height: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin: 6% 0;
+    float: right;
+}
+
+.value-bar-sml {
+    background-color: var(--color-primary-red);
+    width: 40%;
+    height: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin: 6% 0;
+    float: right;
+}
+
 
 /*Perks and Benefits Section Specific*/
 .benefits-section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 6% 0;
 }
 
 .benefits-text {
-    min-width: 80%;
+    min-width: 30%;
     text-align: center;
 }
 
+.benefits-text .section-subheading {
+    text-align: right;
+    font-size:1.7rem;
+}
+
+.benefits-bar-large {
+    background-color: var(--color-primary-red);
+    width: 100%;
+    height: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 6% 0;
+}
+
+.benefits-bar-med {
+    background-color: var(--color-primary-red);
+    width: 70%;
+    height: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 6% 0;
+    float: left;
+}
+
+.benefits-bar-sml {
+    background-color: var(--color-primary-red);
+    width: 40%;
+    height: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 6% 0;
+    float: left;
+}
+
+
 .comp-pay {
     background-color: #0dd15251;
+    border: 3px solid var(--color-light-grey);
+    box-shadow: var(--color-dark-grey) 10px 10px;
     }
 
 .comp-pay > i {
@@ -119,6 +187,8 @@
 .pto-card {
     background-color: #BD0DD130;
     color: var(--color-black);
+    border: 3px solid var(--color-light-grey);
+    box-shadow: var(--color-dark-grey) 10px 10px;
 }
 
 .pto-card > i {
@@ -132,6 +202,8 @@
 .profit-sharing-card {
     background-color: #0DC4D155;
     color: var(--color-black);
+    border: 3px solid var(--color-light-grey);
+    box-shadow: var(--color-dark-grey) 10px 10px;
 }
 
 .profit-sharing-card > h3, .profit-sharing-card > p {
@@ -144,6 +216,8 @@
 
 .health-card {
     background-color: #D10D7F47;
+    border: 3px solid var(--color-light-grey);
+    box-shadow: var(--color-dark-grey) 10px 10px;
 }
 
 .health-card > i {
@@ -195,21 +269,34 @@
 
 /*Openn Position Section*/
 .open-section {
-    padding: 6% 3%;
+    padding: 0% 3%;
 }
 
 
 .open-text {
     text-align: center;
+    border-top: 3px solid var(--color-primary-red);
+    border-bottom: 3px solid var(--color-primary-red);
+    padding: 6% 0;
+}
+
+.open-text .section-small-heading {
+    font-family: 'Orbitron', 'Lato', 'Sans-Serif';
+
 }
 
 /*How To Apply? Section*/
 .hta-section {
-    padding: 3% 3%;
+    padding: 6% 3%;
 }
 
 .hta-text {
     text-align: center;
+}
+
+.hta-text .section-small-heading {
+    font-family: 'Orbitron', 'Lato', 'Sans-Serif';
+
 }
 
 /*Middle Layout*/
@@ -218,12 +305,55 @@
 }
 
 /*Mobile Layout*/
-@media screen and (max-width: 700px) {  
+@media screen and (max-width: 700px) { 
+    
+    /*Shape Section --Mobile*/
+    .shape-content{
+        flex-direction: column;
+    }
+
+    .shape-text {
+        width: 100%;
+        font-size: 1.3rem;
+        order: 1;
+        padding: 10% 0 0 0;
+    }
+
+    .shape-img > img {
+        width: 100%;
+        height: 300px;
+        box-shadow: var(--color-primary-red) 10px 10px;
+        order: 2;
+    }
 
    /*Our Values --Mobile*/
+   .value-section {
+        flex-direction: column;
+   }
+
+   .value-text {
+        order: 1;
+    }
+
+    .about-card-container {
+        flex-direction: column;
+        order: 2;
+    }
+
+   .about-card-subtainer {
+    flex-direction: column;
+   }
+   
    .about-card {
     margin: 6% 0;
+    min-width: 300px;
    }
+
+   /*Perks and Benefits -- Mobile*/ 
+   .benefits-section {
+    flex-direction: column;
+   }
+
 
    .info-text {
     font-size: 1.0rem;
