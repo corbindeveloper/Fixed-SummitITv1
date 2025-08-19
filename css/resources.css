@@ -1,0 +1,159 @@
+/*Section 2 -- Latest Resources*/
+
+.latest-resources-content {
+    display: flex; 
+    gap: 10%;
+    justify-content: center;
+    padding: 3% 0;
+}
+
+.latest-resources-card-container {
+    min-width: 500px;
+    max-width: 800px;
+    max-height: 500px;
+    min-height: 300px;
+}
+
+.latest-resources-card-container > a {
+     text-decoration: none;
+}
+
+
+.latest-resources-card {
+    background-color: var(--color-white);
+    border-radius: 10px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
+    padding: 1%;
+    min-height: 460px;
+    min-width: 100%;
+    max-height: 100%;
+    border: 3px solid var(--color-primary-red);
+}
+
+.latest-card-img {
+    background-color: var(--color-primary-red);
+    min-height: 200px;
+    border-radius: 8px;
+    margin: 2.5%;
+}
+
+.latest-card-text {
+    padding: 3% 3% 3% 3%;
+}
+
+.latest-card-title {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    padding: 0 0 3% 0;
+    height: 84px;
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    color: var(--color-black);
+    font-weight: 600;
+}
+
+
+
+.latest-summary {
+    color: rgba(0,0,0, .6);
+    text-align: center;
+    padding: 1% 0 1% 0;
+    font-size: 14px;
+    font-style:italic;
+}
+
+/*Resources CTA*/
+.resources-cta {
+    display: flex;
+    justify-content: center;
+    margin: 3% 12%;
+    height: 340px;
+    background-color: var(--color-black);
+    border-radius: 30px;
+    box-shadow: rgba(0,0,0,.60);
+}
+
+.resources-cta-content {
+    text-align: right;
+    color: var(--color-white);
+    padding: 6% 6%;
+    width: 50%;
+}
+
+.resources-cta-header {
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    font-size: 2.3rem;
+}
+
+.resources-cta-buttons {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.resources-cta-button {
+    background-color: var(--color-primary-red);
+    color: var(--color-white);
+    font-size: 1.3rem;
+    padding: 10px 20px; 
+    font-family: 'Orbitron', 'Lato', 'san-serif';
+    margin: 3% 0;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.resources-cta-img {
+    background-image: linear-gradient(90deg, rgba(255,255,255, 0) 30%, rgb(0, 0, 0)), url("../assets/document-archvie.jpg");
+    width: 90%;
+    height: 100%;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 30px 0px 0px 30px;
+    opacity: .50;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    
+    /*Section 2 --Latest Resources*/
+    .latest-resources-content {
+        flex-direction: column;
+    }
+
+    .latest-resources-card-container {
+        min-width: 50px;
+        min-height: 300px;
+        padding: 10% 0;
+    }
+
+
+    .latest-resources-card {
+        margin: 10% 0;
+    }
+
+    /*Resources CTA --Middle*/
+    .resources-cta {
+        flex-direction: column;
+    }
+
+    .resources-cta-content {
+        text-align: center;
+        width: 100%;
+    }
+
+    .resources-cta-header {
+        font-size: 1.9rem;
+    }
+
+    .resources-cta-buttons {
+        justify-content: center;
+        padding: 3% 0;
+    }
+
+    .resources-cta-img {
+        width: 100%;
+        background-image: linear-gradient(180deg, rgba(255,255,255, 0) 30%, rgb(0, 0, 0)), url("../assets/document-archvie.jpg");
+        border-radius: 30px 30px 0px 0px;
+    }
+}
