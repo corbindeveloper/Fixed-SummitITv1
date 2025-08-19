@@ -10,14 +10,13 @@
 .latest-resources-card-container {
     min-width: 500px;
     max-width: 800px;
-    max-height: 500px;
+    max-height: 330px;
     min-height: 300px;
 }
 
 .latest-resources-card-container > a {
      text-decoration: none;
 }
-
 
 .latest-resources-card {
     background-color: var(--color-white);
