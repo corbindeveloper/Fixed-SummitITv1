@@ -25,11 +25,11 @@
 
 /*Hero Section -- Specific to the Main Page.*/
 .hero { 
-    min-height: 100vh; 
+    min-height: 110vh; 
 }
 
 .hero-content {
-    margin-top: 8%;
+    margin-top: 6%;
     width: 90%;
 }
 
