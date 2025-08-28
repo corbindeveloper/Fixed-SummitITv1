@@ -28,6 +28,63 @@
     min-height: 100vh; 
 }
 
+.hero-content {
+    margin-top: 8%;
+    width: 90%;
+}
+
+.hero-text {
+    padding: 0;
+}
+
+.hero-bottom {
+    border-radius: 30px;
+    padding: 1% 1%;
+    flex-direction: column;
+    border: 1px solid #fff;
+   
+    background: var(--color-20-white);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255,255,255,0.1);
+    
+}
+
+.hero-bottom-container {
+     justify-content: center;
+}
+
+.hero-bottom-subtainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.hero-card {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 0;
+}
+
+.hero-card > img {
+    background-color: var(--color-primary-red);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.hero-card > h2 {
+      font-family: 'Orbitron', 'Lato', 'Sans-Serif';
+      text-align: center;
+      color: var(--color-white);
+     
+}
+
 .hero-btn-alt {
     background-color: var(--color-primary-red);
     color: var(--color-white);
@@ -61,6 +118,7 @@
 
 .problems-solve-section {
     display:flex;
+
 }
 
 .problems-section-left {
@@ -785,6 +843,19 @@
         font-size: 2.7rem;
     }
 
+    .hero-bottom {
+        width: 100%;
+    }
+
+    .hero-bottom-container {
+        padding-top: 4%;
+    }
+
+    .hero-card > h2 {
+        font-size: .9rem;
+    }
+
+
     /*Problems We Solve -- Middle*/
     .problems-solve-section {
         flex-direction: column;
@@ -1054,6 +1125,36 @@
         padding-top: 85px;
     } */
 
+
+    /*Hero Section -- Mobile*/
+    .hero-header {
+        font-size: 1.9rem;
+    }
+
+    .hero-content {
+        margin-top: 1%;
+    }
+
+    .hero-bottom-container{
+        display:none;
+    }
+
+    .hero-bottom-subtainer {
+        flex-direction: column;
+    }
+
+    .hero-card {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hero-card > img {
+        display:none;
+    }
+    
+    .hero-card > h2 {
+    }
+    
     /*Our Solutions Section -- Mobile*/
     .solution-type-card {
         margin: 7% 5%;
