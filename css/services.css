@@ -251,6 +251,7 @@
 /*Steps Towards Coverage Section*/
 
 .managed-coverage {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6), rgba(255,255,255, .9)), url('../assets/svgs/stepstowardcompleteitcoveragebackground-02.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -272,7 +273,7 @@
 
 .managed-card-img {
    width: 100%;
-   height: 360px;
+   height: 330px;
    border-radius: 50px;
    background-color: var(--color-white); 
    box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.25), 0 6px 11px 0px rgba(0, 0, 0, 0.25);
@@ -287,7 +288,7 @@
 
 .managed-card-content {
    width: 100%;
-   height: 360px;
+   height: 330px;
    font-size: 1.3rem;
    padding: 4% 3%;
    border-radius: 50px;
@@ -303,7 +304,7 @@
 .managed-card-title {
     font-family: "Orbitron", 'lato', 'sans-serif';
     font-size: 2.4rem;
-    padding: 3% 0;
+    padding: 1% 0;
 }
 
 

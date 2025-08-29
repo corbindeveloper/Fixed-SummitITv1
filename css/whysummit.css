@@ -42,14 +42,14 @@
 }
 
 .starts-security .section-heading {
-    padding: 10%;
+    padding: 10% 0 1% 0;
     color: var(--color-white);
 }
 
 .starts-security .section-subheading{
     color:var(--color-white);
     font-size: 1.4rem;
-    line-height: 1.4;;
+    line-height: 1.4;
 }
 
 .security-card-container {
@@ -147,16 +147,43 @@
    
 }
 
+
 .expertise-icon {
-    background: url("../assets/svgs/oneteamicons-01\ 1\ \(1\).svg");
-    background-repeat: no-repeat;
+    position: relative; 
     width: 100%;
-    height:240px;
-    background-size: contain;
-    
+    height: 240px;
     justify-content: center;
     align-items: center;
+    
 }
+
+/* Pseudo-element for the icons*/
+.expertise-icon::before {
+    content: ""; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../assets/svgs/oneteamicons-01 1 (1).svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.expertise-icon:hover::before {
+    animation: bounce .7s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px); 
+    }
+}
+
 
 .expertise-card > h3 {
     font-family: "Orbitron", 'lato', 'sans-serif';
@@ -187,7 +214,7 @@
     }
 
     .why-summit-img > img  {
-        width: 300px;
+        width: 100%;
         height: 300px;
         box-shadow: var(--color-primary-red) 20px 20px;
     }
