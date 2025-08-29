@@ -864,11 +864,14 @@
 
     .problems-section-left{
         width: 100%;
+        height: 40vh;
+        position:static;
     }
 
 
     .problems-section-right{
         width: 100%;
+        position:static;
     }
 
     .problem-section-heading {
@@ -1127,34 +1130,38 @@
 
 
     /*Hero Section -- Mobile*/
+    .hero {
+        min-height: 130dvh;
+    }
+
+    .hero-content {
+      padding-top: 1%;
+    }
+
     .hero-header {
         font-size: 1.9rem;
+        margin-top: 1%;
     }
 
     .hero-content {
         margin-top: 1%;
     }
 
-    .hero-bottom-container{
-        display:none;
-    }
-
-    .hero-bottom-subtainer {
-        flex-direction: column;
-    }
-
     .hero-card {
-        flex-direction: row;
         justify-content: center;
-    }
-
-    .hero-card > img {
-        display:none;
     }
     
     .hero-card > h2 {
+        font-size: 1rem;
     }
     
+    .mobile-card {
+        display: none;
+    }
+
+    /*Problems We Solve Section --Mobile*/
+    
+
     /*Our Solutions Section -- Mobile*/
     .solution-type-card {
         margin: 7% 5%;
