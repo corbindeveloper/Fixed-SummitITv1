@@ -57,6 +57,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+ 
 }
 
 
@@ -68,6 +69,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1% 0;
+    text-decoration: none;
 }
 
 .hero-card > img {
@@ -864,7 +866,7 @@
 
     .problems-section-left{
         width: 100%;
-        height: 40vh;
+        height: 54vh;
         position:static;
     }
 
@@ -1144,15 +1146,38 @@
     }
 
     .hero-content {
-        margin-top: 1%;
+        padding-top: 0;
+    }
+
+    .hero-header {
+        margin-bottom: 0;
+    }
+
+    .hero-text {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .hero-bottom-subtainer {
+        flex: 0 0 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .hero-card {
-        justify-content: center;
+        flex:0 0 40%;
+    }
+
+    .hero-card > img {
+       width: 82px;
+       height: 82px;
     }
     
     .hero-card > h2 {
-        font-size: 1rem;
+       display: none;
     }
     
     .mobile-card {
