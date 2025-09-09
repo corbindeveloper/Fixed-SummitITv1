@@ -249,9 +249,27 @@
 }
 
 /*Steps Towards Coverage Section*/
+#lottie-container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  opacity: .70;
+  padding-top: 20%;
+}
+
+#lottie-container svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: repeat;
+}
+
+
+
 
 .managed-coverage {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6), rgba(255,255,255, .9)), url('../assets/svgs/stepstowardcompleteitcoveragebackground-02.svg');
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -401,6 +419,10 @@
 
     /*Steps Towards Coverage Section*/
 
+    .managed-coverage {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(255, 255, 255, 0.3), rgba(255,255,255)), url('../assets/svgs/stepstowardcompleteitcoveragebackground-03.svg');
+    }
+
     .managed-container {
         flex-direction: column;
     }
@@ -410,9 +432,19 @@
         padding-top: 10%;
     }
 
+    .managed-card-content {
+        font-size: 1.1rem;
+    }
+
     .managed-card-img {
         display: none;
     }
+
+    #lottie-container {
+        display: none;
+    }
+
+    
 }
 
 /*----------------------------------------------*/
